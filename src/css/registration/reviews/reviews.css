@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.gh2 {font-size: 44px; padding-top: 55px; padding-bottom: 55px; font-weight: 600; text-align: center;}
+
+.reviews-sec {width: 1100px; margin: 0 auto; margin-bottom: 100px;}
+.rs-u1 {border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; margin-bottom: 70px;}
+.rs-l1 {padding: 25px 0; border-top: 1px solid #e4e2e2;}
+.rs-l1:first-child {border-top: 0;}
+.rs-l1 > div {float: left; line-height: 1.3em; letter-spacing: 0;}
+.rs-l1 > div.nth-1 {width: 100px;}
+.rs-l1 > div.nth-2 {width: 865px; padding-right: 10px; padding-left: 40px;}
+.rs-l1 > div.nth-3 {width: 135px; text-align: right;}
+.reviews-sec .pagenation {text-align: center;}
+.reviews-sec .pagenation a {display: inline-block; font-size: 13px; width: 32px; height: 32px; vertical-align: middle; line-height: 2.3em; border: 1px solid #ccc; color: #919191; font-family: "Nanum Gothic"; font-weight: 600;}
+.reviews-sec .pagenation a[class*="prev"], .reviews-sec .pagenation a[class*="next"] {font-size: 12px; line-height: 2.5em; letter-spacing: -2px;}
+.reviews-sec .pagenation a:hover, .reviews-sec .pagenation a.on {border: 1px solid #000; color: #000;}
+.reviews-sec .pagenation a.prev {text-indent: -4px;}
+.reviews-sec .pagenation a.pprev {text-indent: -3px;}
+.reviews-sec .pagenation a.next {text-indent: 1px;}
+

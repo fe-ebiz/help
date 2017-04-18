@@ -1,0 +1,7 @@
+/*--- bxSlider 재정의 ---*/
+.bx-wrapper {position: relative; margin: 0 auto; width: 1100px;}
+.bx-wrapper .bx-pager {display: none;}
+.bx-wrapper .bx-viewport {border: none; box-shadow: none; left: 0;}
+#slider-prev .bx-prev, #slider-next .bx-next {display: block; width: 16px; height: 36px;}
+.ss2-box .bx-viewport {background: none;}
+

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.gh2 {font-size: 44px; padding-top: 55px; padding-bottom: 55px; font-weight: 600; text-align: center;}
+
+.charge-sec {width: 1100px; height: 921px; background: url(../../../img/charge2_bg.png) no-repeat center bottom; margin: 0 auto; border: 1px solid #bfbfbf; margin-bottom: 20px; padding: 63px 67px 0px;}
+.charge-sec .cs-table {height: 858px;}
+.charge-sec .cs-table li {position: relative;}
+.charge-sec .cs-table li div {padding: 14px  0px; display: table-cell; text-align: center; vertical-align: middle; border-top: 1px solid #d8d8d8; font-size: 18px;}
+.charge-sec .cs-table li.nth-1 div, .cs-table li.nth-2 div {border-top: 0;}
+.charge-sec .cs-table li.nth-1 div {height: 77px; text-align: center; padding-top: 0;}
+.charge-sec .cs-table li.nth-1 h3 {font-size: 22px;}
+.charge-sec .cs-table li.nth-1 h3 em {font-size: 30px; display: block; margin-top: 6px;}
+.charge-sec .cs-table div.nth-1 {width: 343px; text-indent: -20px;}
+.charge-sec .cs-table div.nth-2 {width: 278px; line-height: 1.3em;}
+.charge-sec .cs-table div.nth-3 {width: 337px; text-indent: 22px;}
+.charge-sec .cs-table div {font-size: 18px;}
+.charge-sec .cs-table div .f1 {font-size: 22px; font-weight: 500;}
+.charge-sec .cs-table div .f2 {font-size: 24px; font-family: Verdana, "Nanum Gothic"; font-weight: 600;} 
+.charge-sec .cs-table div .f2 span {font-family: "Noto Sans KR", "Nanum Gothic"; font-size: 22px; vertical-align: top;}
+.charge-sec .cs-table li.nth-5 div {position: relative; height: 325px; text-align: left; text-indent: 0; vertical-align: top; padding: 20px 0px 0px 20px;}
+.charge-sec .cs-table li.nth-5 div p {position: relative; padding-left: 18px; line-height: 1.3em;}
+.charge-sec .cs-table li.nth-5 div p.mt {margin-top: 14px;}
+.charge-sec .cs-table li.nth-5 div p:before {content: "·"; display: block; position: absolute; left: 0px; top: -2px; font-size: 38px;}
+.charge-sec .cs-table li.nth-5 div .btn {display: block; width: 235px; height: 64px; position: absolute; bottom: 50px; left: 50%; margin-left: -117.5px; font-size: 26px; font-weight: 500; line-height: 2.45em;}
+
+.caution-box {background: #EBEBEB; padding: 40px 0; width: 1100px; height: 368px; margin: 0 auto; margin-bottom: 100px;}
+.caution-box div {display: inline-block; vertical-align: middle;}
+.caution-box div.nth-1 {font-size: 30px; text-align: center; width: 290px; line-height: 1.25em; font-weight: 500;}
+.caution-box div.nth-2 {font-size: 16px;}
+.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px;}
+.caution-box div.nth-2 p:first-child {margin-top: 0;}
+.caution-box div.nth-2 p:before {content: "·"; display: block; position: absolute; left: 0px; top: -2px; font-size: 38px;}
