@@ -4,10 +4,10 @@ section[class*="-sec"] > div[class*="-box"] {position: relative; width: 1100px; 
 
 
 .es-box > h3, .gs-box > h3 {font-size: 30px; margin-bottom: 12px;}
-.es-box > h3 span, .gs-box > h3 span {margin-left: 20px; font-size: 16px; color: #8d8d8d; font-family: "NanumBarunGothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
+.es-box > h3 span, .gs-box > h3 span {margin-left: 20px; font-size: 16px; color: #8d8d8d; font-family: "Nanum Gothic", "Malgun Gothic", sans-serif;}
 .es-step-box, .gs-step-box {height: 401px; border: 1px solid #d2d2d2;}
-.es-step-box {background: url(../../../img/electro_bg.jpg); margin-bottom: 64px;}
-.gs-step-box {background: url(../../../img/general_bg.jpg);}
+.es-step-box {background: url(http://img.onbiz.co.kr/help/electro_bg.jpg); margin-bottom: 64px;}
+.gs-step-box {background: url(http://img.onbiz.co.kr/help/general_bg.jpg);}
 
 .electro-sec {}
 

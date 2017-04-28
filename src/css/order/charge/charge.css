@@ -2,12 +2,12 @@
 
 .gh2 {font-size: 44px; padding-top: 55px; padding-bottom: 55px; font-weight: 600; text-align: center;}
 
-.charge-sec {width: 1100px; height: 921px; background: url(../../../img/charge2_bg.png) no-repeat center bottom; margin: 0 auto; border: 1px solid #bfbfbf; margin-bottom: 20px; padding: 63px 67px 0px;}
+.charge-sec {width: 1100px; height: 921px; background: url(http://img.onbiz.co.kr/help/charge2_bg.png) no-repeat center bottom; margin: 0 auto; border: 1px solid #bfbfbf; margin-bottom: 20px; padding: 60px 67px 0px;}
 .charge-sec .cs-table {height: 858px;}
 .charge-sec .cs-table li {position: relative;}
 .charge-sec .cs-table li div {padding: 14px  0px; display: table-cell; text-align: center; vertical-align: middle; border-top: 1px solid #d8d8d8; font-size: 18px;}
 .charge-sec .cs-table li.nth-1 div, .cs-table li.nth-2 div {border-top: 0;}
-.charge-sec .cs-table li.nth-1 div {height: 77px; text-align: center; padding-top: 0;}
+.charge-sec .cs-table li.nth-1 div {height: 80px; text-align: center; padding-top: 0;}
 .charge-sec .cs-table li.nth-1 h3 {font-size: 22px;}
 .charge-sec .cs-table li.nth-1 h3 em {font-size: 30px; display: block; margin-top: 6px;}
 .charge-sec .cs-table div.nth-1 {width: 343px; text-indent: -20px;}

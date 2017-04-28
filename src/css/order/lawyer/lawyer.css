@@ -11,7 +11,7 @@
 .who-box {margin-top: 60px;}
 .who-box > div {float: left; width: 295px; margin-left: 45px; text-align: center;}
 .who-box > div:first-child {margin-left: 0;}
-.who-box .lawyer-icon {display: block; margin: 0 auto; height: 107px; background: url(../../../img/lawyer2_icon.png) no-repeat 0 0; margin-bottom: 20px;}
+.who-box .lawyer-icon {display: block; margin: 0 auto; height: 107px; background: url(http://img.onbiz.co.kr/help/lawyer2_icon.png) no-repeat 0 0; margin-bottom: 20px;}
 .who-box div.nth-1 .lawyer-icon {width: 99px; background-position: 0px 0px;}
 .who-box div.nth-2 .lawyer-icon {width: 108px; background-position: -150px 0px;}
 .who-box div.nth-3 .lawyer-icon {width: 90px; background-position: -300px 0px;}

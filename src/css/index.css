@@ -4,7 +4,7 @@ section[class*="-sec"] h2 {font-size: 42px; font-weight: 500; text-align: center
 section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
 
 
-.main-sec {width: 100%; height: 439px; background: url(../img/pay_main.jpg) no-repeat center;}
+.main-sec {width: 100%; height: 439px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center;}
 .ms-box {height: 439px;}
 .msb-money {position: absolute; left: 13px; top: 90px;}
 .msb-money p {font-size: 50px; font-weight: 300; letter-spacing: 0.7px;}
@@ -15,7 +15,7 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 .msb-money p.nth-3 span {font-style: italic;}
 .msb-money p.nth-4 {margin-top: 48px;}
 .msb-money p.nth-4 a {font-weight: 500; font-size: 30px; padding: 15px 67px; display: inline-block; border: 1px solid #ffb411; height: 62px;}
-.msb-justice {position: absolute; right: 0; bottom: 0; width: 354px; height: 157px; background: url(../img/yellow_rgba50.png) repeat; padding-left: 46px;}
+.msb-justice {position: absolute; right: 0; bottom: 0; width: 354px; height: 157px; background: url(http://img.onbiz.co.kr/help/yellow_rgba50.png) repeat; padding-left: 46px;}
 .msb-justice p.nth-1 {font-size: 30px; margin-top: 30px;}
 .msb-justice p.nth-2 {font-size: 20px; font-weight: 300; line-height: 1.3em; margin-top: 16px; letter-spacing: -0.7px;}
 
@@ -24,7 +24,7 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 .why-sec {width: 100%; height: 524px;}
 .ws-box {text-align: center;}
 .ws-box div {position: relative; display: inline-block; vertical-align: text-top; margin-top: 73px; margin-left: 120px; left: -20px}
-.ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 37px; height: 100px; background: url(../img/po_main_icon.png) no-repeat 0px 0px;}
+.ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 37px; height: 100px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px 0px;}
 .ws-box div.nth-1:before {background-position: 0px 0px; width: 63px;}
 .ws-box div.nth-2:before {background-position: -150px 0px; width: 111px;}
 .ws-box div.nth-3:before {background-position: -300px 0px; width: 85px;}
@@ -33,7 +33,7 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 .ws-box div p {font-size: 20px; line-height: 1.3em;}
 
 .progress-sec {height: 594px;}
-.pb-inner {height: 366px; background: url(../img/ps_bg.png) no-repeat; margin-top: 80px;} 
+.pb-inner {height: 366px; background: url(http://img.onbiz.co.kr/help/ps_bg.png) no-repeat; margin-top: 80px;} 
 .pb-inner ul.nth-1 {position: relative; top: 60px;}
 .pb-inner ul.nth-1 li {position: relative; display: inline-block; vertical-align: text-top; text-align: center;}
 .pb-inner ul.nth-1 li.nth-1 {left: 475px;}
@@ -83,7 +83,7 @@ section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px;
 .sb-box .btn-wrap {margin-top: 60px;}
 .sb-box .btn-wrap .btn {width: 407px; height: 65px; font-size: 28px; line-height: 2.25em; font-weight: 500;}
 
-.cheap-sec {height: 544px; background: url(../img/cheap_bg.jpg) no-repeat center;}
+.cheap-sec {height: 544px; background: url(http://img.onbiz.co.kr/help/cheap_bg.jpg) no-repeat center;}
 .cheap-sec h2 {color: #fff; margin-bottom: 18px;}
 .cs-p1 {font-size: 30px; font-weight: 300; margin-bottom: 65px;}
 .cs-box {padding-left: 140px; }
@@ -91,12 +91,12 @@ section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px;
 .cb-u1 li, .cb-u2 li {color: #fff; display: inline-block; vertical-align: middle;}
 .cb-u1 .cb-l1, .cb-u2 .cb-l1 {text-align: center; font-size: 26px; margin-right: 36px;}
 .cb-u1 .cb-l1 span, .cb-u2 .cb-l1 span {display: block; font-size: 20px; margin-top: 5px; font-weight: 300;}
-.cb-u1 .cb-l2 {width: 73px; height: 73px; background: url(../img/po_main_icon.png) no-repeat 0px -110px; margin-left: 10px;}
+.cb-u1 .cb-l2 {width: 73px; height: 73px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px -110px; margin-left: 10px;}
 .cb-u1 .cb-l3 {margin-left: 30px; font-size: 32px;}
 .cb-u2 li {display: inline-block; color: #ffb411;}
-.cb-u2 .cb-l2 {width: 73px; height: 73px; background: url(../img/po_main_icon.png) no-repeat -150px -110px; margin-left: 10px;}
+.cb-u2 .cb-l2 {width: 73px; height: 73px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -150px -110px; margin-left: 10px;}
 .cb-u2 .cb-l3 {margin-left: 26px; font-size: 38px; font-weight: 600;}
-.cb-u2 .cb-l4 {margin-left: 26px; width: 132px; height: 92px; background: url(../img/po_main_icon.png) no-repeat -300px -110px;}
+.cb-u2 .cb-l4 {margin-left: 26px; width: 132px; height: 92px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -300px -110px;}
 
 .review-sec {height: 674px;}
 .review-sec h2 {margin-bottom: 60px;}
@@ -109,8 +109,8 @@ section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px;
 .rs-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
 .rs-slide-btn span {position: absolute; display: block; width: 16px; height: 36px;}
 
-.rs-slide-btn #slider-prev {background: url(../img/slide_btn.png) no-repeat 0px; left: 0; }
-.rs-slide-btn #slider-next {background: url(../img/slide_btn.png) no-repeat -50px 0px; right: 0;}
+.rs-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat 0px; left: 0; }
+.rs-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -50px 0px; right: 0;}
 
 
 /********************************** 법인등기 ********************************/
@@ -119,7 +119,7 @@ section[class*="2-sec"] h2 {font-size: 42px; font-weight: 500; text-align: cente
 section[class*="2-sec"] div[class*="2-box"] {position: relative; width: 1100px; margin: 0 auto;}
 
 
-.main2-sec {width: 100%; height: 439px; background: url(../img/res_main.jpg) no-repeat center;}
+.main2-sec {width: 100%; height: 439px; background: url(http://img.onbiz.co.kr/help/res_main.jpg) no-repeat center;}
 .ms2-box {height: 440px;}
 .ms2b-money {position: relative; top: 90px; text-align: center;}
 .ms2b-money p {font-size: 50px; font-weight: 300; letter-spacing: 0.7px;}
@@ -130,7 +130,7 @@ section[class*="2-sec"] div[class*="2-box"] {position: relative; width: 1100px; 
 .ms2b-money p.nth-3 {margin-top: 28px;}
 .ms2b-money p.nth-3 a {font-weight: 500; font-size: 30px; padding: 15px 0px; display: inline-block; border: 1px solid #ffb411; width: 310px; height: 62px;}
 .ms2-total {position: absolute; bottom: 0; width: 100%; height: 64px;}
-.ms2-total p {position: relative; float: left; width: 50%; height: 100%; background: url(../img/black_rgba70.png) repeat; font-size: 23px; line-height: 2.68em;}
+.ms2-total p {position: relative; float: left; width: 50%; height: 100%; background: url(http://img.onbiz.co.kr/help/black_rgba70.png) repeat; font-size: 23px; line-height: 2.68em;}
 .ms2-total p.nth-1 {text-align: right; padding-right: 70px;}
 .ms2-total p.nth-2 {text-align: left; padding-left: 70px;}
 .ms2-total p.nth-2:before {position: absolute; left: 0; top:15px; content: ""; display: block; width: 1px; height: 36px; background: #565656;}
@@ -141,7 +141,7 @@ section[class*="cheap2-sec"] div[class*="cs2-box"] {width: 846px;}
 .cs2b-u1 {position: relative;}
 .cs2b-u1 h3 {font-size: 32px; text-align: center; margin-top: 35px; margin-bottom: 35px; font-weight: 500;}
 .cs2b-u1 li {float: left;; border: 1px solid #bfbfbf; padding: 0 50px;}
-.cs2b-u1 li.nth-0 {position: absolute; top: 50%; left: 50%; margin-top: -46px; margin-left: -59.5px; width: 119px; height: 92px; background: url(../img/2_3prc.jpg) no-repeat; border: none;}
+.cs2b-u1 li.nth-0 {position: absolute; top: 50%; left: 50%; margin-top: -46px; margin-left: -59.5px; width: 119px; height: 92px; background: url(http://img.onbiz.co.kr/help/2_3prc.jpg) no-repeat; border: none;}
 .cs2b-u1 li.nth-1, .cs2b-u1 li.nth-2 {width: 414px; height: 316px;}
 .cs2b-u1 li.nth-1 {margin-right: 18px;}
 .cs2b-u1 li.nth-2 {background: #FDEFD4;}
@@ -165,7 +165,7 @@ section[class*="cert2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: lef
 .cts2b-l1 em {display: block;}
 .cts2b-l1.nth-2 {margin-left: 24px;}
 
-.time2-sec {height: 769px; background: url(../img/tes_bg.jpg) center;}
+.time2-sec {height: 769px; background: url(http://img.onbiz.co.kr/help/tes_bg.jpg) center;}
 .time2-sec h2 {margin-bottom: 30px; color: #fff;}
 .tes2-p1 {text-align: center; color: #fff; line-height: 1.25em; font-size: 30px; margin-bottom: 60px;}
 .tes2-box {}
@@ -180,7 +180,7 @@ section[class*="cert2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: lef
 
 .progress2-sec {height: 610px;}
 .progress2-sec h2 { margin-bottom: 80px;}
-.ps2-box {height: 346px; background: url(../img/ps2_bg.jpg) center;}
+.ps2-box {height: 346px; background: url(http://img.onbiz.co.kr/help/ps2_bg.jpg) center;}
 .ps2-u1 {}
 .ps2-l1 {float: left; width: 212px; height: 169px; text-align: center;}
 .ps2-l1.nth-2 {margin-left: 10px; width: 215px;}
@@ -191,7 +191,7 @@ section[class*="cert2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: lef
 .ps2-l1 h3.mt {margin-top: 30px;}
 .ps2-l1 p {line-height: 1.4em; color: #656161; font-size: 18px;}
 
-.service2-sec {height: 700px; background: url(../img/ss2_bg.jpg) center;}
+.service2-sec {height: 700px; background: url(http://img.onbiz.co.kr/help/ss2_bg.jpg) center;}
 .service2-sec h2 {margin-bottom: 70px; color: #fff;}
 .ss2b-u1 {width: 948px; margin: 0 auto;}
 .ss2b-l1 .post {float: left; width: 302px; height: 187px; background: #fff; margin-left: 10px; margin-top: 10px; text-align: center;}
@@ -201,8 +201,8 @@ section[class*="cert2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: lef
 .ss2b-l1 .post .ss2b-p1.date {margin-top: -5px;}
 .ss2-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
 .ss2-slide-btn span {position: absolute; display: block; width: 16px; height: 36px;}
-.ss2-slide-btn #slider-prev {background: url(../img/slide_btn.png) no-repeat -100px; left: 0; }
-.ss2-slide-btn #slider-next {background: url(../img/slide_btn.png) no-repeat -150px 0px; right: 0;}
+.ss2-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -100px; left: 0; }
+.ss2-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -150px 0px; right: 0;}
 
 .solution2-sec {background: #FEC039; height: 328px;}
 section[class*="solution2-sec"] h2, .snc2-box {padding-left: 5px;}

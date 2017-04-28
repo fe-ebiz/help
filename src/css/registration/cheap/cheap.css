@@ -1,7 +1,7 @@
 section[class*="-sec"] h2 {position: relative; width: 1100px; margin-left: auto; margin-right: auto; text-align: center; letter-spacing: 0.7px;}
 section[class*="-sec"] > div[class*="-box"] {position: relative; width: 1100px; margin-left: auto; margin-right: auto;}
 
-.main-sec {height: 379px; background: url(../../../img/che_main.jpg) center;}
+.main-sec {height: 379px; background: url(http://img.onbiz.co.kr/help/che_main.jpg) center;}
 .main-sec h2 {padding-top: 65px; margin-bottom: 40px; font-size: 42px; font-weight: 500;}
 .main-sec p.nth-1 {text-align: center; font-size: 20px; font-weight: 300; line-height: 1.5em;}
 .main-sec p.nth-1 em {display: block; font-weight: 400; margin-top: 20px;}
@@ -42,7 +42,7 @@ li.ds-l1-2 .dsh-p1 span.nth-2 {font-weight: 500;}
 .sps-u1 .sps-l1 h3, .sps-u2 .sps-l1 h3 {position: relative; font-size: 24px; line-height: 1.2em; font-weight: 500;}
 .sps-u1 .sps-l1 h3 {top: 40px;}
 li[class*="sps-l2"] {margin-left: 29px;}
-li[class*="sps-l2"] p.nth-1 {position: relative; width: 128px; height: 128px; background-image: url(../../../img/step-icon.png);}
+li[class*="sps-l2"] p.nth-1 {position: relative; width: 128px; height: 128px; background-image: url(http://img.onbiz.co.kr/help/step-icon.png);}
 li[class*="sps-l2"] p.nth-2 {margin-top: 15px; font-size: 18px; line-height: 1.25em;}
 .sps-u1 li[class*="sps-l2"] p.nth-1:before, .sps-u2 li[class*="sps-l2"] p.nth-1:before {content: ""; display: block; position: absolute; top: 50%; left: -32px; width: 32px; height: 2px;}
 .sps-u1 li.sps-l2-1 p.nth-1:before, .sps-u2 li.sps-l2-1 p.nth-1:before {display: none;}

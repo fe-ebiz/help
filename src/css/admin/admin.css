@@ -9,7 +9,7 @@
 .btn.btn_type05 {width:238px; height:43px; background-color:#141414; font-size:20px; line-height:43px;}
 .btn.btn_type06 {width:314px; height:56px; background-color:#ffb412; font-weight:bold; font-size:24px; line-height:56px;}
 .btn span {position:relative;}
-.btn.btn_type06.ico_find span:before {content:''; display:block; position:absolute; right:-46px; top:50%; width:35px; height:35px; margin-top:-18px; background:url('../img/ico_find.png') no-repeat 0 0;}
+.btn.btn_type06.ico_find span:before {content:''; display:block; position:absolute; right:-46px; top:50%; width:35px; height:35px; margin-top:-18px; background:url('http://img.onbiz.co.kr/help/ico_find.png') no-repeat 0 0;}
 
 /* 로그인 */
 .login {width:516px; padding:60px 80px; border:1px solid #bfbfbf;}
