@@ -61,76 +61,49 @@
     </div>
 
 	<div class="area">
-		<h3 class="tit">아이디/비밀번호찾기</h3>
-		<div class="group find">
-			<h4 class="find_id on">아이디 찾기</h4>
-			<div class="cont on">
-				<div class="input_form">
-					<form action="">
-						<fieldset>
-							<legend>아이디 찾기</legend>
-							<div>
-								<label for="Name">이름</label>
-								<input type="text" title="이름을 입력하세요" id="Name" class="txt_box" style="width:245px;" />
-							</div>
-							<div>
-								<label for="Phone">휴대폰번호</label>
-								<input type="text" title="통신사 번호 입력" maxlength="4" id="Phone" class="txt_box" style="width:75px;" />
-								-
-								<input type="text" title="휴대폰 앞자리 입력" maxlength="4" class="txt_box" style="width:75px;" />
-								-
-								<input type="text" title="휴대폰 뒷자리 입력" maxlength="4" class="txt_box" style="width:75px;" />
-							</div>
-						</fieldset>
-					</form>
-				</div>
-				<div class="btn_area">
-					<a href="#" class="btn btn_type06 ico_find"><span>아이디 찾기</span></a>
-				</div>
-				<!-- 아이디 찾기 결과값 -->
-				<div style="display:none;">
-					<p class="result_txt01">아이디 찾기 완료</p>
-					<input type="text" class="result_form" value="ebiznetw****@naver.com" readonly />
-					<div class="btn_area">
-						<a href="#" class="btn btn_type06">로그인 하기</a>
-					</div>
-				</div>
-				<!-- // 아이디 찾기 결과값 -->
+		<h3 class="tit">로그인</h3>
+		<div class="group login">
+			<div class="input_form">
+				<form action="">
+					<fieldset>
+						<legend>로그인 영역</legend>
+						<div>
+							<label for="Id">아이디</label>
+							<input type="text" title="아이디를 입력하세요" id="Id" class="txt_box" style="width:244px;" />
+						</div>
+						<div>
+							<label for="Password">비밀번호</label>
+							<input type="password" title="아이디를 입력하세요" id="Password" class="txt_box" style="width:244px;" />
+						</div>
+					</fieldset>
+				</form>
 			</div>
-			<h4 class="find_pw">비밀번호 찾기</h4>
-			<div class="cont">
-				<div class="input_form">
-					<form action="">
-						<fieldset>
-							<legend>아이디 찾기</legend>
-							<div>
-								<label for="Email">이메일</label>
-								<input type="text" title="이메일을 입력하세요" id="Email" class="txt_box" style="width:245px;" />
-							</div>
-							<div>
-								<label for="Name1">이름</label>
-								<input type="text" title="이름을 입력하세요" id="Name1" class="txt_box" style="width:245px;" />
-							</div>
-						</fieldset>
-					</form>
-				</div>
-				<div class="btn_area">
-					<a href="#" class="btn btn_type06 ico_find"><span>비밀번호 찾기</span></a>
-				</div>
-				<!-- 비밀번호 찾기 결과값 -->
-				<div style="display:none;">
-					<p class="result_txt01">비밀번호 발송 완료</p>
-					<p class="result_txt02">
-						아래의 메일로 임시비밀번호가 발송되었습니다.<br>
-						마이페이지에서 비밀번호를 수정해주세요.
-					</p>
-					<input type="text" class="result_form" value="ebiznetworks@naver.com" readonly />
-					<div class="btn_area">
-						<a href="#" class="btn btn_type06">로그인</a>
-					</div>
-				</div>
-				<!-- // 비밀번호 찾기 결과값 -->
+			<div class="btn_area">
+				<a href="#" class="btn btn_type01">로그인</a>
+				<ul class="link_id">
+					<li><a href="#" class="naver">네이버 로그인</a></li>
+					<li><a href="#" class="facebook">페이스북으로 가입</a></li>
+				</ul>
 			</div>
+		</div>
+		<ul class="customer">
+			<li><a href="#">아이디찾기</a></li>
+			<li><a href="#">비밀번호찾기</a></li>
+			<li><a href="#" class="member">회원가입</a></li>
+		</ul>
+	</div>
+	<div class="layer_pop">
+		<div class="pop_area">
+			<strong class="pop_tit">회원가입</strong>
+			<p class="pop_txt">가입 방법을 선택해 주세요.</p>
+			<div class="btn_area">
+				<a href="#" class="btn btn_type01">이메일로 가입</a>
+				<ul class="link_id">
+					<li><a href="#" class="naver">네이버 로그인</a></li>
+					<li><a href="#" class="facebook">페이스북 로그인</a></li>
+				</ul>
+			</div>
+			<a href="#" class="pop_close"><img src="http://img.onbiz.co.kr/help/pop_close.png" alt="닫기" /></a>
 		</div>
 	</div>
 
