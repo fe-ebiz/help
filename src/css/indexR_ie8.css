@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/********************************** 지급명령 ********************************/
+section[class*="-sec"] h2 {font-size: 42px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px;}
+section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
+	
+.main-sec {width: 100%; height: 439px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center;}
+.ms-box {height: 439px;}
+.msb-money {position: absolute; left: 13px; top: 90px;}
+.msb-money p {font-size: 50px; font-weight: 300; letter-spacing: 0.7px;}
+.msb-money p.nth-1 {}
+.msb-money p.nth-1, .msb-money p.nth-2 {letter-spacing: 1.2px;}
+.msb-money p.nth-2 {font-weight: 700; margin-top: 17px;}
+.msb-money p.nth-3 {font-size: 24px; margin-top: 31px;}
+.msb-money p.nth-3 span {font-style: italic;}
+.msb-money p.nth-4 {margin-top: 48px;}
+.msb-money p.nth-4 a {font-weight: 500; font-size: 30px; padding: 15px 67px; display: inline-block; border: 1px solid #ffb411; height: 62px;}
+.msb-justice {position: absolute; right: 0; bottom: 0; width: 354px; height: 157px; background: url(http://img.onbiz.co.kr/help/yellow_rgba50.png) repeat; padding-left: 46px;}
+.msb-justice p.nth-1 {font-size: 30px; margin-top: 30px;}
+.msb-justice p.nth-2 {font-size: 20px; font-weight: 300; line-height: 1.3em; margin-top: 16px; letter-spacing: -0.7px;}
+
+.service-sec, .why-sec {background: #e6e6e6;}
+
+.why-sec {width: 100%; height: 524px;}
+.ws-box {text-align: center;}
+.ws-box div {position: relative; display: inline-block; vertical-align: text-top; margin-top: 73px; margin-left: 120px; left: -20px}
+.ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 37px; height: 100px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px 0px;}
+.ws-box div.nth-1:before {background-position: 0px 0px; width: 63px;}
+.ws-box div.nth-2:before {background-position: -150px 0px; width: 111px;}
+.ws-box div.nth-3:before {background-position: -300px 0px; width: 85px;}
+.ws-box div.nth-1 {margin-left: 0px;}
+.ws-box div h3 {font-size: 30px; font-weight: 500; margin-bottom: 20px;}
+.ws-box div p {font-size: 20px; line-height: 1.3em;}
+
+.progress-sec {height: 660px;}
+.pb-inner {} 
+.pb-inner ul.nth-2:before {content: ""; display: block; width: 100%; height: 1px;}
+.pb-inner ul.nth-2 {height: 405px; background: url(http://img.onbiz.co.kr/help/order/bg_progress.jpg) no-repeat 116px top; margin-top: 80px;}
+.pb-inner ul.nth-2 {position: relative; top: 0px; padding-left: 180px;}
+.pb-inner ul.nth-2 li {}
+.pb-inner ul.nth-2 li > *, .pb-inner ul.nth-2 li h3 > *, .pb-inner ul.nth-2 li .d-more * {position: relative; display: inline-block; vertical-align: middle;}
+.pb-inner ul.nth-2 li h3, .pb-inner ul.nth-2 li .d-more span {width: 390px;}
+.pb-inner ul.nth-2 li {position: relative; display: block; text-align: left;}
+.pb-inner ul.nth-2 li h3 {font-size: 24px; font-weight: 500; color: #ffb411;}
+.pb-inner ul.nth-2 li h3 span {margin-left: 20px; top: 3px;}
+.pb-inner ul.nth-2 li strong {font-size: 50px;}
+.pb-inner ul.nth-2 li p {font-size: 18px;}
+.pb-inner ul.nth-2 li .d-more {display: block; margin-top: 32px;}
+.pb-inner ul.nth-2 li .d-more span {font-size: 20px; color: #787878; padding-left: 80px;}
+.pb-inner ul.nth-2 li .d-more .c-gray2 {font-size: 16px; color: #656161;}
+.pb-inner ul.nth-2 li.nth-1 {margin-top: -5px;}
+.pb-inner ul.nth-2 li.nth-2 {margin-top: 44px;}
+.pb-inner ul.nth-2 li.nth-3 {margin-top: 32px;}
+.pb-inner ul.nth-2 li.nth-4 {margin-top: 30px;}
+
+
+.service-sec {height: 850px;}
+section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px; margin-top: 65px; margin-bottom: 60px;}
+.sb-inner {}
+.sb-inner .con {position: relative; display: inline-block; vertical-align: text-top; width: 374px; height: 383px; background: #fff; margin-top: 83px;}
+.sb-inner .con .tit {position: relative; width: 301px; height: 218px; text-align: center; background: #fff; border: 5px solid #ffb411; top: -82px;}
+.sb-inner .con .tit h3 {font-size: 26px; line-height: 1.3em; margin-top: 30px;}
+.sb-inner .con .tit h3 em {display: block;}
+.sb-inner .con .tit .mtb {width: 40px; height: 3px; margin-top: 15px; margin-bottom: 15px;}
+.sb-inner .con .tit .sit-p1 {font-size: 20px; line-height: 1.2em;}
+.sb-inner .con .txt {position: relative; width: 301px; margin-top: -60px;}
+.sb-inner .con .sic-p1:before {position: absolute; left: 0; top: 0px; content: "·"; display: inline-block; font-size: 28px;}
+.sb-inner .con .sic-p1 {position: relative; padding-left: 15px; line-height: 1.3em; margin-top: 5px;}
+.sb-inner .con .sic-u1 {margin-top: 18px; padding-top: 16px; border-top: 1px solid #d4d4d4;}
+.sb-inner .con .sic-u1 li {position: relative; margin-top: 7px;}
+.sb-inner .con .sic-u1 li.nth-0 {margin-top: -2px;}
+.sb-inner .con.nth-1 .sic-u1 li.nth-1 {margin-top: 10px;}
+.sb-inner .con .sic-u1 li span {display: inline-block;}
+.sb-inner .con .sic-u1 li.nth-0 span, .sb-inner .con .sic-u1 li.nth-1 span {font-size: 18px;}
+.sb-inner .con .sic-u1 li.nth-0 span {color: #777;}
+.sb-inner .con .sic-u1 li.nth-2 span {font-size: 20px;}
+.sb-inner .con .sic-u1 li .s1 {width: 138px;}
+.sb-inner .con .sic-u1 li .s2 {margin-left: 12px; font-family: Verdana, "Nanum Gothic";}
+.sb-inner .con .sic-u1 li.nth-0 .s1, .sb-inner .con .sic-u1 li.nth-1 .s1 {font-weight: 500;}
+.sb-inner .con .sic-u1 li.nth-2 .s1 {font-weight: 600;}
+.sb-inner .con .sic-u1 li.nth-0 .s2, .sb-inner .con .sic-u1 li.nth-1 .s2 {font-weight: 600; font-size: 20px;}
+.sb-inner .con .sic-u1 li.nth-2 .s2 {font-weight: 700; font-size: 22px;}
+
+.sb-inner .con.nth-2 {margin-left: 63px;}
+
+.sb-box .btn-wrap {margin-top: 60px;}
+.sb-box .btn-wrap .btn {width: 407px; height: 65px; font-size: 28px; line-height: 2.25em; font-weight: 500;}
+
+.cheap-sec {height: 633px; background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center;}
+.cheap-sec h2 {color: #fff; margin-bottom: 18px; padding-top: 77px !important;}
+.cs-p1 {font-size: 30px; font-weight: 300; margin-bottom: 75px;}
+.cs-box {width: 654px !important;}
+.cs-box > ul {position: relative; float: left; width: 50%; text-align: center;}
+.cs-box > ul .cb-l1, .cs-box > ul .cb-l3 {display: block;}
+.cs-box > ul .cb-l1 {margin-bottom: 15px;}
+.cs-box > ul .cb-l3 {margin-top: 15px;}
+.cb-u1 {right: 80px;}
+.cb-u1 li, .cb-u2 li {color: #fff; display: inline-block; vertical-align: middle;}
+.cb-u1 .cb-l1, .cb-u2 .cb-l1 {font-size: 26px;}
+.cb-u1 .cb-l1 span, .cb-u2 .cb-l1 span {display: block; font-size: 20px; margin-top: 5px; font-weight: 300;}
+.cb-u1 .cb-l2 {width: 73px; height: 73px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px -110px; margin: 8px 5px;}
+.cb-u1 .cb-l3 {font-size: 32px;}
+.cb-u2 {left: 50px;}
+.cb-u2 li {color: #ffb411;}
+.cb-u2 .cb-l1, .cb-u2 .cb-l3 {display: block;}
+.cb-u2 .cb-l2 {width: 73px; height: 73px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -150px -110px; margin: 8px 5px;}
+.cb-u2 .cb-l3 {font-size: 38px; font-weight: 600;}
+.cs-box > .cb-u2 .cb-l3 {margin-top: 98px;}
+.cs-box .cb-l4 {position: absolute; left: 50%; margin-left: -61px; top: 50%; margin-top: -50px;  width: 132px; height: 92px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -300px -110px;}
+
+.review-sec {height: 674px;}
+.review-sec h2 {margin-bottom: 60px;}
+.rs-box {height: 395px;}
+.rs-box .rb-u1 {}
+.rb-u1 .post {width: 512px; height: 395px; border: 1px solid #bfbfbf; padding: 30px 25px;}
+.rb-u1 .post h4 {font-size: 20px;}
+.rb-u1 .post .mtb{width: 40px; height: 2px; margin-top: 15px; margin-bottom: 15px; background: #000;}
+.rb-u1 .post .txt {line-height: 1.4em;}
+.rs-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
+.rs-slide-btn span {position: absolute; display: block; width: 16px; height: 36px;}
+
+.rs-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat 0px; left: 0; }
+.rs-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -50px 0px; right: 0;}

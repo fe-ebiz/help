@@ -7,7 +7,7 @@ $(function () {
       $(this).removeClass('on');
     }
   });
-  /*라이도박스*/
+  /*라디오박스*/
   $('.radio').click(function () {
     $(this).prop('checked', true).addClass("on").siblings().removeClass("on");
   });
@@ -34,4 +34,55 @@ $(function () {
     $('.policy h3, .policy div').removeClass('on');
     $(this).addClass('on').next().addClass('on');
   });
+
+
+	$(window).resize(function(){
+    var windowWid = $(window).width();
+    var ul = $('.top-wrap .tb-nav');
+    if( windowWid < 767 ){
+        widthOuto(ul);
+    }else{
+        ul.css({width : '100%'});
+    }
+	}).resize();
+
+
+	/* 해더 기능 */
+	headerFn();
 });
+
+/* 해더 기능 */
+function headerFn() {
+	var hd = $(".header"),
+		hnb = $(".tab-hnb");
+	
+	hnb.click(function() {
+		$(".header").toggleClass("active");
+	});
+}
+
+//ul width
+function widthOuto(itm){
+    var liLen = itm.find('li').length-1;
+    var liPlus = 0;
+
+    for( var i = 0 ; i < liLen ; i++ ){
+        liPlus += itm.find('li:eq('+i+')').outerWidth(true);
+    }
+    if( itm.width() < liPlus ){
+        itm.css({width : (liPlus-20)+'px'});
+    }else{
+        itm.css({width : (liPlus+(liLen*3))+'px'});
+    }
+}
+
+function login_naver() {
+	window.name = 'help_nuri_w';
+	window.domain = 'onbiz.co.kr';
+	document.domain = 'onbiz.co.kr';
+
+	var url = 'http://help.onbiz.co.kr/admin/naver.php';
+
+	var pop_nvl = window.open(url, "login_naver", "width=500, height=500");
+}
+
