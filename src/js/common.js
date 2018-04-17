@@ -36,7 +36,7 @@ $(function () {
   });
 
 
-	$(window).resize(function(){
+	/*$(window).resize(function(){
     var windowWid = $(window).width();
     var ul = $('.top-wrap .tb-nav');
     if( windowWid < 767 ){
@@ -44,7 +44,7 @@ $(function () {
     }else{
         ul.css({width : '100%'});
     }
-	}).resize();
+	}).resize();*/
 
 
 	/* 해더 기능 */
@@ -62,7 +62,7 @@ function headerFn() {
 }
 
 //ul width
-function widthOuto(itm){
+/*function widthOuto(itm){
     var liLen = itm.find('li').length-1;
     var liPlus = 0;
 
@@ -74,7 +74,7 @@ function widthOuto(itm){
     }else{
         itm.css({width : (liPlus+(liLen*3))+'px'});
     }
-}
+}*/
 
 function login_naver() {
 	window.name = 'help_nuri_w';
