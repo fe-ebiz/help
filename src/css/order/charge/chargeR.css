@@ -7,7 +7,7 @@
 	.gh2 {font-size: 20px; padding-top: 20px; padding-bottom: 20px; font-weight: 600; text-align: center;}
 
 	.charge-sec {width: 100%; margin: 0 auto; padding-left: 10px; padding-right: 10px;}
-	.charge-sec .cs-box {position: relative; width: 98%; max-width: 360px; border: 1px solid #bfbfbf; padding: 25px 15px; margin: 0 auto;}
+	.charge-sec .cs-box {position: relative; width: 98%; max-width: 320px; border: 1px solid #bfbfbf; padding: 25px 15px; margin: 0 auto;}
 	.charge-sec .cs-box.premium {margin-top: 25px;}
 	.charge-sec .cs-box h3 {position: relative; font-size: 17px; text-align: center;}
 	.charge-sec .cs-box h3 em {display: inline-block; border-bottom: 2px solid #e9a105; font-size: 20px; color: #e9a105; line-height: 1.2;}
@@ -15,60 +15,60 @@
 	.charge-sec .cs-box .cs-table li {position: relative; font-size: 14px; margin-top: 10px; padding-left: 20px; letter-spacing: -1px; line-height: 1.2;}
 	.charge-sec .cs-box .cs-table li .check {position: absolute; left: 0; top: 2px; margin-right: 12px; vertical-align: middle; width: 15px;}
 	.charge-sec .cs-box .mt-bar {margin: 20px auto;}
-	.charge-sec .cs-box .cs-table-2 {}
-	.charge-sec .cs-box.basic .cs-table-2 {padding-top: 20px;}
-	.charge-sec .cs-box .cs-table-2 li {padding: 0 25px; font-size: 0; margin-top: 20px;}
+	.charge-sec .cs-box .cs-table-2 {width: 165px; margin: 0 auto;}
+	.charge-sec .cs-box .cs-table-2 li {font-size: 0; margin-top: 15px;}
 	.charge-sec .cs-box .cs-table-2 li:first-child {margin-top: 0;}
 	.charge-sec .cs-box .cs-table-2 li .f1,
-	.charge-sec .cs-box .cs-table-2 li .f2 {display: inline-block;}
-	.charge-sec .cs-box .cs-table-2 li .f1 {font-size: 14px; font-weight: 500; text-align: left; text-indent: 15px; width: 35%;}
-	.charge-sec .cs-box .cs-table-2 li .f2 {font-size: 16px; font-family: Verdana, "Nanum Gothic"; font-weight: 600; text-align: right; letter-spacing: -1px; width: 60%;}
+	.charge-sec .cs-box .cs-table-2 li .f2 {display: inline-block; position: relative;}
+	.charge-sec .cs-box .cs-table-2 li .f1 {font-size: 14px; font-weight: 500; text-align: left; width: 35%;}
+	.charge-sec .cs-box .cs-table-2 li .f2 {font-size: 15px; font-family: Verdana, "Nanum Gothic"; font-weight: 600; text-align: right; letter-spacing: -1px; width: 65%;}
+	.charge-sec .cs-box .cs-table-2 li .f2.c-red {font-size: 18px;}
 	.charge-sec .cs-box .cs-table-2 li .f2 .won {position: relative; font-size: 15px; top: 0px; margin-left: 1px;}
-	.charge-sec .cs-box .btn {display: block; margin: 25px 20px 0; height: 46px; font-size: 18px; font-weight: 500; line-height: 2.45em;}
+	.charge-sec .cs-box .btn {display: block; width: 210px; margin: 25px auto 0; height: 46px; font-size: 18px; font-weight: 500; line-height: 2.45em;}
 
 
-	.caution-box {background: #EBEBEB; padding: 40px 20px; width: 1100px; margin: 50px auto 0;}
+	.caution-box {background: #EBEBEB; padding: 25px 8px; width: 100%; margin: 40px auto 0;}
 	.caution-box div {}
-	.caution-box div.nth-1 {font-size: 30px; width: 290px; line-height: 1.25em; font-weight: 500;}
-	.caution-box div.nth-2 {font-size: 16px; margin-top: 18px;}
-	.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px;}
+	.caution-box div.nth-1 {font-size: 14px; width: 290px; line-height: 1.25em; font-weight: 500;}
+	.caution-box div.nth-2 {font-size: 12px; margin-top: 10px;}
+	.caution-box div.nth-2 p {position: relative; padding-left: 10px; line-height: 1.4em; margin-top: 5px; word-break: keep-all;}
 	.caution-box div.nth-2 p:first-child {margin-top: 0;}
-	.caution-box div.nth-2 p:before {content: "·"; display: block; position: absolute; left: 0px; top: -2px; font-size: 38px;}	
+	.caution-box div.nth-2 p:before {content: "·"; display: block; position: absolute; left: -2px; top: -1px; font-size: 20px;}	
 }
 @media (min-width: 768px) and (max-width: 1099px) {
 	.gh2 {font-size: 36px; padding-top: 40px; padding-bottom: 35px; font-weight: 600; text-align: center;}
 
-	.charge-sec {width: 100%; margin: 0 auto; padding-left: 10px; padding-right: 10px;}
-	.charge-sec .cs-box {position: relative; width: 540px; border: 1px solid #bfbfbf; padding: 50px 85px; margin: 0 auto;}
+	.charge-sec {width: 100%; margin: 0 auto; padding-left: 20px; padding-right: 20px;}
+	.charge-sec .cs-box {position: relative; width: 540px; border: 1px solid #bfbfbf; padding: 50px 80px; margin: 0 auto;}
 	.charge-sec .cs-box.premium {margin-top: 50px;}
 	.charge-sec .cs-box h3 {position: relative; font-size: 30px; text-align: center;}
 	.charge-sec .cs-box h3 em {display: inline-block; border-bottom: 2px solid #e9a105; font-size: 40px; color: #e9a105; line-height: 1.2;}
-	.charge-sec .cs-box .cs-table {position: relative; width: 100%; margin-top: 60px; min-height: 180px; padding: 0 20px;}
+	.charge-sec .cs-box .cs-table {position: relative; width: 100%; margin-top: 60px; min-height: 180px; padding: 0 25px;}
 	.charge-sec .cs-box .cs-table li {position: relative; font-size: 18px; margin-top: 20px; padding-left: 45px; letter-spacing: -1px;}
 	.charge-sec .cs-box .cs-table li .check {position: absolute; left: 0; top: -4px; margin-right: 12px; vertical-align: middle; width: 30px;}
 	.charge-sec .cs-box .mt-bar {margin: 25px auto;}
-	.charge-sec .cs-box .cs-table-2 {min-height: 112px;}
-	.charge-sec .cs-box.basic .cs-table-2 {padding-top: 20px;}
-	.charge-sec .cs-box .cs-table-2 li {padding: 0 58px; font-size: 0; margin-top: 20px;}
+	.charge-sec .cs-box .cs-table-2 {padding-top: 10px;}
+	.charge-sec .cs-box .cs-table-2 li {padding: 0 60px; font-size: 0; margin-top: 20px;}
 	.charge-sec .cs-box .cs-table-2 li:first-child {margin-top: 0;}
 	.charge-sec .cs-box .cs-table-2 li .f1,
 	.charge-sec .cs-box .cs-table-2 li .f2 {display: inline-block;}
-	.charge-sec .cs-box .cs-table-2 li .f1 {font-size: 22px; font-weight: 500; text-align: left; padding-right: 30px; width: 43%;}
+	.charge-sec .cs-box .cs-table-2 li .f1 {font-size: 22px; font-weight: 500; text-align: left; width: 43%;}
 	.charge-sec .cs-box .cs-table-2 li .f2 {font-size: 24px; font-family: Verdana, "Nanum Gothic"; font-weight: 600; text-align: right; letter-spacing: -1.7px; width: 57%;}
+	.charge-sec .cs-box .cs-table-2 li .f2.c-red {font-size: 30px;}
 	.charge-sec .cs-box .cs-table-2 li .f2 .won {position: relative; font-size: 21px; top: -2px; margin-left: 1px;}
-	.charge-sec .cs-box .btn {display: block; margin: 40px 58px 0; height: 64px; font-size: 26px; font-weight: 500; line-height: 2.45em;}
+	.charge-sec .cs-box .btn {display: block; margin: 40px 60px 0; height: 64px; font-size: 26px; font-weight: 500; line-height: 2.45em;}
 
 
-	.caution-box {background: #EBEBEB; padding: 40px 20px; width: 1100px; margin: 50px auto 0;}
+	.caution-box {background: #EBEBEB; padding: 40px 20px; width: 100%; margin: 50px auto 0;}
 	.caution-box div {}
 	.caution-box div.nth-1 {font-size: 30px; width: 290px; line-height: 1.25em; font-weight: 500;}
 	.caution-box div.nth-2 {font-size: 16px; margin-top: 18px;}
-	.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px;}
+	.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px; word-break: keep-all;}
 	.caution-box div.nth-2 p:first-child {margin-top: 0;}
 	.caution-box div.nth-2 p:before {content: "·"; display: block; position: absolute; left: 0px; top: -2px; font-size: 38px;}	
 }
 @media (min-width: 1100px) {
-	.gh2 {font-size: 44px; padding-top: 55px; padding-bottom: 55px; font-weight: 600; text-align: center;}
+	.gh2 {font-size: 44px; padding-top: 50px; padding-bottom: 50px; font-weight: 600; text-align: center;}
 
 	.charge-sec {width: 1100px; margin: 0 auto;}
 	.charge-sec .cs-box {float: left; position: relative; width: 540px; border: 1px solid #bfbfbf; padding: 50px 85px;}
@@ -87,6 +87,7 @@
 	.charge-sec .cs-box .cs-table-2 li .f2 {display: inline-block;}
 	.charge-sec .cs-box .cs-table-2 li .f1 {font-size: 22px; font-weight: 500; text-align: left; padding-right: 30px; width: 43%;}
 	.charge-sec .cs-box .cs-table-2 li .f2 {font-size: 24px; font-family: Verdana, "Nanum Gothic"; font-weight: 600; text-align: right; letter-spacing: -1.7px; width: 57%;}
+	.charge-sec .cs-box .cs-table-2 li .f2.c-red {font-size: 28px;}
 	.charge-sec .cs-box .cs-table-2 li .f2 .won {position: relative; font-size: 21px; top: -2px; margin-left: 1px;}
 	.charge-sec .cs-box .btn {display: block; margin: 40px 58px 0; height: 64px; font-size: 26px; font-weight: 500; line-height: 2.45em;}
 
@@ -95,7 +96,7 @@
 	.caution-box div {}
 	.caution-box div.nth-1 {font-size: 30px; width: 290px; line-height: 1.25em; font-weight: 500;}
 	.caution-box div.nth-2 {font-size: 16px; margin-top: 18px;}
-	.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px;}
+	.caution-box div.nth-2 p {position: relative; padding-left: 18px; line-height: 1.4em; margin-top: 10px; word-break: keep-all;}
 	.caution-box div.nth-2 p:first-child {margin-top: 0;}
 	.caution-box div.nth-2 p:before {content: "·"; display: block; position: absolute; left: 0px; top: -2px; font-size: 38px;}	
 }

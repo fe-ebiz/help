@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@media (max-width: 767px) {
+	.gh2 {font-size: 20px; padding-top: 20px; padding-bottom: 20px; font-weight: 600; text-align: center;}
+
+	.lawyer-sec {width: 100%; margin: 0 auto; margin-bottom: 50px; padding-left: 10px; padding-right: 10px;}
+	.lawyer-sec h3 {font-size: 17px; font-weight: 500; margin-top: 35px; line-height: 1.2; word-break: keep-all;}
+	.lawyer-sec h3:first-child {margin-top: 0px;}
+	.ls-p1 {line-height: 1.5em; margin-top: 15px; font-size: 14px; word-break: keep-all;}
+	.ls-p1 .mt {display: block; margin-top: 12px;}
+
+	.who-box {width: 100%; max-width: 360px; margin: 0px auto 0;}
+	.who-box > div {width: 100%; text-align: center; margin-top: 35px;}
+	.who-box > div:first-child {margin-top: 40px;}
+	.who-box .lawyer-icon {display: block; margin: 0 auto; height: 54px; background: url(http://img.onbiz.co.kr/help/lawyer2_icon.png) no-repeat 0 0; margin-bottom: 10px; background-size: 225px;}
+	.who-box div.nth-2 {/*margin-left: 66.5px;*/}
+	.who-box div.nth-1 .lawyer-icon {width: 49px; background-position: 0px 0px;}
+	.who-box div.nth-2 .lawyer-icon {width: 54px; height: 48px; background-position: -75px 0px;}
+	.who-box div.nth-3 .lawyer-icon {width: 45px; height: 50px; background-position: -150px 0px;}
+	.who-box h4 { font-size: 15px; line-height: 1.2em; margin-bottom: 10px;}
+	.who-box p {color: #767676; line-height: 1.45em; font-size: 14px;}
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+	.gh2 {font-size: 36px; padding-top: 40px; padding-bottom: 40px; font-weight: 600; text-align: center;}
+
+	.lawyer-sec {width: 100%; margin: 0 auto; margin-bottom: 100px; padding-left: 20px; padding-right: 20px;}
+	.lawyer-sec h3 {font-size: 30px; font-weight: 500; margin-top: 65px;}
+	.lawyer-sec h3:first-child {margin-top: 0px;}
+	.ls-p1 {line-height: 1.5em; margin-top: 30px;}
+	.ls-p1 .mt {display: block; margin-top: 15px;}
+
+	.who-box {width: 768px; margin: 60px auto 0;}
+	.who-box > div {float: left; width: 295px; margin-left: 45px; text-align: center;}
+	.who-box > div:first-child {float: none; margin: 0 auto 40px;}
+	.who-box .lawyer-icon {display: block; margin: 0 auto; height: 107px; background: url(http://img.onbiz.co.kr/help/lawyer2_icon.png) no-repeat 0 0; margin-bottom: 20px;}
+	.who-box div.nth-2 {margin-left: 66.5px;}
+	.who-box div.nth-1 .lawyer-icon {width: 99px; background-position: 0px 0px;}
+	.who-box div.nth-2 .lawyer-icon {width: 108px; background-position: -150px 0px;}
+	.who-box div.nth-3 .lawyer-icon {width: 90px; background-position: -300px 0px;}
+	.who-box h4 { font-size: 20px; line-height: 1.2em; margin-bottom: 10px;}
+	.who-box p {color: #767676; line-height: 1.45em;}
+}
+@media (min-width:1100px) {
+	.gh2 {font-size: 44px; padding-top: 50px; padding-bottom: 50px; font-weight: 600; text-align: center;}
+
+	.lawyer-sec {width: 1100px; margin: 0 auto; border-top: 1px solid #bfbfbf; margin-bottom: 100px; padding: 0px 0px 0 76px;}
+	.lawyer-sec h3 {font-size: 30px; font-weight: 500; margin-top: 65px;}
+	.lawyer-sec h3:first-child {margin-top: 50px;}
+	.ls-p1 {line-height: 1.5em; margin-top: 30px;}
+	.ls-p1 .mt {display: block; margin-top: 15px;}
+
+	.who-box {margin-top: 60px;}
+	.who-box > div {float: left; width: 295px; margin-left: 45px; text-align: center;}
+	.who-box > div:first-child {margin-left: 0;}
+	.who-box .lawyer-icon {display: block; margin: 0 auto; height: 107px; background: url(http://img.onbiz.co.kr/help/lawyer2_icon.png) no-repeat 0 0; margin-bottom: 20px;}
+	.who-box div.nth-1 .lawyer-icon {width: 99px; background-position: 0px 0px;}
+	.who-box div.nth-2 .lawyer-icon {width: 108px; background-position: -150px 0px;}
+	.who-box div.nth-3 .lawyer-icon {width: 90px; background-position: -300px 0px;}
+	.who-box h4 { font-size: 20px; line-height: 1.2em; margin-bottom: 10px;}
+	.who-box p {color: #767676; line-height: 1.45em;}
+	
+}

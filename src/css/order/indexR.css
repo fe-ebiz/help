@@ -142,6 +142,8 @@
 	.rs-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -25px 0px; right: 0px; background-size: 100px;}
 }
 @media (min-width: 768px) and (max-width: 1099px) {
+	.contain {padding-left: 20px; padding-right: 20px;}
+	
 	/********************************** 지급명령 ********************************/
 	section[class*="-sec"] h2 {font-size: 36px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px;}
 	section[class*="-sec"] div[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
