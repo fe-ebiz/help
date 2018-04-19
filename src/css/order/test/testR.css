@@ -62,8 +62,58 @@ label {cursor: pointer;}
 	.test01-2-sec .btn-wrap .btn {width: 230px;}
 	
 	/*테스트01-3*/
-	.test01-2-sec .test-box .row p span.c-gray3, .test-box .row p span.s1 {display: block; line-height: 1.45em; margin-top: 5px;}
+	.test01-2-sec .test-box .row p span.c-gray3, .test-box .row p span.s1 {display: block; line-height: 1.45em; margin-top: 0px;}
 	.test01-2-sec .test-box .row p span.c-gray3 {font-size: 13px; word-break: keep-all;}
+	
+	/*테스트01 레이어팝업*/
+	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
+	.layer-pop .pop-area .pop-txt {color:#595959; font-size:14px; line-height: 1.4em;}
+	.layer-pop .pop-area .btn-wrap {margin-top: 25px; margin-bottom: 3px;}
+	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 240px; margin: 0 auto; height: 46px; color: #fff; font-size: 18px; font-weight: 600; line-height: 2.5em; letter-spacing: 0;}
+	
+	/*테스트01-7*/
+	.test01-3-sec {padding-bottom: 50px; border-top:1px solid #bfbfbf; margin: 18px auto 0; width: 94%; max-width: 360px;}
+	.test01-3-sec .exc-icon {text-align: center; margin-top: 30px;}
+	.test01-3-sec .exc-icon img {width: 44px;}
+	.test01-3-sec h2 {font-size: 20px; padding-top: 10px; padding-bottom: 20px; font-weight: 600; text-align: center; line-height: 1.25;}
+	.test01-3-sec .test-box {width: 100%; padding: 0px; padding-bottom: 20px; border-top: 0;}
+	.test01-3-sec .test-box > p.nth-1 {font-size: 14px; line-height: 1.4em; word-break: keep-all;}
+	.test01-3-sec .test-box > p.nth-1 [class*="mt"] {display: block;}
+	.test01-3-sec .test-box > p.nth-1 .mt1 {margin-top: 10px; font-weight: 500;}
+	.test01-3-sec .test-box > p.nth-1 .mt2 {margin-top: 14px;}
+	.test01-3-sec .test-box > p.nth-2 {position: relative; padding-left: 8px; font-size: 12px; line-height: 1.4em; word-break: keep-all;}
+	.test01-3-sec .test-box > p.nth-2 .c-yellow {position: absolute; left: 0;}
+	.test01-3-sec .btn-wrap .btn {width: 130px; display: inline-block; margin: 0 auto; font-size: 14px; line-height: 44px;}
+	.test01-3-sec .btn-wrap .btn.nth-1 {border: 1px solid #ffb411;}
+	.test01-3-sec .btn-wrap .btn.nth-2 {margin-left: 5px; border: 1px solid #ffb411;}
+	.test01-3-sec .btn-wrap .btn span {position: relative; top: -2px; font-family: "Nanum Gothic"; font-weight: 400; font-size: 12px;}
+	.test01-3-sec .btn-wrap .btn.nth-1 span {margin-right: 5px;}
+	.test01-3-sec .btn-wrap .btn.nth-2 span {margin-left: 5px;}
+	
+	.test01-3-sec .property-box {position: relative; padding-top: 25px; margin-top: 25px; margin-bottom: 25px; border-top: 1px solid #bfbfbf;}
+	.test01-3-sec .property-box > div,
+	.test01-3-sec .property-box .box-2 > div {position: relative;}
+	.test01-3-sec .property-box .box-1 {}
+	.test01-3-sec .property-box .box-1 h3 {font-size: 19px; color: #1a1a1a; line-height: 1.25; text-align: center; letter-spacing: -1.5px;}
+	.test01-3-sec .property-box .box-2 {width: 189px; margin: 40px auto 0;}
+	.test01-3-sec .property-box .box-2 .tit {position: absolute; left: -50px;}
+	.test01-3-sec .property-box .box-2 .tit em {font-size: 14px; border-bottom: 2px solid #000;}
+	.test01-3-sec .property-box .box-2 .tit p:first-child {margin-top: 10px; margin-bottom: 154px;}
+	.test01-3-sec .property-box .box-2 .step {width: 100%; height: 300px; background: url(http://img.onbiz.co.kr/help/order/test/test01_result_bg.jpg) no-repeat; background-size: 189px;}
+	.test01-3-sec .property-box .box-2 .step li {position: relative; line-height: 1.3; text-align: center; font-size: 13px;}
+	.test01-3-sec .property-box .box-2 .step li p {position: relative;}
+	.test01-3-sec .property-box .box-2 .step li.nth-1 {top: 9px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 {top: 26px; text-align: left; font-size: 12px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-1 {text-align: center; font-size: 13px; color: #fff;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-2 {top: 7px; text-align: center;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p {position: relative; float: left; width: 84px; font-size: 12px;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p:first-child {margin-right: 20px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 {top: 86px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-2 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 {top: 130px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-2 {top: -7px;}
 }
 @media (min-width: 768px) and (max-width: 1099px) {
 	/*테스트 공통*/
@@ -121,8 +171,100 @@ label {cursor: pointer;}
 	.test01-2-sec .step-s span.on {background: #ffb411;}
 	
 	/*테스트01-3*/
-	.test01-2-sec .test-box .row p span.c-gray3, .test-box .row p span.s1 {display: block; line-height: 1.45em; margin-top: 10px;}
+	.test01-2-sec .test-box .row p span.c-gray3, .test-box .row p span.s1 {display: block; line-height: 1.45em; margin-top: 5px;}
 	.test01-2-sec .test-box .row p span.c-gray3 {font-size: 16px;}
+	
+	/*테스트01 레이어팝업*/
+	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
+	.layer-pop .pop-area .pop-txt {color:#595959; font-size:18px; line-height: 1.4em;}
+	.layer-pop .pop-area .btn-wrap {margin-top: 25px; margin-bottom: 3px;}
+	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 400px; margin: 0 auto; height: 54px; color: #fff; font-size: 26px; font-weight: 600; line-height: 2em; letter-spacing: 0;}
+	
+	/*테스트01-7*/
+	.test01-3-sec {padding-bottom: 50px;}
+	.test01-3-sec .exc-icon {text-align: center; margin-top: 50px;}
+	.test01-3-sec h2 {font-size: 34px; padding-top: 15px; padding-bottom: 50px; font-weight: 600; text-align: center;}
+	.test01-3-sec .test-box {padding: 40px 20px; padding-bottom: 20px;}
+	.test01-3-sec .test-box > p.nth-1 {font-size: 18px; line-height: 1.7em;}
+	.test01-3-sec .test-box > p.nth-1 [class*="mt"] {display: block;}
+	.test01-3-sec .test-box > p.nth-1 .mt1 {margin-top: 20px; font-weight: 500;}
+	.test01-3-sec .test-box > p.nth-1 .mt2 {margin-top: 34px;}
+	.test01-3-sec .test-box > p.nth-2 {position: relative; padding-left: 10px; font-size: 14px; line-height: 1.4em;}
+	.test01-3-sec .test-box > p.nth-2 .c-yellow {position: absolute; left: 0;}
+	.test01-3-sec .btn-wrap .btn {width: 268px;}
+	.test01-3-sec .btn-wrap .btn.nth-1 {border: 1px solid #ffb411;}
+	.test01-3-sec .btn-wrap .btn.nth-2 {margin-left: 15px; border: 1px solid #ffb411;}
+	.test01-3-sec .btn-wrap .btn span {position: relative; top: -5px; font-family: "Nanum Gothic"; font-weight: 400; font-size: 18px;}
+	.test01-3-sec .btn-wrap .btn.nth-1 span {margin-right: 4px; left: -20px;}
+	.test01-3-sec .btn-wrap .btn.nth-2 span {margin-left: 4px; right: -10px;}
+	
+	.test01-3-sec .property-box {position: relative; padding-top: 55px; margin-top: 55px; margin-bottom: 45px; border-top: 1px solid #bfbfbf;}
+	.test01-3-sec .property-box > div,
+	.test01-3-sec .property-box .box-2 > div {position: relative;}
+	.test01-3-sec .property-box .box-1 {}
+	.test01-3-sec .property-box .box-1 h3 {font-size: 34px; color: #1a1a1a; line-height: 1.25; margin-top: 15px; text-align: center; letter-spacing: -1.5px;}
+	.test01-3-sec .property-box .box-2 {width: 346px; margin: 100px auto 0;}
+/*	.test01-3-sec .property-box .box-2 > div {float: left; width: auto;}*/
+	.test01-3-sec .property-box .box-2 .tit {position: absolute; left: -105px;}
+	.test01-3-sec .property-box .box-2 .tit em {font-size: 28px; border-bottom: 2px solid #000;}
+	.test01-3-sec .property-box .box-2 .tit p:first-child {margin-top: 20px; margin-bottom: 280px;}
+	.test01-3-sec .property-box .box-2 .step {width: 100%; height: 548px; background: url(http://img.onbiz.co.kr/help/order/test/test01_result_bg.jpg) no-repeat;}
+	.test01-3-sec .property-box .box-2 .step li {position: relative; line-height: 1.45; text-align: center; font-size: 20px;}
+	.test01-3-sec .property-box .box-2 .step li p {position: relative;}
+	.test01-3-sec .property-box .box-2 .step li.nth-1 {top: 17px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 {top: 47px; text-align: left; font-size: 18px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-1 {text-align: center; font-size: 22px; color: #fff;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-2 {top: 17px; padding: 0 30px;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p {position: relative; float: left; width: 152px;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p:first-child {margin-right: 40px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 {top: 158px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-2 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 {top: 236px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-2 {top: -14px;}
+	
+	/*테스트02-1*/
+	.test02-1-sec {padding-bottom: 50px;}
+	.test02-1-sec h2 {font-size: 34px; padding-top: 50px; padding-bottom: 60px; font-weight: 600; text-align: center;}
+	.test02-1-sec .outer {width: 750px; margin: 0 auto;}
+	.test02-1-sec .outer > p.nth-1 {font-size: 18px; margin-bottom: 10px; padding-left: 20px;}
+	.test02-1-sec .outer .ts2-u1 {position: relative; width: 730px; margin-left: 10px; margin-bottom: 60px;}
+	.test02-1-sec .outer .ts2-u1 li {float: left; margin-left: 10px; margin-right: 10px; width: 345px; height: 126px;}
+	.test02-1-sec .outer .ts2-u1 li {margin-top: 5px; margin-bottom: 5px;}
+	.test02-1-sec .outer .ts2-u1 li h3, .test02-1-sec .outer .ts2-u1 li p {float: left; }
+	.test02-1-sec .outer .ts2-u1 li h3 {position: relative; width: 120px; height: 124px; margin-right: 5px; background: #ffb411; color: #fff; font-size: 24px; font-weight: 500; line-height: 1.3em; text-align: center;}
+	.test02-1-sec .outer .ts2-u1 li h3.type01 {padding-top: 48px;}
+	.test02-1-sec .outer .ts2-u1 li h3.type02 {padding-top: 32px;}
+	.test02-1-sec .outer .ts2-u1 li p:after {content:''; display:inline-block; height:100%; vertical-align: middle;}
+	.test02-1-sec .outer .ts2-u1 li p {width: 220px; font-size: 18px; border: 1px solid #bfbfbf; padding-top: 5px; text-align: left; padding-left: 20px; cursor: pointer;}
+	.test02-1-sec .outer .ts2-u1 li p:hover {border-color: #ffb411;}
+	.test02-1-sec .outer .ts2-u1 li p.on {color: #ffb411; border-color: #ffb411; font-weight: 500;}
+	.test02-1-sec .outer .ts2-u1 li p.type01 {height: 124px;}
+	.test02-1-sec .outer .ts2-u1 li p.type02 {height: 60px; margin-bottom: 4px;}
+	.test02-1-sec .outer .ts2-u1 li p.type03 {height: 60px;}
+	.test02-1-sec .outer > h4, .test02-1-sec .outer .tip-box {width: 730px; margin: 0 auto;}
+	.test02-1-sec .outer > h4 {font-size: 22px; margin-bottom: 24px;}
+	
+	.test02-1-sec .outer .tip-box {}
+	.test02-1-sec .outer .tip-box .txt-u1 li {float: left;  height: 275px; border: 1px solid #bfbfbf; border-left: 0;}
+	.test02-1-sec .outer .tip-box .txt-u1 li.nth-1 {width: 40%;}
+	.test02-1-sec .outer .tip-box .txt-u1 li.nth-2 {width: 36%;}
+	.test02-1-sec .outer .tip-box .txt-u1 li.nth-3 {width: 24%;}
+	.test02-1-sec .outer .tip-box .txt-u1 li:first-child {border-left: 1px solid #bfbfbf;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p {position: relative; padding: 2px 10px; padding-left: 22px; line-height: 1.2em; margin-top: 10px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p:first-child {margin-top: 0;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p:first-child + p {margin-top: 15px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p:before {content: "·"; position: absolute; left: 8px; top: 1px; font-size: 20px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p.th {position: relative; padding: 0; height: 50px; text-align: center; background: #bfbfbf; line-height: 2.5;  font-size: 20px; background: #f0f0f0;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p.th:before {display: none;}
+	.test02-1-sec .btn-wrap {margin-top: 40px;}
+	.test02-1-sec .btn-wrap .btn {width: 268px;}
+	.test02-1-sec .btn-wrap .btn.nth-1 {border: 1px solid #ffb411;}
+	.test02-1-sec .btn-wrap .btn.nth-2 {margin-left: 15px; border: 1px solid #ffb411;}
+	.test02-1-sec .btn-wrap .btn span {position: relative; top: -5px; font-family: "Nanum Gothic"; font-weight: 400; font-size: 18px;}
+	.test02-1-sec .btn-wrap .btn.nth-1 span {margin-right: 4px; left: -20px;}
+	.test02-1-sec .btn-wrap .btn.nth-2 span {margin-left: 4px; right: -10px;}
 }
 @media (min-width:1100px) {
 	body {background: #F0F0F0; width: 100%; height: 100%;}
@@ -182,17 +324,17 @@ label {cursor: pointer;}
 	.test01-2-sec .test-box .row p span.c-gray3, .test-box .row p span.s1 {display: block; line-height: 1.45em; margin-top: 10px;}
 	.test01-2-sec .test-box .row p span.c-gray3 {font-size: 16px;}
 
-	/*테스트01-4*/
+	/*테스트01 레이어팝업*/
 	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
 	.layer-pop .pop-area .pop-txt {color:#595959; font-size:18px; line-height: 1.4em;}
 	.layer-pop .pop-area .btn-wrap {margin-top: 25px; margin-bottom: 3px;}
-	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 400px; height: 54px; color: #fff; font-size: 26px; font-weight: 600; line-height: 2em; letter-spacing: 0;}
+	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 400px; margin: 0 auto; height: 54px; color: #fff; font-size: 26px; font-weight: 600; line-height: 2em; letter-spacing: 0;}
 
 	/*테스트01-7*/
 	.test01-3-sec {padding-bottom: 50px;}
 	.test01-3-sec .exc-icon {text-align: center; margin-top: 50px;}
 	.test01-3-sec h2 {font-size: 34px; padding-top: 15px; padding-bottom: 50px; font-weight: 600; text-align: center;}
-	.test01-3-sec .test-box {padding: 50px;}
+	.test01-3-sec .test-box {padding: 50px; padding-bottom: 20px;}
 	.test01-3-sec .test-box > p.nth-1 {font-size: 18px; line-height: 1.7em;}
 	.test01-3-sec .test-box > p.nth-1 [class*="mt"] {display: block;}
 	.test01-3-sec .test-box > p.nth-1 .mt1 {margin-top: 20px; font-weight: 500;}
@@ -201,35 +343,37 @@ label {cursor: pointer;}
 	.test01-3-sec .test-box > p.nth-2 .c-yellow {position: absolute; left: 0;}
 	.test01-3-sec .btn-wrap .btn {width: 268px;}
 	.test01-3-sec .btn-wrap .btn.nth-1 {border: 1px solid #ffb411;}
-	.test01-3-sec .btn-wrap .btn.nth-2 {margin-left: 15px;}
+	.test01-3-sec .btn-wrap .btn.nth-2 {margin-left: 15px; border: 1px solid #ffb411;}
 	.test01-3-sec .btn-wrap .btn span {position: relative; top: -5px; font-family: "Nanum Gothic"; font-weight: 400; font-size: 18px;}
 	.test01-3-sec .btn-wrap .btn.nth-1 span {margin-right: 4px; left: -20px;}
 	.test01-3-sec .btn-wrap .btn.nth-2 span {margin-left: 4px; right: -10px;}
-	.test01-3-sec .property-box {position: relative; width: 861px; height: 509px; background: url(http://img.onbiz.co.kr/help/test_result_bg.png); margin-top: 55px; margin-bottom: 25px;}
-	.test01-3-sec .property-box .pb-u1 {position: relative;}
-	.test01-3-sec .property-box .pb-u1 li {position: relative; }
-	.test01-3-sec .property-box .pb-u1 li p {position: relative; display: inline-block; vertical-align: top; text-align: center; line-height: 1.4em;}
-	.test01-3-sec .property-box .pb-u1 li.nth-1 {position: relative; padding-top: 13.5px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-1 h3 {position: relative; left: 20px; color: #fff; font-size: 24px; text-align: center;}
-	.test01-3-sec .property-box .pb-u1 li.nth-2 {top: 102px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-2 p {font-size: 22px; font-weight: 500; width: 118px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-2 p.nth-1 {left: 284px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-2 p.nth-2 {left: 359px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 {top: 216px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 p {font-size: 20px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 p.nth-1 {left: 0px; width: 346px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 p.nth-2, .test01-3-sec .property-box .pb-u1 li.nth-3 p.nth-3 {top: -7px; width: 140px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 p.nth-2 {left: 198px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-3 p.nth-3 {left: 230px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 {top: 252px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p {}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 h4 {font-size: 22px; font-weight: 500;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 h4 span {position: relative; display: block; width: 346px; text-align: center; color: #fff;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-1 {left: 0px; font-size: 18px; width: 346px; margin-top: 24px; text-align: left; padding-left: 34px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-1 .mt {display: block; margin-top: 5px; line-height: 1.25em;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-2, .test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-3 {width: 140px; font-size: 20px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-2 {left: 198px; top: 35px;}
-	.test01-3-sec .property-box .pb-u1 li.nth-4 p.nth-3 {left: 230px; top: 16px;}
+	
+	.test01-3-sec .property-box {position: relative; padding-top: 55px; margin-top: 55px; margin-bottom: 45px; border-top: 1px solid #bfbfbf;}
+	.test01-3-sec .property-box > div,
+	.test01-3-sec .property-box .box-2 > div {position: relative; float: left; width: 50%;}
+	.test01-3-sec .property-box .box-1 {}
+	.test01-3-sec .property-box .box-1 h3 {font-size: 34px; color: #1a1a1a; line-height: 1.25; margin-top: 10px;}
+	.test01-3-sec .property-box .box-2 {float: right; width: 346px;}
+	.test01-3-sec .property-box .box-2 > div {width: auto;}
+	.test01-3-sec .property-box .box-2 .tit {position: absolute; left: -105px;}
+	.test01-3-sec .property-box .box-2 .tit em {font-size: 28px; border-bottom: 2px solid #000;}
+	.test01-3-sec .property-box .box-2 .tit p:first-child {margin-top: 20px; margin-bottom: 280px;}
+	.test01-3-sec .property-box .box-2 .step {width: 100%; height: 548px; background: url(http://img.onbiz.co.kr/help/order/test/test01_result_bg.jpg) no-repeat;}
+	.test01-3-sec .property-box .box-2 .step li {position: relative; line-height: 1.45; text-align: center; font-size: 20px;}
+	.test01-3-sec .property-box .box-2 .step li p {position: relative;}
+	.test01-3-sec .property-box .box-2 .step li.nth-1 {top: 17px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 {top: 47px; text-align: left; font-size: 18px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-1 {text-align: center; font-size: 22px; color: #fff;}
+	.test01-3-sec .property-box .box-2 .step li.nth-2 p.nth-2 {top: 17px; padding: 0 30px;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p {position: relative; float: left; width: 152px;}
+	.test01-3-sec .property-box .box-2 .step li.cf > p:first-child {margin-right: 40px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 {top: 158px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-3 p.nth-2 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 {top: 236px;}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-1 {}
+	.test01-3-sec .property-box .box-2 .step li.nth-4 p.nth-2 {top: -14px;}
+
 
 	/*테스트02-1*/
 	.test02-1-sec {padding-bottom: 50px;}
@@ -251,18 +395,20 @@ label {cursor: pointer;}
 	.test02-1-sec .outer .ts2-u1 li p.type02 {height: 60px; margin-bottom: 4px;}
 	.test02-1-sec .outer .ts2-u1 li p.type03 {height: 60px;}
 	.test02-1-sec .outer > h4 {font-size: 22px; margin-bottom: 24px;}
+	
 	.test02-1-sec .outer .tip-box {}
-	.test02-1-sec .outer .tip-box .th-box {position: relative; height: 50px; text-align: center; background: #bfbfbf;}
-	.test02-1-sec .outer .tip-box .th-box p {display: inline-block; width: 33%; font-size: 20px; line-height: 2.5em;}
-	.test02-1-sec .outer .tip-box .txt-u1 li {float: left; padding: 20px 15px; height: 204px; width: 303px; border: 1px solid #bfbfbf; border-left-color: transparent;}
-	.test02-1-sec .outer .tip-box .txt-u1 li:first-child {border-left-color: #bfbfbf;;}
-	.test02-1-sec .outer .tip-box .txt-u1 li p {position: relative; padding-left: 12px; line-height: 1.2em; margin-top: 10px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li {float: left;  height: 275px; width: 33.33%; border: 1px solid #bfbfbf; border-left: 0;}
+	.test02-1-sec .outer .tip-box .txt-u1 li:first-child {border-left: 1px solid #bfbfbf;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p {position: relative; padding: 2px 10px; padding-left: 22px; line-height: 1.2em; margin-top: 10px;}
 	.test02-1-sec .outer .tip-box .txt-u1 li p:first-child {margin-top: 0;}
-	.test02-1-sec .outer .tip-box .txt-u1 li p:before {content: "·"; position: absolute; left: 0; top: -1px; font-size: 20px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p:first-child + p {margin-top: 15px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p:before {content: "·"; position: absolute; left: 8px; top: 1px; font-size: 20px;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p.th {position: relative; padding: 0; height: 50px; text-align: center; background: #bfbfbf; line-height: 2.5;  font-size: 20px; background: #f0f0f0;}
+	.test02-1-sec .outer .tip-box .txt-u1 li p.th:before {display: none;}
 	.test02-1-sec .btn-wrap {margin-top: 40px;}
 	.test02-1-sec .btn-wrap .btn {width: 268px;}
 	.test02-1-sec .btn-wrap .btn.nth-1 {border: 1px solid #ffb411;}
-	.test02-1-sec .btn-wrap .btn.nth-2 {margin-left: 15px;}
+	.test02-1-sec .btn-wrap .btn.nth-2 {margin-left: 15px; border: 1px solid #ffb411;}
 	.test02-1-sec .btn-wrap .btn span {position: relative; top: -5px; font-family: "Nanum Gothic"; font-weight: 400; font-size: 18px;}
 	.test02-1-sec .btn-wrap .btn.nth-1 span {margin-right: 4px; left: -20px;}
 	.test02-1-sec .btn-wrap .btn.nth-2 span {margin-left: 4px; right: -10px;}
@@ -356,9 +502,4 @@ label {cursor: pointer;}
 	.test03-1-sec .btn-wrap {margin-top: 40px;}
 	.test03-1-sec .btn-wrap .btn {width: 268px;}
 
-	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
-	.layer-pop .pop-area .pop-txt {color:#595959; font-size:18px; line-height: 1.3em;}
-	.layer-pop .pop-area .pop-txt:after {content: ""; display: block; width: 43px; height: 1px; background: #a8a8a8; margin: 0 auto; margin-top: 20px; margin-bottom: 20px;}
-	.layer-pop .pop-area .pop-txt2 {font-size: 20px; margin-bottom: 30px;}
-	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 400px; height: 54px; color: #fff; font-size: 26px; font-weight: 600; line-height: 2em; letter-spacing: 0;}	
 }

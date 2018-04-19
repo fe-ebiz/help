@@ -222,7 +222,7 @@ section {width: 100%;}
 	.footer-box div.nth-3 p.nth-2 {font-size: 24px; text-align: center;}
 }
 @media (max-width: 767px) {
-	
+	.layer-pop .pop-area {padding: 34px 27px 17px;}
 }
 
 @media (min-width: 768px) and (max-width: 1099px) {
