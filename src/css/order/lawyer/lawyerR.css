@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @media (max-width: 767px) {
-	.gh2 {font-size: 20px; padding-top: 20px; padding-bottom: 20px; font-weight: 600; text-align: center;}
+	.gh2 {font-size: 19px; padding-top: 20px; padding-bottom: 20px; font-weight: 600; text-align: center;}
 
 	.lawyer-sec {width: 100%; margin: 0 auto; margin-bottom: 50px; padding-left: 10px; padding-right: 10px;}
 	.lawyer-sec h3 {font-size: 17px; font-weight: 500; margin-top: 35px; line-height: 1.2; word-break: keep-all;}
