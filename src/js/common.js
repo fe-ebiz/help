@@ -1,45 +1,49 @@
 $(function () {
-	/*체크박스*/
-	$('.chk_box, .chk-box').click(function () {
-		if ($(this).prop('checked')) {
-			$(this).addClass('on');
-		} else {
-			$(this).removeClass('on');
-		}
-	});
-	/*라디오박스*/
-	$('.radio').click(function () {
-		$(this).prop('checked', true).addClass("on").siblings().removeClass("on");
-	});
-	/*레이어팝업 닫기*/
-	$('.layer_pop .pop_area .pop_close').click(function () {
-		$(this).parents('.layer_pop').hide();
-	});
-	$('.layer-pop .pop-area .pop-close').click(function () {
-		$(this).parents('.layer-pop').hide();
-	});
-	/*구매내역 탭메뉴*/
-	$('.mypage .buy_list h5').click(function () {
-		$(this).addClass('on').siblings('h5').removeClass('on');
-		$('.mypage .buy_list h5, .mypage .buy_list .cont').removeClass('on');
-		$(this).addClass('on').next().addClass('on');
-	});
-	/*아이디 비밀번호 찾기 탭메뉴*/
-	$('.find h4').click(function () {
-		$('.find h4, .find .cont').removeClass('on');
-		$(this).addClass('on').next().addClass('on');
-	});
-	/*이용약관 탭메뉴*/
-	$('.policy h3').click(function () {
-		$('.policy h3, .policy div').removeClass('on');
-		$(this).addClass('on').next().addClass('on');
-	});
-
-
+  /*체크박스*/
+  $('.chk_box, .chk-box').click(function () {
+	if ($(this).prop('checked')) {
+	  $(this).addClass('on');
+	} else {
+	  $(this).removeClass('on');
+	}
+  });
+  /*라디오박스*/
+  $('.radio').click(function () {
+	$(this).prop('checked', true).addClass("on").siblings().removeClass("on");
+  });
+  /*레이어팝업 닫기*/
+  $('.layer_pop .pop_area .pop_close').click(function () {
+	$(this).parents('.layer_pop').hide();
+  });
+  $('.layer-pop .pop-area .pop-close').click(function () {
+	$(this).parents('.layer-pop').hide();
+  });
+	
+  /* admin 구매내역 탭메뉴*/
+  $('.mypage .buy_list h5').click(function () {
+	$(this).addClass('on').siblings('h5').removeClass('on');
+	$('.mypage .buy_list h5, .mypage .buy_list .cont').removeClass('on');
+	$(this).addClass('on').next().addClass('on');
+  });
+	
+  /* admin 아이디 비밀번호 찾기 탭메뉴*/
+  $('.find h4').click(function () {
+	$('.find h4, .find .cont').removeClass('on');
+	$(this).addClass('on').next().addClass('on');
+  });
+	
+  /*이용약관 탭메뉴*/
+  $('.policy h3').click(function () {
+	$('.policy h3, .policy div').removeClass('on');
+	$(this).addClass('on').next().addClass('on');
+  });
+	
 	$(window).resize(function(){
 		var windowWid = $(window).width();
 		var ul = $('.top-wrap .tb-nav');
-		if( windowWid < 1100 ){
+		
+		if( windowWid < 1000 ){
+			// window width 1000이하일때
 			widthOuto(ul);
 		}else{
 			ul.css({width : '100%'});
@@ -54,7 +58,7 @@ $(function () {
 /* 해더 기능 */
 function headerFn() {
 	var hd = $(".header"),
-	hnb = $(".tab-hnb");
+		hnb = $(".tab-hnb");
 	
 	hnb.click(function() {
 		$(".header").toggleClass("active");
@@ -69,11 +73,8 @@ function widthOuto(itm){
 	for( var i = 0 ; i < liLen ; i++ ){
 		liPlus += itm.find('li:eq('+i+')').outerWidth(true);
 	}
-	if( itm.width() < liPlus ){
-		itm.css({width : (liPlus-20)+'px'});
-	}else{
-		itm.css({width : (liPlus+(liLen*3))+'px'});
-	}
+   itm.css({width : (liPlus+(liLen*3))+'px'});
+	// console.log(itm.width(), liPlus, (liPlus+(liLen*3)))
 }
 
 function login_naver() {

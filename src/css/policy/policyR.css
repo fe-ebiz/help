@@ -1,24 +1,23 @@
 @charset "utf-8";
 
-/* 버튼 */
-.btn {display:inline-block; color:#fff; text-align:center; vertical-align:middle;}
-.btn.btn_type01 {width:354px; height:67px; background-color:#ffb412; font-weight:bold; font-size:30px; line-height:67px;}
-.btn.btn_type02 {height:32px; padding:0 20px; background-color:#ffb412; font-size:16px; line-height:32px;}
-.btn.btn_type03 {height:32px; padding:0 20px; background-color:#4d4d4d; font-size:16px; line-height:32px;}
-.btn.btn_type04 {width:76px; height:22px; border:1px solid #bfbfbf; color:#686868; line-height:18px;}
-.btn.btn_type05 {width:238px; height:43px; background-color:#141414; font-size:20px; line-height:43px;}
-.btn.btn_type06 {width:314px; height:56px; background-color:#ffb412; font-weight:bold; font-size:24px; line-height:56px;}
-.btn span {position:relative;}
-.btn.btn_type06.ico_find span:before {content:''; display:block; position:absolute; right:-46px; top:50%; width:35px; height:35px; margin-top:-18px; background:url('http://img.onbiz.co.kr/help/ico_find.png') no-repeat 0 0;}
-
-.policy {position:relative; width:1100px; margin:0 auto; padding-top:83px;}
-.policy h3 {position:absolute; top:0; width:164px; height:55px; border:1px solid #bfbfbf; background-color:#ebebeb; color:#000; font-weight:500; font-size:18px; text-align:center; line-height:55px; cursor:pointer;}
-.policy h3.menu01 {left:0;}
-.policy h3.menu02 {left:163px;}
-.policy h3.menu03 {left:326px;}
-.policy h3.on {z-index:100; border:1px solid #e9a105; background-color:#fff; color:#e9a105;}
-.policy div {display:none; overflow:auto; height:565px; padding:30px 20px; border:1px solid #bfbfbf; font-size:14px; line-height:1.5;}
-.policy div.on {display:block;}
-.policy div strong {display:block; margin-top:25px; font-weight: 600;}
-.policy div strong.first {margin-top:0;}
-.policy div ol li ol, .policy div ol li ul {padding-left:15px;}
+.policy-sec {padding: 50px 0;}
+.policy {position:relative; width:1100px; margin:0 auto;}
+.policy h3 {color:#000; font-weight:500; font-size:32px; text-align:center; cursor:pointer;}
+.policy .box-txt {overflow:auto; height:565px; padding:30px 20px; border:1px solid #bfbfbf; font-size:14px; line-height:1.5; margin-top: 40px;}
+.policy .box-txt strong {display:block; margin-top:25px; font-weight: 600;}
+.policy .box-txt strong.first {margin-top:0;}
+.policy .box-txt ol li ol, .policy .box-txt ol li ul {padding-left:15px;}
+@media (max-width: 767px) {
+	.policy-sec {padding: 25px 0;}
+	.policy {width: 100%;}
+	.policy h3 {font-size: 17px;}
+	.policy .box-txt {margin-left: 20px; margin-right: 20px; margin-top: 20px; padding: 15px 10px;}
+	.policy h3.menu01 + .box-txt {height: auto; margin-bottom: 50px;}
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+	.policy {width: 100%;}
+	.policy .box-txt {margin-left: 20px; margin-right: 20px;}
+}
+@media (min-width:1100px) {
+	
+}

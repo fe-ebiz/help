@@ -28,7 +28,7 @@
 	.tb-nav li.btn-wrap {margin-left: 50px;}
 	.tb-nav li.btn-wrap a {display: block; width: 200px; height: 53px; line-height: 2.5em; font-size: 20px; font-weight: 500; color: #ffb411; border: 1px solid #ffb411;}
 	.tb-nav li.btn-wrap a:hover {color: #fff; background: #ffb411;}
-	
+
 	/*푸터영역*/
 	.footer {width: 100%; background: #141414; padding: 30px 0;}
 	.footer-box {position: relative; width: 1100px;}
@@ -47,6 +47,15 @@
 	.footer-box div.nth-3 p.nth-1 {width: 90px; font-size: 19px; font-weight: 500; line-height: 1.4em; text-align: right;}
 	.footer-box div.nth-3 p.nth-2 {font-size: 36px; text-align: center;}
 
-
+	/* 레이어팝업 */
+	.layer-pop {position:fixed; left:0; top:0; right:0; bottom:0; z-index:9999; background:url('http://img.onbiz.co.kr/help/pop_bg.png') repeat 0 0; font-size:0; text-align:center;}
+	.layer-pop:after {content:''; display:inline-block; height:100%; vertical-align:middle;}
+	.layer-pop .pop-area {display:inline-block; position:relative; padding:55px 45px 20px; border:1px solid #bfbfbf; background-color:#fff; vertical-align:middle;}
+	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
+	.layer-pop .pop-area .pop-txt {color:#595959; font-size:18px; line-height: 1.3em;}
+	.layer-pop .pop-area .pop-txt.line:after {content: ""; display: block; width: 43px; height: 1px; background: #a8a8a8; margin: 0 auto; margin-top: 20px; margin-bottom: 20px;}
+	.layer-pop .pop-area .pop-txt2 {font-size: 20px; margin-bottom: 30px;}
+	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 400px; height: 54px; color: #fff; font-size: 26px; font-weight: 600; line-height: 2em; letter-spacing: 0;}
+	.layer-pop .pop-close {position:absolute; right:10px; top:10px;}
 
 
