@@ -7,8 +7,8 @@ $(function() {
     return false;
   });
   //계산비용클릭 시 노출
-  $("#ers-p4 .btn").on("click", function() {
+ /* $("#ers-p4 .btn").on("click", function() {
     $("#ers-prc-box").show();
     return false;
-  });
+  });*/
 });

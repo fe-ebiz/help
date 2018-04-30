@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+	/* 공통 */
+	.hidden-lg {display: none !important;}
+	.show-lg {display: block !important;}
+
 	.wrap {min-width: 1100px;}
 
 	/*헤더영역*/

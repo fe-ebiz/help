@@ -2,200 +2,1757 @@
 <html lang="ko-KR">
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>누리헬프</title>
-  <!--<link rel="canonical" href="도메인">-->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>누리헬프</title>
+	<!--<link rel="canonical" href="도메인">-->
 
-  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-  <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/common.css">
-  <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/charge/charge.css"> 
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/jquery.bxslider.css">
+	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/override.css">
+	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR.css">
+	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/charge/initR.css">
+	<!--<link rel="stylesheet" href="../../../static/css/commonR.css">-->
+	<!--<link rel="stylesheet" href="../../../static/css/registration/charge/initR.css">-->
 
-  <script src="http://static.onbiz.co.kr/js/help/jquery-1.10.2.min.js"></script>
-  <script src="http://static.onbiz.co.kr/js/help/common.js"></script>
-  <script src="http://static.onbiz.co.kr/js/help/registration/charge/charge.js"></script>
+	<script src="http://static.onbiz.co.kr/js/help/jquery-1.10.2.min.js"></script>
+	<script src="http://static.onbiz.co.kr/js/help/jquery.bxslider.min.js"></script>
+	<script src="http://static.onbiz.co.kr/js/help/common.js"></script>
+	<script src="http://static.onbiz.co.kr/js/help/registration/charge/init.js"></script>
+	
+	<!--<script src="../../../static/js/common.js"></script>-->
+	<!--<script src="../../../static/js/registration/charge/init.js"></script>-->
 
-  <!--[if lt IE 9]>
-    <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <![endif]-->
+<!--
+		<link rel="stylesheet" href="../../../static/css/commonR_ie8.css">
+		<link rel="stylesheet" href="../../../static/css/registration/charge/initR_ie8.css">-->
+		
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR_ie8.css">
+        <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/charge/initR_ie8.css">
+        
+    	<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+ 	<![endif]-->
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-  <h1 class="skip">헬프미</h1>
-  <div class="wrap">
-    <!-- 헤더 영역 -->
-    <header class="header">
-      <div class="header-box center-block">
-        <ul class="hb-tab clearfix">
-          <li class=""><a href="./index_01.html">지급명령</a></li>
-          <li class="on"><a href="./index_02.html">법인등기</a></li>
-        </ul>
-        <ul class="hb-user clearfix">
-          <li><a href="#">로그인</a></li>
-          <li class="mlr"></li>
-          <li><a href="#">회원가입</a></li>
-          <li class="mlr"></li>
-          <li><a href="#">마이페이지</a></li>
-        </ul>
-      </div>
-    </header>
+	<h1 class="skip">누리헬프</h1>
+	<div class="wrap">
+		<!-- 헤더 영역 -->
+		<header class="header">
+			<div class="header-box center-block contain cf">
+				<h2 class="hidden-lg logo-txt"><a href="#">누리헬프</a></h2>	
+				<button type="button" class="tab-hnb hidden-lg">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			
+				<div class="hd-gnb">
+					<a href="javascript:;" class="btn-cls a-i-x hidden-lg"></a>
+					<ul class="hb-tab hnb-m clearfix">
+						<li><a href="./index.html">지급명령</a></li>
+						<li class="on"><a href="./index_02.html">법인등기</a></li>
+					</ul>
+					<ul class="hb-user hnb-m clearfix">
+						<li><a href="admin/admin_01.html">로그인</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li><a href="admin/admin_00.html">회원가입</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li><a href="admin/admin_03.html">마이페이지</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li class="hidden-xs hidden-sm"><a href="#">고객센터</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
 
+		<!--지급명령 시작-->
+		<!--네비게이션 영역-->
+		<div class="top-wrap">
+			<div class="top-box center-block contain">
+				<h2 class="show-lg"><a href="./index_02.html">법인등기 헬프미</a></h2>
+				<nav>
+					<ul class="tb-nav clearfix">
+                        <li class="hidden-lg"><a href="./index_02.html">법인등기</a></li>
+                        <li><a href="registration/cheap/index.html">왜 이렇게 저렴한가요?</a></li>
+                        <li><a href="registration/step/index.html">절차안내</a></li>
+                        <li class="on"><a href="registration/charge/charge_01.html">이용요금</a></li>
+                        <li><a href="registration/reviews/index.html">이용후기</a></li>
+                        <li><a href="registration/lawyer/index.html">변호사 소개</a></li>
+						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="registration/apply/apply_01.html">법인등기 신청하기</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 
-    <!--지급명령 시작-->
-    <!--네비게이션 영역-->
-    <div class="top-wrap">
-      <div class="top-box center-block">
-        <h2><a href="./index.html">법인등기 헬프미</a></h2>
-        <nav>
-          <ul class="tb-nav clearfix">
-            <li><a href="">왜 이렇게 저렴한가요?</a></li>
-            <li><a href="">절차안내</a></li>
-            <li class="on"><a href="">이용요금</a></li>
-            <li><a href="">이용후기</a></li>
-            <li><a href="">변호사 소개</a></li>
-            <li class="btn-wrap"><a class="align-center" href="">법인등기 신청하기</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+        <h2 class="gh2 show-lg">이용요금</h2>
+        <section class="in-house-sec">
+           <!-- 서브메뉴 -->
+            <nav class="lnb-box">
+               <p class="hidden-lg lnb-txt-box"><a href="javascript:;"><span class="lnb-txt">본점이전 - 관내</span><span class="ic-bArrow"></span></a></p>
+               <ul class="lnb" id="lnb">
+                    <li class="on"><a href="javascript:;">본점이전 - 관내</a></li>
+                    <li class=""><a href="javascript:;">본점이전 - 관외</a></li>
+                    <li class=""><a href="javascript:;">설립등기</a></li>
+                    <li class=""><a href="javascript:;">신주발행</a></li>
+                    <li class=""><a href="javascript:;">임원, 지배인 변경</a></li>
+                    <li class=""><a href="javascript:;">대표이사 주소변경</a></li>
+                    <li class=""><a href="javascript:;">상호/목적/공고방법 변경</a></li>
+                    <li class=""><a href="javascript:;">주식매수선택권의 신설, 변경</a></li>
+                    <li class=""><a href="javascript:;">지점설치</a></li>
+                    <li class=""><a href="javascript:;">지점이전/폐지</a></li>
+                    <li class=""><a href="javascript:;">우선주, 전환사채, <br>전환상환우선주 등의 신설,변경</a></li>
+                    <li class=""><a href="javascript:;">발행할 예정주식수 변경</a></li>
+                    <li class=""><a href="javascript:;">1주의 금액 변경</a></li>
+                    <li class=""><a href="javascript:;">회사계속 등기</a></li>
+                    <li class=""><a href="javascript:;">정관변경</a></li>
+                    <li class="last yet"><a href="javascript:;">자본감소(준비중)</a></li>
+               </ul>
+            </nav>
+            
+            <!-- 본점이전 / 관내 -->
+            <section id="tab-sec-1" class="ihs-outer" style="display:block">
+                <h3>본점이전 - 관내<span>같은 권역에서 이동하는 것을 말함. <span class="show-xs"></span>크게 서울, 서울 외 과밀억제구역, 그 밖의  지역으로 구별</span></h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">112,500</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">22,500</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">152,000</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">119,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">11,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">130,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>282,900원</em></p>
+                  </div>
 
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">특수한 경우(외국인이 주주 또는 임원인 경우, 법원절차가 필요한 경우 등)에는<span class="show-sm show-lg"></span>추가 비용이 발생할 수 있으니 문의 주시기 바랍니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로서, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>본점이전 - 관내 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">없음</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>본점이전 - 관내 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 접수처리를 완료합니다.</p>
+                </div>
+            </section>
+            
+            <!-- 본점이전 / 관외 -->
+            <section id="tab-sec-2" class="ihs-outer">
+                <h3>본점이전 - 관외</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">구본점 등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">구본점 교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">구본점 법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">신본점 등록세</p>
+                          <p class="pull-right">112,500</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">신본점 교육세</p>
+                          <p class="pull-right">22,500</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">신본점 법원 수수료(증지)</p>
+                          <p class="pull-right">20,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">220,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">159,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">15,900</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">174,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>395,140원</em></p>
+                  </div>
 
-    <h2 class="gh2">이용요금</h2>
-    <section class="in-house-sec">
-      <nav class="lnb-box">
-        <ul class="lnb" id="lnb">
-          <li class="on"><a href="">본점이전 - 관내</a></li>
-          <li class=""><a href="">본점이전 - 관외</a></li>
-          <li class=""><a href="">설립등기</a></li>
-          <li class=""><a href="">신주발행</a></li>
-          <li class=""><a href="">임원, 지배인 변경</a></li>
-          <li class=""><a href="">대표이사 주소변경</a></li>
-          <li class=""><a href="">상호/목적/공고방법 변경</a></li>
-          <li class=""><a href="">주식매수선택권의 신설, 변경</a></li>
-          <li class=""><a href="">지점설치</a></li>
-          <li class=""><a href="">지점이전/폐지</a></li>
-          <li class=""><a href="">우선주, 전환사채, <br>전환상환우선주 등의 신설,변경</a></li>
-          <li class=""><a href="">발행할 예정주식수 변경</a></li>
-          <li class=""><a href="">1주의 금액 변경</a></li>
-          <li class=""><a href="">회사계속 등기</a></li>
-          <li class=""><a href="">정관변경</a></li>
-          <li class="last"><a href="">자본감소(준비중)</a></li>
-        </ul>
-      </nav>
-      <div class="ihs-outer">
-        <div class="ihs-box nth-1">
-          <h3>본점이전 - 관내<span>같은 권역에서 이동하는 것을 말함. 크게 서울, 서울 외 과밀억제구역, 그 밖의  지역으로 구별</span></h3>
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">지방에서 서울로 이전하는 경우, 비과밀 지역에서 과밀지역으로 이전하는 경우, 자본금의 1.2%에 해당하는 등록면허세가 추가로 발생합니다. <span class="show-sm show-lg"></span>자세한 금액은 등기신청을 해주시면 안내해드리겠습니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로서, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>본점이전 - 관외 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>본점이전 - 관외 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 설립등기 -->
+            <section id="tab-sec-3" class="ihs-outer est-reg-sec">
+                <h3>설립등기</h3>
+                
+                <div class="ihs-box nth-1">
+                  <p class="ers-p1">
+                    <span class="f-semibold"><label for="startMoeny">설립자본금</label></span>
+                    <input type="number" for="startMoeny" class="txt-box" value="1000000">
+                    <!-- input에 숫자 입력시 등장 -->
+                    <span class="money-text">일백만원</span>
+                  </p>
+                  <p class="ers-p2">
+                    <span class="f-semibold">법인설립지역</span>
+                    <input type="checkbox" id="checkBoxs" class="chk-box"/>
+                    <span><label for="checkBoxs">법인의 본점이 수도권과밀억제권역에 속한다면 체크해주세요.</label></span>
+                  </p>
+                  <p class="ers-p3"><img src="http://img.onbiz.co.kr/help/overcontrol.jpg" alt="수도권과밀억제권역그림"></p>
+                  <p class="ers-p4" id="ers-p4"><a href="" class="btn c-white align-center bg-yellow">법인등기 비용 계산하기</a></p>
 
-          <div class="ih-prc-box">
-            <ul class="ihpb-u1 clearfix">
-              <li class="ihpb-l nth-1">
-                <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
-                <div class="clearfix">
-                  <p class="pull-left">등록세</p>
-                  <p class="pull-right">30,000</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">교육세</p>
-                  <p class="pull-right">22,500</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">법원 수수료(증지)</p>
-                  <p class="pull-right">2,000</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">공증료</p>
-                  <p class="pull-right">없음</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">전자증명서</p>
-                  <p class="pull-right">15,000</p>
-                </div>
-                <div class="clearfix last">
-                  <p class="pull-left">소계</p>
-                  <p class="pull-right">152,000</p>
-                </div>
-              </li>
-              <li class="ihpb-l nth-2">
-                <h4>헬프미 수수료(오픈 특가)</h4>
-                <div class="clearfix">
-                  <p class="pull-left">기본 수수료</p>
-                  <p class="pull-right">129,000</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">교통비, 일당</p>
-                  <p class="pull-right">없음</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">제증명, 임감</p>
-                  <p class="pull-right">없음</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">기타 부대비용</p>
-                  <p class="pull-right">없음</p>
-                </div>
-                <div class="clearfix">
-                  <p class="pull-left">부가가치세</p>
-                  <p class="pull-right">12,900</p>
-                </div>
-                <div class="clearfix last">
-                  <p class="pull-left">소계</p>
-                  <p class="pull-right">141,900</p>
-                </div>
-              </li>
-            </ul>
-            <p class="ihpb-p1">총 합계 <em>293,900원</em></p>
-          </div>
+                  <!-- 비용계산하기 클릭시 등장 -->
+                  <div id="ers-prc-box" style="display:none">
+                    <div class="ih-prc-box">
+                      <ul class="ihpb-u1 clearfix">
+                        <li class="ihpb-l nth-1">
+                          <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                          <div class="clearfix">
+                            <p class="pull-left">등록세</p>
+                            <p class="pull-right">337,500</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">교육세</p>
+                            <p class="pull-right">67,500</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">법원 수수료(증지)</p>
+                            <p class="pull-right">20,000</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">공증료</p>
+                            <p class="pull-right c-gray4">없음(전자등기)</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left blank"></p>
+                            <p class="pull-right blank"></p>
+                          </div>
+                          <div class="clearfix last">
+                            <p class="pull-left">소계</p>
+                            <p class="pull-right">452,000</p>
+                          </div>
+                        </li>
+                        <li class="ihpb-l nth-2">
+                          <h4>헬프미 수수료(오픈 특가)</h4>
+                          <div class="clearfix">
+                            <p class="pull-left">기본 수수료</p>
+                            <p class="pull-right">279,000</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">교통비, 일당</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">제증명, 임감</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">기타 부대비용</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">부가가치세</p>
+                            <p class="pull-right">27,900</p>
+                          </div>
+                          <div class="clearfix last">
+                            <p class="pull-left">소계</p>
+                            <p class="pull-right">306,900</p>
+                          </div>
+                        </li>
+                      </ul>
+                      <p class="ihpb-p1">총 합계 <em>731,900원</em></p>
+                    </div>
+                    
+                    <div class="ih-prc-box-2">
+                        <h4>설립 고객을 위한 특별한 혜택</h4>
+                        <ul class="ihpb-u1 clearfix">
+                            <li class="ihpb-l nth-1">
+                                <div class="clearfix">
+                                    <p class="pull-left">기업형 인감도장</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">14,300</span>
+                                        <span class="free bg-yellow c-white">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">인감증명서 3부</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">3,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix last">
+                                    <p class="pull-left">등기부 3부</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">3,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="ihpb-l nth-2">
+                                <div class="clearfix">
+                                    <p class="pull-left">사업자등록</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">99,000</span>
+                                        <span class="free bg-yellow c-white">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">정관제작</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">99,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix last">
+                                    <p class="pull-left">혜움 세무기장대리</p>
+                                    <p class="pull-right">
+                                        <span class="free-2 c-yellow">20% 할인(6개월)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="ihpb-p1 c-gray3">
+                            파트너 세무사인 혜움을 통하여 사업자등록(무료), 세무 기장대리 서비스(20% 할인)를 <span class="show-sm show-lg"></span>제공해드립니다. (인허가가 필요한 경우 사업자등록 대행이 어려울 수 있습니다)
+                        </p>
+                    </div>
 
-          <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! 꼼꼼하게 챙겨드립니다.</p>
-          <p class="ih-pwrap">
-            <a href="" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
-          </p>
-          <p class="ih-p2">특수한 경우(외국인이 주주 또는 임원인 경우, 법원절차가 필요한 경우 등)에는<br>추가 비용이 발생할 수 있으니 문의 주시기 바랍니다.</p>
-          <p class="ih-p2">위 견적은 전자등기 견적으로서, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
-          <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
-          <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
-        </div>
-        <div class="ihs-box nth-2">
-          <h4>본점이전 - 관내 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
-          <p class="ih-p1">필요서류</p>
-          <p class="ih-p2">없음</p>
-          <p class="ih-p1 nth-2">준비물</p>
-          <p class="ih-p2">법인인감도장</p>
-        </div>
-        <div class="ihs-box nth-3">
-          <h4>본점이전 - 관내 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
-          <p class="ih-p1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
-          <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할<br> 질문지 링크를 보내드립니다.</p>
-          <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 접수처리를 완료합니다.</p>
-        </div>
-      </div>
-    </section>
+                    <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                    <p class="ih-pwrap">
+                      <a href="" class="btn align-center c-white bg-yellow center-block">바로 견적서 받아보기</a>
+                    </p>
+                  </div>
 
+                  <h4>공통안내</h4>
+                  <p class="ih-p2">설립등기의 경우, 정관, 주주명부 작성, 도장 제작, 법인등기부(3부) 및 법인인감증명서(3부) 발급을 <span class="show-sm show-lg"></span>추가비용 없이 해드립니다.</p>
+                  <p class="ih-p2">회사설립에 관한 법률적 자문이 필요하신 경우, 헬프미 변호사에게 상담을 받고 설립절차를 진행하실 수 있습니다.</p>
+                  <p class="ih-p2">설립 자본금이 10억원 이상인 경우, 할증 수수료가 있습니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로서, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
 
-    <!--푸터 영역-->
-    <footer class="footer">
-      <div class="footer-box clearfix center-block">
-        <ul class="clearfix">
-          <li><a href="#">면책공고</a></li>
-          <li class="mlr"></li>
-          <li><a href="#">이용약관</a></li>
-          <li class="mlr"></li>
-          <li><a href="#">개인정보취급방침</a></li>
-        </ul>
-        <div class="nth-1">지급명령<br/>헬프미</div>
-        <div class="nth-2">
-          <address>
-            <p>서울특별시 강남구 테헤란로82길 15, 15층(대치동, 디아이타워) (주)헬프미</p>
-            <p>대표이사: 박준수<span class="mlr"></span>사업자등록번호 : 220-88-97107</p>
-            <p class="last">help@helpme.co.kr<span class="mlr"></span><small>copyright 2015 by helpme, all right reserved.</small></p>
-          </address>
-        </div>
-        <div class="nth-3"><p class="c-yellow nth-1">지급명령<br/>고객센터</p><p class="c-white nth-2">02-6285-5601</p></div>
-      </div>
-    </footer>
-  </div>
+                  <h4>수도권과밀억제권역 안내</h4>
+                  <p class="ih-p2"><span class="s1">서울특별시 전체 지역</span></p>
+                  <p class="ih-p2"><span class="s1">인천광역시 일부 지역</span> : 강화군, 옹진군, 인천경제자유구역, 남동국가산업단지 그리고 서구 일부 지역(대곡동, 불노동, <br>
+                    마전동, 금곡동, 오류동, 왕길동, 당하동, 원당동)은 <span class="s1">수도권과밀억제권역에서 제외</span>됩니다.</p>
+                  <p class="ih-p2"><span class="s1">경기도일부 지역</span> : 의정부시, 구리시, 하남시, 고양시, 수원시, 성남시, 안양시, 부천시, 광명시, 과천시, 의왕시, 군포시, <br>
+                    시흥시 그리고 남양주시의 일부 지역 (호평동, 평내동,  금곡동, 이패동, 이패동, 삼패동, 가운동, 수석동, 지금동, <br>
+                    도농동만 해당)이 <span class="s1">수도권과밀억제권역에 포함</span>되며 반월특수지역은 <span class="s1">제외</span>됩니다. </p>
+                </div>
+                
+                <div class="ihs-box nth-2">
+                  <h4>설립등기 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1">필요서류</p>
+                  <p class="ih-p2">잔고증명서</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">발기인 전원의 공인인증서</p><p class="ih-p2 ml">임원 전원의 공인인증서</p>
+                </div>
+                
+                <div class="ihs-box nth-3">
+                  <h4>설립등기 - 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할<br> 질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 신주발행 -->
+            <section id="tab-sec-4" class="ihs-outer est-reg-sec">
+                <h3>신주발행</h3>
+                
+                <div class="ihs-box nth-1">
+                  <p class="ers-p1">
+                    <span class="f-semibold"><label for="startMoeny2">신주인수인(투자자)<span class="show-sm show-lg"></span>에게 발행할 주식 수</label></span>
+                    <input type="number" for="startMoeny2" class="txt-box" value="10">
+                    <!-- input에 숫자 입력시 등장 -->
+                    <span class="money-text">일십 주</span>
+                  </p>
+                  <p class="ers-p1">
+                    <span class="f-semibold"><label for="startMoeny3">1주의 금액 <span class="show-sm show-lg"></span>(등기부상 액면금)</label></span>
+                    <input type="number" for="startMoeny3" class="txt-box" value="1000000">
+                    <!-- input에 숫자 입력시 등장 -->
+                    <span class="money-text">일백만원</span>
+                  </p>
+                  <p class="ers-p2">
+                    <span class="f-semibold">법인설립지역</span>
+                    <input type="checkbox" id="checkBoxs2" class="chk-box"/>
+                    <span><label for="checkBoxs2">법인의 본점이 수도권과밀억제권역에 속한다면 체크해주세요.</label></span>
+                  </p>
+                  <p class="ers-p3"><img src="http://img.onbiz.co.kr/help/overcontrol.jpg" alt="수도권과밀억제권역그림"></p>
+                  </p>
+                  <p class="ers-p2 chk-block">
+                    <span class="f-semibold">설립기간</span>
+                    <input type="checkbox" id="checkBoxs3" class="chk-box"/>
+                    <span><label for="checkBoxs3">설립 후 만 5년 미만</label></span>
+                    <input type="checkbox" id="checkBoxs4" class="chk-box"/>
+                    <span><label for="checkBoxs4">설립 후 만 5년 경과</label></span>
+                  </p>
+                  <p class="ers-p4" id="ers-p4"><a href="" class="btn c-white align-center bg-yellow">법인등기 비용 계산하기</a></p>
+
+                  <!-- 비용계산하기 클릭시 등장 -->
+                  <div id="ers-prc-box" style="display:none">
+                    <div class="ih-prc-box">
+                      <ul class="ihpb-u1 clearfix">
+                        <li class="ihpb-l nth-1">
+                          <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                          <div class="clearfix">
+                            <p class="pull-left">등록세</p>
+                            <p class="pull-right">337,500</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">교육세</p>
+                            <p class="pull-right">67,500</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">법원 수수료(증지)</p>
+                            <p class="pull-right">20,000</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">공증료</p>
+                            <p class="pull-right c-gray4">없음(전자등기)</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left blank"></p>
+                            <p class="pull-right blank"></p>
+                          </div>
+                          <div class="clearfix last">
+                            <p class="pull-left">소계</p>
+                            <p class="pull-right">452,000</p>
+                          </div>
+                        </li>
+                        <li class="ihpb-l nth-2">
+                          <h4>헬프미 수수료(오픈 특가)</h4>
+                          <div class="clearfix">
+                            <p class="pull-left">기본 수수료</p>
+                            <p class="pull-right">279,000</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">교통비, 일당</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">제증명, 임감</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">기타 부대비용</p>
+                            <p class="pull-right c-yellow">없음</p>
+                          </div>
+                          <div class="clearfix">
+                            <p class="pull-left">부가가치세</p>
+                            <p class="pull-right">27,900</p>
+                          </div>
+                          <div class="clearfix last">
+                            <p class="pull-left">소계</p>
+                            <p class="pull-right">306,900</p>
+                          </div>
+                        </li>
+                      </ul>
+                      <p class="ihpb-p1">총 합계 <em>731,900원</em></p>
+                    </div>
+                    
+                    <div class="ih-prc-box-2">
+                        <h4>설립 고객을 위한 특별한 혜택</h4>
+                        <ul class="ihpb-u1 clearfix">
+                            <li class="ihpb-l nth-1">
+                                <div class="clearfix">
+                                    <p class="pull-left">기업형 인감도장</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">14,300</span>
+                                        <span class="free bg-yellow c-white">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">인감증명서 3부</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">3,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix last">
+                                    <p class="pull-left">등기부 3부</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">3,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="ihpb-l nth-2">
+                                <div class="clearfix">
+                                    <p class="pull-left">사업자등록</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">99,000</span>
+                                        <span class="free bg-yellow c-white">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">정관제작</p>
+                                    <p class="pull-right">
+                                        <span class="sale c-gray4">99,000</span>
+                                        <span class="free c-yellow">무료</span>
+                                    </p>
+                                </div>
+                                <div class="clearfix last">
+                                    <p class="pull-left">혜움 세무기장대리</p>
+                                    <p class="pull-right">
+                                        <span class="free-2 c-yellow">20% 할인(6개월)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="ihpb-p1 c-gray3">
+                            파트너 세무사인 혜움을 통하여 사업자등록(무료), 세무 기장대리 서비스(20% 할인)를 <span class="show-sm show-lg"></span>제공해드립니다. (인허가가 필요한 경우 사업자등록 대행이 어려울 수 있습니다)
+                        </p>
+                    </div>
+
+                    <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                    <p class="ih-pwrap">
+                      <a href="" class="btn align-center c-white bg-yellow center-block">바로 견적서 받아보기</a>
+                    </p>
+                  </div>
+
+                  <h4>등록세액 관련 안내</h4>
+                  <p class="ih-p2">수도권과밀억제지역인 경우, 등록세가 3배 중과됩니다. 하지만 지방세법 시행령 제26조 제1항에 해당하는 업종은 3배 중과가 제외됩니다.</p>
+                  <p class="ih-p2">또한, 창업일로부터 4년 이내의 창업중소기업(벤처기업과 다름)은 등록세가 면제됩니다.</p>
+                  <p class="ih-p2">신청서를 작성해 주시면 정확한 등록세액을 안내해 드리겠습니다.</p>
+
+                  <h4>공통안내</h4>
+                  <p class="ih-p2">특수한 경우(외국인이 주주 또는 임원인 경우, 법원 절차가 필요한 경우 등)에는 추가 비용이 발생할 수 있으니 문의 주시기 바라니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">증자한 다음, 회사의 자본금이 10억원 이상이 된다면 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증 업체를 통해 별도로 진행됩니다.</p>
+
+                  <h4>수도권과밀억제권역 안내</h4>
+                  <p class="ih-p2"><span class="s1">서울특별시 전체 지역</span></p>
+                  <p class="ih-p2"><span class="s1">인천광역시 일부 지역</span> : 강화군, 옹진군, 인천경제자유구역, 남동국가산업단지 그리고 서구 일부 지역(대곡동, 불노동, <br>
+                    마전동, 금곡동, 오류동, 왕길동, 당하동, 원당동)은 <span class="s1">수도권과밀억제권역에서 제외</span>됩니다.</p>
+                  <p class="ih-p2"><span class="s1">경기도일부 지역</span> : 의정부시, 구리시, 하남시, 고양시, 수원시, 성남시, 안양시, 부천시, 광명시, 과천시, 의왕시, 군포시, <br>
+                    시흥시 그리고 남양주시의 일부 지역 (호평동, 평내동,  금곡동, 이패동, 이패동, 삼패동, 가운동, 수석동, 지금동, <br>
+                    도농동만 해당)이 <span class="s1">수도권과밀억제권역에 포함</span>되며 반월특수지역은 <span class="s1">제외</span>됩니다. </p>
+                </div>
+                
+                <div class="ihs-box nth-2">
+                  <h4>설립등기 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p2">잔고증명서</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                  <p class="ih-p2">주식인수인 보통통장</p>
+                </div>
+                
+                <div class="ihs-box nth-3">
+                  <h4>설립등기 - 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할<br> 질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 임원, 지배인 변경 -->
+            <section id="tab-sec-5" class="ihs-outer">
+                <h3>임원, 지배인 변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">119,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">11,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">130,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>196,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">해임등기 서비스는 현재 제공하지 않습니다.</p>
+                  <p class="ih-p2">여러 명의 임원에 대한 등기를 동시에 하거나, 퇴임등기와 취임등기를 동시에 하는 경우, 추가 수수료가 발생합니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>임원, 지배인 변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                  <p class="ih-p2">변경될 임원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>임원, 지배인 변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 대표이사 주소변경 -->
+            <section id="tab-sec-6" class="ihs-outer">
+                <h3>대표이사 주소변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">89,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">8,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">97,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>163,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>대표이사 주소변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">없음</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>대표이사 주소변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>4.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 상호/목적/공고방법 변경 -->
+            <section id="tab-sec-7" class="ihs-outer">
+                <h3>상호/목적/공고방법 변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">129,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">12,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">141,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>207,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>상호/목적/공고방법 변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>상호/목적/공고방법 변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>4.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 주식매수선택권의 신설, 변 -->
+            <section id="tab-sec-8" class="ihs-outer">
+                <h3>주식매수선택권의 신설, 변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">149,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">14,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">163,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>229,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>주식매수선택권의 신설, 변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>주식매수선택권의 신설, 변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 지점설치 -->
+            <section id="tab-sec-9" class="ihs-outer">
+                <h3>지점설치</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">본점 등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">본점 교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">본점 법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">지점 등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">지점 교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">지점 법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">경우에 따라</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">115,480</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">179,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">17,900</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">196,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>312,380원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 경우는 본점과 다른 지역에 지점설치하는 경우입니다. 본점의 위치, 지점의 위치 그리고 설치할 지점의 수에 따라 국가에서 내는 비용과 헬프미 수수료가 다릅니다. 신청서를 작성해 주시면 정확한 금액을 안내해 드리겠습니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>지점설치 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">없음</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>지점설치 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>4.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 지점이전/폐지 -->
+            <section id="tab-sec-10" class="ihs-outer">
+                <h3>지점이전/폐지</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">129,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">12,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">141,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>207,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 본점과 같은 지역에 지점이 있는 경우입니다. 지점이 타 지역으로 이전하는 경우 및 본점과 지점이 다른 지역에 있는 경우, 비용이 다릅니다. 신청서를 작성해 주시면 정확한 금액을 안내해 드리겠습니다.</p>
+                  <p class="ih-p2">동일 관내 수개의 지점의 이전 또는 폐지의 등기를 “일괄하여 하나의 신청서로 신청하는 경우”에는 이를 하나의 등기신청으로 보아 “1건”의 등기신청 수수료(법원 수수료, 증지)만 납부하시면 됩니다.</p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>지점이전/폐지 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">없음</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>지점이전/폐지 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다..</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 우선주, 전환사채, 전환상환우선주 등의 신설,변경-->
+            <section id="tab-sec-11" class="ihs-outer">
+                <h3>우선주, 전환사채, 전환상환우선주</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">209,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">20,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">229,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>295,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>우선주, 전환사채, 전환상환우선주 등의 신설,변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>우선주, 전환사채, 전환상환우선주 등의 신설,변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 발행할 예정주식수 변경 -->
+            <section id="tab-sec-12" class="ihs-outer">
+                <h3>발행할 예정주식수 변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">129,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">12,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">141,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>207,140원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>발행할 예정주식수 변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>발행할 예정주식수 변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 1주의 금액 변경 -->
+            <section id="tab-sec-13" class="ihs-outer">
+                <h3>1주의 금액 변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">40,200</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">8,040</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">2,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">전자증명서</p>
+                          <p class="pull-right">15,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">신문공고비</p>
+                          <p class="pull-right">별도 발생</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">65,240 + 신문공고비</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">600,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">60,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">660,000</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>725,240원</em> + 신문공고비</p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">위 견적은 전자등기 견적으로, 전자등기를 하지 않는다면 추가 비용이 발생할 수 있습니다.</p>
+                  <p class="ih-p2">2개 이상의 등기를 동시에 신청하는 경우, 추가 수수료가 있습니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>1주의 금액 변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>1주의 금액 변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>4.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 회사계속 등기 -->
+            <section id="tab-sec-14" class="ihs-outer">
+                <h3>회사계속 등기</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">80,400</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">16,080</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">4,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">없음(전자등기)</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">100,480</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">249,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">24,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">273,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>374,380원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">회사가 해산간주 상태인 경우에는, 회사계속등기와 신규임원취임 등기를 함께 해야합니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>회사계속 등기 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p2">주주명부</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">법인인감도장</p>
+                  <p class="ih-p2">주주 전원 공인인증서</p>
+                  <p class="ih-p2">퇴임 후 취임인원 공인인증서</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>회사계속 등기 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 정관변경 -->
+            <section id="tab-sec-15" class="ihs-outer">
+                <h3>정관변경</h3>
+                <div class="ihs-box nth-1">
+                  <div class="ih-prc-box">
+                    <ul class="ihpb-u1 clearfix">
+                      <li class="ihpb-l nth-1">
+                        <h4>공과금(국가 또는 공증인에게 내는 돈)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">등록세</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교육세</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">법원 수수료(증지)</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">공증료</p>
+                          <p class="pull-right">별도 문의</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left"></p>
+                          <p class="pull-right"></p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">0</p>
+                        </div>
+                      </li>
+                      <li class="ihpb-l nth-2">
+                        <h4>헬프미 수수료(오픈 특가)</h4>
+                        <div class="clearfix">
+                          <p class="pull-left">기본 수수료</p>
+                          <p class="pull-right">129,000</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">교통비, 일당</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">제증명, 임감</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">기타 부대비용</p>
+                          <p class="pull-right">없음</p>
+                        </div>
+                        <div class="clearfix">
+                          <p class="pull-left">부가가치세</p>
+                          <p class="pull-right">12,900</p>
+                        </div>
+                        <div class="clearfix last">
+                          <p class="pull-left">소계</p>
+                          <p class="pull-right">141,900</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="ihpb-p1">총 합계 <em>141,900원</em></p>
+                  </div>
+
+                  <p class="ih-p1">등기는 헬프미 변호사에게 맡기고 사업에 전념하세요! <span class="show-xs"></span>꼼꼼하게 챙겨드립니다.</p>
+                  <p class="ih-pwrap">
+                    <a href="#none" class="btn align-center c-white bg-yellow">법인등기 신청하기</a>
+                  </p>
+                  <p class="ih-p2">정관을 새로 제작하는 겨웅 수수료는 199,000원입니다.</p>
+                  <p class="ih-p2">공증이 필요한 경우 공증업체를 통해 별도로 진행됩니다.</p>
+                </div>
+                <div class="ihs-box nth-2">
+                  <h4>정관변경 필요서류(전자등기) <span>(회사 규모와 자본금에 따라 전자등기가 불가능할 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1">필요서류</p>
+                  <p class="ih-p2">정관</p>
+                  <p class="ih-p1 nth-2">준비물</p>
+                  <p class="ih-p2">없음</p>
+                </div>
+                <div class="ihs-box nth-3">
+                  <h4>정관변경 절차(전자등기) <span>(전자등기가 불가능한 경우, 일반등기로 진행되며 절차가 달라질 수 있습니다.)</span></h4>
+                  <p class="ih-p1 nth-1"><span>1.</span>홈페이지에서 등기신청을 해주시면, 저희가 등기부등본을 발급받은 후, 전화를 드립니다.</p>
+                  <p class="ih-p1"><span>2.</span>전화통화 후, 이메일로 견적서를 보내드리고, 결제완료 후 이메일로 필수정보를 입력할 <span class="show-sm show-lg"></span>질문지 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>3.</span>링크에 답변을 해주시면, 저희가 나머지 업무를 처리한 다음, 고객님께 인터넷등기소 링크를 보내드립니다.</p>
+                  <p class="ih-p1"><span>4.</span>고객님이 그 링크를 클릭한 다음 공인인증서 비밀번호를 입력해주시면, 저희가 접수 처리를 완료합니다.</p>
+                  <p class="ih-p1"><span>5.</span>등기가 완료되면 72시간 내에 세금계산서 발행 및 영수증, 관련 서류를 등기우편으로 발송해드립니다.</p>
+                </div>
+            </section>
+            
+            <!-- 자본감소(준비중) -->
+            <!--<section id="tab-sec-" class="ihs-outer">
+                <h3>내용</h3>
+            </section>-->
+        </section>
+        
+
+		<!--푸터 영역-->
+		<footer class="footer">
+			<div class="footer-box clearfix contain center-block">
+				<div class="nth-3 show-xs show-sm">
+					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-white nth-2">02-6285-5601</p>
+				</div>
+				<ul class="clearfix">
+					<li><a href="#">면책공고</a></li>
+					<li class="mlr"></li>
+					<li><a href="#">이용약관</a></li>
+					<li class="mlr"></li>
+					<li><a href="#">개인정보취급방침</a></li>
+				</ul>
+				<div class="nth-1"><span class="show-lg">지급명령<br/>헬프미</span><span class="show-xs show-sm">누리헬프</span></div>
+				<div class="nth-2">
+					<address>
+						<p>서울특별시 강남구 테헤란로82길 15, 15층(대치동, 디아이타워) (주)헬프미</p>
+						<p>대표이사: 박준수<span class="mlr"></span>사업자등록번호 : 220-88-97107</p>
+						<p class="last">help@helpme.co.kr<span class="mlr"></span><small>copyright 2015 by helpme, all right reserved.</small></p>
+					</address>
+				</div>
+				<div class="nth-3 show-lg">
+					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-white nth-2">02-6285-5601</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>
