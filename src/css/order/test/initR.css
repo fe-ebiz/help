@@ -68,7 +68,8 @@ label {cursor: pointer;}
 	.test01-2-sec .test-box .row p span.c-gray3 {font-size: 13px; word-break: keep-all;}
 	
 	/*테스트01 레이어팝업*/
-	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 28px;}
+	.layer-pop .pop-area {width: 300px; padding: 37px 20px 25px;}
+	.layer-pop .pop-area .pop-tit {display:inline-block; margin-bottom:20px; color:#000; font-weight: 500; font-size: 20px;}
 	.layer-pop .pop-area .pop-txt {color:#595959; font-size:14px; line-height: 1.4em;}
 	.layer-pop .pop-area .btn-wrap {margin-top: 25px; margin-bottom: 3px;}
 	.layer-pop .pop-area .btn-wrap .btn {display: block; width: 240px; margin: 0 auto; height: 46px; color: #fff; font-size: 18px; font-weight: 600; line-height: 2.5em; letter-spacing: 0;}
@@ -159,6 +160,62 @@ label {cursor: pointer;}
 	/*테스트02-2*/
 	.test02-2-gh2 {font-size: 19px; padding-top: 25px; font-weight: 600; text-align: center; width: 94%; max-width: 360px; margin: 0px auto;}
 	.charge-sec {margin-top: 20px; margin-bottom: 20px;}
+	
+	/*테스트03-1*/
+	.test03-1-sec {padding-bottom: 50px;}
+	.test03-1-sec h2, .test03-1-sec .outer {position: relative; width: 94%; max-width: 360px; margin: 0 auto;}
+	.test03-1-sec h2 {font-size: 18px; font-weight: 600; margin-top: 30px; letter-spacing: -1px;}
+	.test03-1-sec h2.nth-1 {margin-top: 25px;}
+	.test03-1-sec .outer {margin-top: 10px; border: 1px solid #bfbfbf; padding: 15px 5px 15px 10px; word-break: keep-all;}
+	.test03-1-sec .outer.nth-1 .btn {position: absolute; right: 10px; bottom: 10px; display: inline-block; padding: 8px 12px; font-size: 15px; border: 1px solid #ffb411;}
+	.test03-1-sec .outer.nth-1 > div {position: relative; line-height: 1.25;}
+	.test03-1-sec .outer.nth-1 > .d-1 {font-size: 15px; line-height: 1.6;}
+	.test03-1-sec .outer.nth-1 > .d-1 .p-2 {font-size: 13px; color: #4b4b4b;}
+	.test03-1-sec .outer.nth-1 > .d-2 {font-size: 15px; margin-top: 10px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-1 {color: #989898;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-2 {font-size: 16px;}
+	.test03-1-sec .outer.nth-1 > .d-2 > p .s-1 {display: inline-block; width: 60px; font-size: 14px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .won {font-size: 14px;}
+	
+	.test03-1-sec .outer.nth-2 {padding-bottom: 15px; line-height: 1.4; padding-left: 23px; font-size: 13px; margin-bottom: 55px;}
+	.test03-1-sec .outer.nth-2 h3 {font-size: 14px; margin-top: 15px;  margin-bottom: 5px;}
+	.test03-1-sec .outer.nth-2 h3:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-2 .p-num {position: absolute; left: 10px;}
+	.test03-1-sec .outer.nth-2 .p-dot {line-height: 1.4em; color: #4b4b4b; margin-left: -5px;}
+	.test03-1-sec .outer.nth-2 .p-dot:before {content: "-";}
+	.test03-1-sec .outer.nth-2 .chk-wrap {position: absolute; left: 0; bottom: -30px; width: 100%; text-align: center;}
+	.test03-1-sec .outer.nth-2 .chk-box {top: 0px; margin-right: 5px;}
+	.test03-1-sec .outer.nth-2 .chk-box:before {border-color: #000;}
+	.test03-1-sec .outer.nth-2 .chk-box + label {font-size: 14px;}
+	.test03-1-sec .outer.nth-3 .chk-wrap {margin-top: 10px; font-size: 13px;}
+	.test03-1-sec .outer.nth-3 .chk-wrap:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-3 .chk-box {top: 1px; margin-right: 5px;}
+	.test03-1-sec .outer.nth-3 .chk-box:before {border-color: #000;}
+	.test03-1-sec .outer.nth-3 .btn {position: relative; color: #4b4b4b; display: inline-block; top: 1px; font-size: 11px; padding: 0px 6px 0px; height: 20px; line-height: 1.6em; border: 1px solid #bfbfbf; margin-left: 5px; vertical-align: middle; font-family: "Nanum Gothic";}
+	.test03-1-sec .outer.nth-3 .btn span {font-family: "Nanum Gothic"; font-size: 10px; position: relative; top: -1px; margin-left: 3px; font-weight: 600;}
+	.test03-1-sec .outer.nth-3 #chk-all + label {font-weight: 500;}
+	.test03-1-sec .outer.nth-4 > ul li {margin-top: 10px;}
+	.test03-1-sec .outer.nth-4 > ul li:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 span, .test03-1-sec .outer.nth-4 > ul li.nth-2 span {position: relative; display: inline-block; vertical-align: middle;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 span.nth-1, .test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-1 {font-size: 15px; width: 70px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 .btn {display: inline-block; width: 62px; height: 22px; line-height: 1.6em; vertical-align: middle; font-size: 13px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-2, .test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {font-size: 13px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.won {position: relative; top: -1px; margin-right: 4px; font-size: 16px; font-family: "Nanum Gothic"; font-weight: 600;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {color: #989898;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {position: relative; width: 98%; padding: 15px 12px; border: 2px solid #000; margin-top: 24px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {text-align: center; letter-spacing: -1px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div {position: relative; display: block; margin-top: 8px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div p {letter-spacing: -1px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-1 {float: left; font-size: 14px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-2 {float: right; font-size: 14px; font-weight: 500;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.d-3 .show-xs {display: inline-block !important; top: -2px; position: relative; margin-right: 2px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.d-4 .p-1 {font-size: 15px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.d-4 .p-2 {color: #ffb411; font-size: 17px; font-weight: 600; margin-top: -2px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun {display: none;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun2 {display: block; height: 1px; width: 100%; background: #d2d2d2; margin: 12px auto;}
+	.test03-1-sec .btn-wrap {margin-top: 40px;}
+	.test03-1-sec .btn-wrap .btn {width: 268px;}
 }
 @media (min-width: 768px) and (max-width: 1099px) {
 	/*테스트 공통*/
@@ -314,6 +371,59 @@ label {cursor: pointer;}
 	/*테스트02-2*/
 	.test02-2-gh2 {font-size: 34px; padding-top: 50px; font-weight: 600; text-align: center;}
 	.charge-sec {margin-top: 50px; margin-bottom: 20px;}
+	
+	/*테스트03-1*/
+	.test03-1-sec {padding-bottom: 50px;}
+	.test03-1-sec h2 {width: 728px; margin: 0 auto; font-size: 30px; font-weight: 600; margin-top: 60px;}
+	.test03-1-sec h2.nth-1 {margin-top: 55px;}
+	.test03-1-sec .outer {position: relative; width: 728px; margin: 0 auto; margin-top: 20px; border: 1px solid #bfbfbf; padding: 25px 10px 25px 20px; word-break: keep-all;}
+	.test03-1-sec .outer.nth-1 .btn {position: absolute; right: 0; bottom: -50px; display: inline-block; width: 140px; height: 42px; font-size: 18px; border: 1px solid #ffb411;}
+	.test03-1-sec .outer.nth-1 > div {position: relative; float: left; line-height: 1.25;}
+	.test03-1-sec .outer.nth-1 > .d-1 {width: 480px; font-size: 20px; line-height: 1.6;}
+	.test03-1-sec .outer.nth-1 > .d-1 .p-2 {font-size: 16px; color: #4b4b4b;}
+	.test03-1-sec .outer.nth-1 > .d-2 {font-size: 18px; margin-top: 3px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-1 {color: #989898;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-2 {font-size: 24px;}
+	.test03-1-sec .outer.nth-1 > .d-2 > p .s-1 {display: inline-block; width: 80px; font-size: 17px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .won {font-size: 16px;}
+	
+	.test03-1-sec .outer.nth-2 {padding-bottom: 15px; line-height: 1.4; padding-left: 38px;}
+	.test03-1-sec .outer.nth-2 h3 {font-size: 18px; margin-top: 15px;  margin-bottom: 10px;}
+	.test03-1-sec .outer.nth-2 h3:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-2 .p-num {position: absolute; left: 20px;}
+	.test03-1-sec .outer.nth-2 .p-dot {line-height: 1.4em; color: #4b4b4b; margin-left: -5px;}
+	.test03-1-sec .outer.nth-2 .p-dot:before {content: "-";}
+	.test03-1-sec .outer.nth-2 .chk-wrap {position: absolute; left: 0; bottom: -30px; width: 100%; text-align: center;}
+	.test03-1-sec .outer.nth-2 .chk-box {top: 1px; margin-right: 10px;}
+	.test03-1-sec .outer.nth-2 .chk-box:before {border-color: #000;}
+	.test03-1-sec .outer.nth-2 .chk-box + label {font-size: 18px;}
+	.test03-1-sec .outer.nth-3 .chk-wrap {margin-top: 10px;}
+	.test03-1-sec .outer.nth-3 .chk-wrap:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-3 .chk-box {top: 1px; margin-right: 6px;}
+	.test03-1-sec .outer.nth-3 .chk-box:before {border-color: #000;}
+	.test03-1-sec .outer.nth-3 .btn {position: relative; color: #4b4b4b; display: inline-block; top: 1px; font-size: 13px; padding: 0px 8px 0px; height: 20px; line-height: 1.4em; border: 1px solid #bfbfbf; margin-left: 8px; vertical-align: middle; font-family: "Nanum Gothic";}
+	.test03-1-sec .outer.nth-3 .btn span {font-family: "Nanum Gothic"; font-size: 10px; position: relative; top: -2.5px; margin-left: 3px; font-weight: 600;}
+	.test03-1-sec .outer.nth-3 #chk-all + label {font-weight: 500;}
+	.test03-1-sec .outer.nth-4 > ul li {margin-top: 16px;}
+	.test03-1-sec .outer.nth-4 > ul li:first-child {margin-top: 0;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 span, .test03-1-sec .outer.nth-4 > ul li.nth-2 span {position: relative; display: inline-block; vertical-align: middle;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 span.nth-1, .test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-1 {font-size: 20px; width: 105px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-1 .btn {display: inline-block; width: 72px; height: 24px; line-height: 1.4em; vertical-align: middle;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-2, .test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {font-size: 16px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.won {position: relative; top: 1px; margin-right: 4px; font-size: 16px; font-family: "Nanum Gothic"; font-weight: 600;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {color: #989898; margin-left: 6px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {position: relative; width: 688px; height: 110px; padding: 30px 0px; border: 2px solid #000; margin-top: 24px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {text-align: center; letter-spacing: -1px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div {position: relative; display: inline-block; vertical-align: middle;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-1 {font-size: 18px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-2 {font-size: 20px; font-weight: 500; margin-top: 10px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.d-4 .p-2 {color: #ffb411; font-size: 22px; font-weight: 600;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun {width: 70px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun .bar {display: block; margin: 0 auto; width: 25px; height: 4px; background: #bfbfbf;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun2 {}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun2 .bar:first-child {margin-bottom: 6px;}
+	.test03-1-sec .btn-wrap {margin-top: 40px;}
+	.test03-1-sec .btn-wrap .btn {width: 268px;}
 }
 @media (min-width:1100px) {
 	body {background: #F0F0F0; width: 100%; height: 100%;}
@@ -473,20 +583,20 @@ label {cursor: pointer;}
 	.test03-1-sec h2.nth-1 {margin-top: 55px;}
 	.test03-1-sec .outer {position: relative; width: 1034px; margin: 0 auto; margin-top: 20px; border: 1px solid #bfbfbf; padding: 25px 10px 25px 40px;}
 	.test03-1-sec .outer.nth-1 .btn {position: absolute; right: 0; bottom: -50px; display: inline-block; width: 140px; height: 42px; font-size: 18px; border: 1px solid #ffb411;}
-	.test03-1-sec .outer.nth-1 p span {display: inline-block; line-height: 1.25em;}
-	.test03-1-sec .outer.nth-1 p span.nth-1 {width: 750px; padding-right: 10px;}
-	.test03-1-sec .outer.nth-1 p.nth-1 span.nth-1 {font-size: 26px;}
-	.test03-1-sec .outer.nth-1 p.nth-2 span.nth-1 {font-size: 16px; color: #4b4b4b;}
-	.test03-1-sec .outer.nth-1 p.nth-1 span.nth-2, .test03-1-sec .outer.nth-1 p.nth-1 span.nth-3 {color: #989898;}
-	.test03-1-sec .outer.nth-1 p span.nth-2 {width: 80px;}
-	.test03-1-sec .outer.nth-1 p.nth-1 span.nth-2 {font-size: 16px;}
-	.test03-1-sec .outer.nth-1 p.nth-1 span.nth-3 {font-size: 20px;}
-	.test03-1-sec .outer.nth-1 p.nth-2 span.nth-2 {font-size: 18px;}
-	.test03-1-sec .outer.nth-1 p.nth-2 span.nth-3 {font-size: 24px;}
-	.test03-1-sec .outer.nth-2 {padding-bottom: 15px;}
+	.test03-1-sec .outer.nth-1 > div {position: relative; float: left; line-height: 1.25;}
+	.test03-1-sec .outer.nth-1 > .d-1 {width: 750px; font-size: 20px; line-height: 1.6;}
+	.test03-1-sec .outer.nth-1 > .d-1 .p-2 {font-size: 16px; color: #4b4b4b;}
+	.test03-1-sec .outer.nth-1 > .d-2 {font-size: 18px; margin-top: 3px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-1 {color: #989898;}
+	.test03-1-sec .outer.nth-1 > .d-2 .p-2 {font-size: 24px;}
+	.test03-1-sec .outer.nth-1 > .d-2 > p .s-1 {display: inline-block; width: 80px; font-size: 17px;}
+	.test03-1-sec .outer.nth-1 > .d-2 .won {font-size: 16px;}
+		
+	.test03-1-sec .outer.nth-2 {padding-bottom: 15px; line-height: 1.4; padding-left: 38px;}
 	.test03-1-sec .outer.nth-2 h3 {font-size: 18px; margin-top: 15px;  margin-bottom: 10px;}
 	.test03-1-sec .outer.nth-2 h3:first-child {margin-top: 0;}
-	.test03-1-sec .outer.nth-2 .p-dot {margin-left: 14px; line-height: 1.4em; color: #4b4b4b;}
+	.test03-1-sec .outer.nth-2 .p-num {position: absolute; left: 20px;}
+	.test03-1-sec .outer.nth-2 .p-dot {line-height: 1.4em; color: #4b4b4b; margin-left: -5px;}
 	.test03-1-sec .outer.nth-2 .p-dot:before {content: "-";}
 	.test03-1-sec .outer.nth-2 .chk-wrap {position: absolute; left: 0; bottom: -30px; width: 100%; text-align: center;}
 	.test03-1-sec .outer.nth-2 .chk-box {top: 1px; margin-right: 10px;}
@@ -496,7 +606,7 @@ label {cursor: pointer;}
 	.test03-1-sec .outer.nth-3 .chk-wrap:first-child {margin-top: 0;}
 	.test03-1-sec .outer.nth-3 .chk-box {top: 1px; margin-right: 6px;}
 	.test03-1-sec .outer.nth-3 .chk-box:before {border-color: #000;}
-	.test03-1-sec .outer.nth-3 .btn {position: relative; color: #4b4b4b; display: inline-block; top: 1px; font-size: 14px; padding: 0px 8px 0px; height: 20px; line-height: 1.4em; border: 1px solid #bfbfbf; margin-left: 8px; vertical-align: middle; font-family: "Nanum Gothic";}
+	.test03-1-sec .outer.nth-3 .btn {position: relative; color: #4b4b4b; display: inline-block; top: 1px; font-size: 13px; padding: 0px 8px 0px; height: 20px; line-height: 1.4em; border: 1px solid #bfbfbf; margin-left: 8px; vertical-align: middle; font-family: "Nanum Gothic";}
 	.test03-1-sec .outer.nth-3 .btn span {font-family: "Nanum Gothic"; font-size: 10px; position: relative; top: -2.5px; margin-left: 3px; font-weight: 600;}
 	.test03-1-sec .outer.nth-3 #chk-all + label {font-weight: 500;}
 	.test03-1-sec .outer.nth-4 > ul li {margin-top: 16px;}
@@ -507,20 +617,17 @@ label {cursor: pointer;}
 	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-2, .test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {font-size: 16px;}
 	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.won {position: relative; top: 1px; margin-right: 4px; font-size: 16px; font-family: "Nanum Gothic"; font-weight: 600;}
 	.test03-1-sec .outer.nth-4 > ul li.nth-2 span.nth-3 {color: #989898; margin-left: 6px;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {position: relative; width: 988px; height: 140px; padding: 30px 48px; border: 2px solid #000; left: -18px; margin-top: 24px;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] p {position: relative; display: inline-block;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] .p1 {width: 26%;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] .p2 {width: 26%;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] .p3 {width: 25%;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] .p4 {width: 21%}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box [class*='row'] {}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row1 {}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row1 p {font-size: 20px; margin-bottom: 20px; font-weight: 500;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row2 p {font-size: 30px; font-weight: 500;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row2 p .ff {font-size: 24px;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row2 p .sun {position: absolute; right: 15%; top: -8px; width: 25px; height: 4px; background: #bfbfbf;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row2 p .sun.nth-2 {top: 2px;}
-	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box .row2 p.p4 {color: #ffb411; font-weight: 600;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {position: relative; width: 988px; height: 140px; padding: 30px 0px; border: 2px solid #000; left: -18px; margin-top: 24px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box {text-align: center;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div {position: relative; display: inline-block; vertical-align: middle;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-1 {font-size: 20px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-2 {font-size: 30px; font-weight: 500; margin-top: 20px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div .p-2 .ff {font-size: 24px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.d-4 .p-2 {color: #ffb411; font-weight: 600;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun {width: 100px;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun .bar {display: block; margin: 0 auto; width: 25px; height: 4px; background: #bfbfbf;}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun2 {}
+	.test03-1-sec .outer.nth-4 > ul li.nth-3 .box > div.sun2 .bar:first-child {margin-bottom: 6px;}
 	.test03-1-sec .btn-wrap {margin-top: 40px;}
 	.test03-1-sec .btn-wrap .btn {width: 268px;}
 

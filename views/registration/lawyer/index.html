@@ -20,15 +20,8 @@
 	<script src="http://static.onbiz.co.kr/js/help/jquery-1.10.2.min.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/jquery.bxslider.min.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/common.js"></script>
-	<!--<script src="http://static.onbiz.co.kr/js/help/index2.js"></script>-->
-	
-	<!--<script src="../../../static/js/common.js"></script>-->
-	<!--<script src="../../../static/js/registration/lawyer/initR.js"></script>-->
 
-<!--
-		<link rel="stylesheet" href="../../../static/css/commonR_ie8.css">
-		<link rel="stylesheet" href="../../../static/css/registration/lawyer/initR_ie8.css">-->
-		
+
 	<!--[if lt IE 9]>
         <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR_ie8.css">
         <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/lawyer/initR_ie8.css">
@@ -43,50 +36,73 @@
 		<!-- 헤더 영역 -->
 		<header class="header">
 			<div class="header-box center-block contain cf">
-				<h2 class="hidden-lg logo-txt"><a href="#">누리헬프</a></h2>	
+				<h2 class="hidden-lg logo-txt"><a href="#">누리헬프</a></h2>
 				<button type="button" class="tab-hnb hidden-lg">
 					<span class="bar"></span>
 					<span class="bar"></span>
 					<span class="bar"></span>
 				</button>
-			
+
 				<div class="hd-gnb">
-					<a href="javascript:;" class="btn-cls a-i-x hidden-lg"></a>
 					<ul class="hb-tab hnb-m clearfix">
-						<li><a href="./index.html">지급명령</a></li>
-						<li class="on"><a href="./index_02.html">법인등기</a></li>
+						<li><a href="../order/index.html">지급명령</a></li>
+						<li class="on"><a href="./index.html">법인등기</a></li>
+						<li><a href="../eviction/index.html">명도소송</a></li>
 					</ul>
+					<!-- 로그인 전 -->
 					<ul class="hb-user hnb-m clearfix">
-						<li><a href="admin/admin_01.html">로그인</a></li>
+						<li><a href="admin/index.html">로그인</a></li>
 						<li class="mlr hidden-xs hidden-sm"></li>
-						<li><a href="admin/admin_00.html">회원가입</a></li>
-						<li class="mlr hidden-xs hidden-sm"></li>
-						<li><a href="admin/admin_03.html">마이페이지</a></li>
+						<li><a href="admin/index_01.html">회원가입</a></li>
 						<li class="mlr hidden-xs hidden-sm"></li>
 						<li class="hidden-xs hidden-sm"><a href="#">고객센터</a></li>
 					</ul>
+					<!-- 로그인 후 -->
+					<!--
+					<ul class="hb-user hnb-m clearfix">
+						<li><a href="admin/index.html">로그아웃</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li><a href="admin/index_01.html">마이페이지</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li class="hidden-xs hidden-sm"><a href="#">고객센터</a></li>
+					</ul>
+-->
 				</div>
 			</div>
 		</header>
 
-		<!--지급명령 시작-->
 		<!--네비게이션 영역-->
 		<div class="top-wrap">
 			<div class="top-box center-block contain">
-				<h2 class="show-lg"><a href="./index_02.html">법인등기 헬프미</a></h2>
+				<h2 class="show-lg"><a href="./index.html">법인등기 헬프미</a></h2>
+
 				<nav>
+					<ul class="tb-nav clearfix hidden-lg">
+						<li class="hidden-lg"><a href="../order/index.html">지급명령</a></li>
+						<li><a href="../order/charge/index.html">이용요금</a></li>
+						<li><a href="../order/lawyer/index.html">변호사 소개</a></li>
+						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">지급명령 신청하기</a></li>
+					</ul>
 					<ul class="tb-nav clearfix">
-                        <li class="hidden-lg"><a href="./index_02.html">법인등기</a></li>
-                        <li><a href="registration/cheap/index.html">왜 이렇게 저렴한가요?</a></li>
-                        <li><a href="registration/step/index.html">절차안내</a></li>
-                        <li><a href="registration/charge/charge_01.html">이용요금</a></li>
-                        <li><a href="registration/reviews/index.html">이용후기</a></li>
-                        <li class="on"><a href="registration/lawyer/index.html">변호사 소개</a></li>
-						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="registration/apply/apply_01.html">법인등기 신청하기</a></li>
+						<li class="hidden-lg"><a href="./index.html">법인등기</a></li>
+						<li><a href="./cheap/index.html">왜 이렇게 저렴한가요?</a></li>
+						<li><a href="./step/index.html">절차안내</a></li>
+						<li><a href="./charge/index.html">이용요금</a></li>
+						<li><a href="./reviews/index.html">이용후기</a></li>
+						<li><a href="./lawyer/index.html">변호사 소개</a></li>
+						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">법인등기 신청하기</a></li>
+					</ul>
+					<ul class="tb-nav clearfix hidden-lg">
+						<li class="hidden-lg"><a href="../eviction/index.html">명도소송</a></li>
+						<li><a href="../eviction/suit/index.html">소송현황</a></li>
+						<li><a href="../eviction/case/index.html">주요사례</a></li>
+						<li><a href="../eviction/fna/index.html">Q&#38;A</a></li>
+						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">명도소송 신청하기</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
+		
 		
         <h2 class="gh2">변호사 소개</h2>
         <section class="lawyer-sec">
@@ -126,7 +142,7 @@
 		<footer class="footer">
 			<div class="footer-box clearfix contain center-block">
 				<div class="nth-3 show-xs show-sm">
-					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-yellow nth-1">법인등기<br/>고객센터</p>
 					<p class="c-white nth-2">02-6285-5601</p>
 				</div>
 				<ul class="clearfix">
@@ -136,7 +152,7 @@
 					<li class="mlr"></li>
 					<li><a href="#">개인정보취급방침</a></li>
 				</ul>
-				<div class="nth-1"><span class="show-lg">지급명령<br/>헬프미</span><span class="show-xs show-sm">누리헬프</span></div>
+				<div class="nth-1"><span class="show-lg">법인등기<br/>헬프미</span><span class="show-xs show-sm">누리헬프</span></div>
 				<div class="nth-2">
 					<address>
 						<p>서울특별시 강남구 테헤란로82길 15, 15층(대치동, 디아이타워) (주)헬프미</p>
@@ -145,7 +161,7 @@
 					</address>
 				</div>
 				<div class="nth-3 show-lg">
-					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-yellow nth-1">법인등기<br/>고객센터</p>
 					<p class="c-white nth-2">02-6285-5601</p>
 				</div>
 			</div>

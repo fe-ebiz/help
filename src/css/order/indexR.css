@@ -46,10 +46,10 @@
 	.ws-box div.nth-2 {}
 	.ws-box div.nth-3 {}
 	.ws-box div h3 {font-size: 12px; font-weight: 500; margin-bottom: 10px;}
-	.ws-box div p {font-size: 12px; line-height: 1.3em;}
+	.ws-box div p {font-size: 12px; line-height: 1.3em; word-break: keep-all;}
 
 	.progress-sec {padding-bottom: 30px;}
-	.pb-inner {max-width: 360px; margin: 0 auto;} 
+	.pb-inner {max-width: 340px; margin: 0 auto;} 
 	.pb-inner ul.nth-2:before {content: ""; display: block; width: 100%; height: 1px;}
 	.pb-inner ul.nth-2 {height: 280px; background: url(http://img.onbiz.co.kr/help/order/bg_progress.jpg) no-repeat 5px top; background-size: 34px; margin-top: 30px;}
 	.pb-inner ul.nth-2 {position: relative; top: 0px; padding-left: 42px;}
@@ -142,7 +142,7 @@
 	.rs-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -25px 0px; right: 0px; background-size: 100px;}
 }
 @media (min-width: 768px) and (max-width: 1099px) {
-	.contain {padding-left: 20px; padding-right: 20px;}
+/*	.contain {padding-left: 20px; padding-right: 20px;}*/
 	
 	/********************************** 지급명령 ********************************/
 	section[class*="-sec"] h2 {font-size: 36px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px;}

@@ -14,29 +14,20 @@
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/override.css">
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR.css">
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/indexR.css">
-	<!--<link rel="stylesheet" href="../../static/css/commonR.css">-->
+	<!--	<link rel="stylesheet" href="../../src/css/commonR.css">-->
 	<!--<link rel="stylesheet" href="../../static/css/registration/indexR.css">-->
 
 	<script src="http://static.onbiz.co.kr/js/help/jquery-1.10.2.min.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/jquery.bxslider.min.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/common.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/registration/index.js"></script>
-	
-	<!--<script src="../../static/js/common.js"></script>-->
-	<!--<script src="../../static/js/registration/index.js"></script>-->
 
-<!--
-		<link rel="stylesheet" href="../../static/css/commonR_ie8.css">
-		<link rel="stylesheet" href="../../static/css/registration/indexR_ie8.css">
-		
-		-->
-		
 	<!--[if lt IE 9]>
         <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR_ie8.css">
         <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/indexR_ie8.css">
         
     	<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
- 	<![endif]-->
+	<![endif]-->
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -45,272 +36,269 @@
 		<!-- 헤더 영역 -->
 		<header class="header">
 			<div class="header-box center-block contain cf">
-				<h2 class="hidden-lg logo-txt"><a href="#">누리헬프</a></h2>	
+				<h2 class="hidden-lg logo-txt"><a href="#">누리헬프</a></h2>
 				<button type="button" class="tab-hnb hidden-lg">
 					<span class="bar"></span>
 					<span class="bar"></span>
 					<span class="bar"></span>
 				</button>
-			
+
 				<div class="hd-gnb">
 					<ul class="hb-tab hnb-m clearfix">
 						<li><a href="../order/index.html">지급명령</a></li>
 						<li class="on"><a href="./index.html">법인등기</a></li>
 						<li><a href="../eviction/index.html">명도소송</a></li>
 					</ul>
-					<!-- pc -->
-					<ul class="hb-user hnb-m clearfix hidden-xs hidden-sm">
+					<!-- 로그인 전 -->
+					<ul class="hb-user hnb-m clearfix">
 						<li><a href="admin/index.html">로그인</a></li>
 						<li class="mlr hidden-xs hidden-sm"></li>
 						<li><a href="admin/index_01.html">회원가입</a></li>
-						<li class="mlr hidden-xs hidden-sm"></li>
-						<li><a href="admin/index_02.html">마이페이지</a></li>
 						<li class="mlr hidden-xs hidden-sm"></li>
 						<li class="hidden-xs hidden-sm"><a href="#">고객센터</a></li>
 					</ul>
-					
-					<!-- mobile / 로그인 전 -->
-					<ul class="hb-user hnb-m mhb-user clearfix hidden-lg">
-						<li><a href="admin/index.html">로그인</a></li>
-						<li><a href="admin/index_01.html">회원가입</a></li>
-					</ul>
-					<!-- mobile / 로그인 후 -->
-					<!--<ul class="hb-user hnb-m mhb-user clearfix hidden-lg">
+					<!-- 로그인 후 -->
+					<!--
+					<ul class="hb-user hnb-m clearfix">
 						<li><a href="admin/index.html">로그아웃</a></li>
+						<li class="mlr hidden-xs hidden-sm"></li>
 						<li><a href="admin/index_01.html">마이페이지</a></li>
-					</ul>-->
+						<li class="mlr hidden-xs hidden-sm"></li>
+						<li class="hidden-xs hidden-sm"><a href="#">고객센터</a></li>
+					</ul>
+-->
 				</div>
 			</div>
 		</header>
 
-		<!--지급명령 시작-->
 		<!--네비게이션 영역-->
 		<div class="top-wrap">
 			<div class="top-box center-block contain">
 				<h2 class="show-lg"><a href="./index.html">법인등기 헬프미</a></h2>
+
 				<nav>
 					<ul class="tb-nav clearfix hidden-lg">
-                        <li class="hidden-lg"><a href="../order/index.html">지급명령</a></li>
-                        <li><a href="../order/charge/index.html">이용요금</a></li>
-                        <li><a href="../order/lawyer/index.html">변호사 소개</a></li>
+						<li class="hidden-lg"><a href="../order/index.html">지급명령</a></li>
+						<li><a href="../order/charge/index.html">이용요금</a></li>
+						<li><a href="../order/lawyer/index.html">변호사 소개</a></li>
 						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">지급명령 신청하기</a></li>
 					</ul>
 					<ul class="tb-nav clearfix">
-                        <li class="hidden-lg on"><a href="./index.html">법인등기</a></li>
-                        <li><a href="./cheap/index.html">왜 이렇게 저렴한가요?</a></li>
-                        <li><a href="./step/index.html">절차안내</a></li>
-                        <li><a href="./charge/index.html">이용요금</a></li>
-                        <li><a href="./reviews/index.html">이용후기</a></li>
-                        <li><a href="./lawyer/index.html">변호사 소개</a></li>
+						<li class="hidden-lg"><a href="./index.html">법인등기</a></li>
+						<li><a href="./cheap/index.html">왜 이렇게 저렴한가요?</a></li>
+						<li><a href="./step/index.html">절차안내</a></li>
+						<li><a href="./charge/index.html">이용요금</a></li>
+						<li><a href="./reviews/index.html">이용후기</a></li>
+						<li><a href="./lawyer/index.html">변호사 소개</a></li>
 						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">법인등기 신청하기</a></li>
 					</ul>
 					<ul class="tb-nav clearfix hidden-lg">
-                        <li class="hidden-lg"><a href="../eviction/index.html">명도소송</a></li>
-                        <li><a href="../eviction/suit/index.html">소송현황</a></li>
-                        <li><a href="../eviction/case/index.html">주요사례</a></li>
-                        <li><a href="../eviction/fna/index.html">Q&#38;A</a></li>
+						<li class="hidden-lg"><a href="../eviction/index.html">명도소송</a></li>
+						<li><a href="../eviction/suit/index.html">소송현황</a></li>
+						<li><a href="../eviction/case/index.html">주요사례</a></li>
+						<li><a href="../eviction/fna/index.html">Q&#38;A</a></li>
 						<li class="btn-wrap hidden-xs hidden-sm"><a class="align-center" href="../apply/apply_01.html">명도소송 신청하기</a></li>
 					</ul>
 				</nav>
-				<!--<a href="javascript:;" class="btn-cls a-i-x hidden-lg"></a>-->
 			</div>
 		</div>
-		
-        <section class="main2-sec">
-          <div class="ms2-box">
-            <div class="ms2b-money">
-              <p class="nth-1 c-white"><span class="c-yellow">법인등기</span> 간편하게 해결하세요</p>
-              <p class="nth-2 c-white">헬프미 변호사에게 맡기면 걱정 끝<span>!</span><br>꼼꼼한 진행 상황 알림은 기본, 과태료 예방까지</p>
-              <p class="nth-3"><a class="align-center c-white bg-yellow" href="registration/apply/apply_01.html">신청하기</a></p>
-            </div>
-          </div>
-          <div class="ms2-total clearfix">
-            <p class="nth-1 c-white">헬프미 방문 고객수 652,466명</p>
-            <p class="nth-2 c-white">헬프미 누적 이용금액 6,976,446원</p>
-          </div>
-        </section>
-		
-        <section class="cheap2-sec">
-          <h2>법인등기 헬프미 <em class="c-yellow">얼마나저렴</em>할까요?</h2>
-          <div class="cs2-box">
-            <ul class="cs2b-u1 clearfix">
-              <li class="nth-0"></li>
-              <li class="nth-1">
-                <h3>일반 법무사</h3>
-                <p class="nth-1 clearfix"><span class="pull-left">수수료</span><span class="pull-right">143,000원</span></p>
-                <p class="nth-2 clearfix"><span class="pull-left">&#43; 교통비</span><span class="pull-right">33,000원</span></p>
-                <p class="nth-3 clearfix"><span class="pull-left">&#43; 제증명</span><span class="pull-right">22,000원</span></p>
-                <p class="nth-4 clearfix">부가세포함</p>
-                <p class="nth-5 clearfix">= 198,000원</p>
-              </li>
-              <li class="nth-2 clearfix">
-                <h3>헬프미 법무사</h3>
-                <p class="nth-1 clearfix"><span class="pull-left">수수료</span><span class="pull-right">129,000원</span></p>
-                <p class="nth-2 clearfix"><span class="pull-left">&#43; 교통비</span><span class="pull-right c-yellow f-semibold">없음</span></p>
-                <p class="nth-3 clearfix"><span class="pull-left">&#43; 제증명</span><span class="pull-right c-yellow f-semibold">없음</span></p>
-                <p class="nth-4 clearfix">부가세포함</p>
-                <p class="nth-5 clearfix">= 129,000원</p>
-              </li>
-            </ul>
-            <p class="cs2b-ps">예시 - 주소이전등기</p>
-          </div>
-        </section>
-        
-        <section class="cert2-sec">
-          <h2>공인인증서만 있으면 <em class="c-yellow">등기 완료</em></h2>
-          <div class="cts2-box">
-            <p class="cts2b-p1">대법원 사이트에서 공인인증서 비밀번호만 넣으면 됩니다. <br>전자등기를 하기 때문에 절차가 간단합니다.</p>
-            <ul class="cts2b-u1 clearfix">
-              <li class="cts2b-l1 nth-1 br50">인감증명서 <em class="c-yellow">불필요</em></li>
-              <li class="cts2b-l1 nth-2 br50">인감도장 <em class="c-yellow">불필요</em></li>
-            </ul>
-          </div>
-        </section>
-		
-        <section class="time2-sec">
-          <h2 class="c-white">법인등기에 <em class="c-yellow">시간 빼앗기지</em> 마세요</h2>
-          <p class="tes2-p1">
-            헬프미에게 맡기면 걱정 끝<i>!</i> <span class="show-xs"></span>&nbsp;꼼곰한 진행 상황 알림은 기본, 과태료 예방까지 <br>
-            <span class="f-semibold">헬프미 변호사에서 지금 시작하세요<i>!</i></span>
-          </p>
-          <div class="tes2-box">
-            <ul class="tes2b-u1">
-              <li class="tes2b-l1 nth-1">
-                <h3>법인등기 얼마나 진행됐지?<em class="f-semibold c-yellow">궁금하기 전에 알아서 척척<i>!</i></em></h3>
-                <p class="nth-1">헬프메이서는 각 단계가 진행될 때마다 <br>진행상황을 문자와 이메일로 알려드립니다.</p>
-              </li>
-              <li class="tes2b-l1 nth-2">
-                <h3>법인등기 얼마나 과태료를?<em class="f-semibold c-yellow">등기시기 놓치지 마세요<i>!</i></em></h3>
-                <p class="nth-1">3년마다 임원등기를 다시 하지 않으면 500만원 <br>이상의 과태료가 나올 수 있다는 사실, 알고 계시나요?</p>
-                <p class="nth-1">헬프미 고객님들께는 등기 시기를 놓쳐 과태료를 <br>물어야 하는 일이 없도록 미리미리 챙겨드립니다.</p>
-              </li>
-            </ul>
-          </div>
-          <p class="tes2-p2 align-center"><a href="registration/apply/apply_01.html" class="btn c-white bg-yellow center-block">법인등기 신청하기</a></p>
-        </section>
 
-        <section class="progress2-sec">
-          <h2>헬프미 법인등기는 <em class="c-yellow">어떻게 진행</em>되나요?</h2>
-          <div class="ps2-box">
-            <ul class="ps2-u1 clearfix">
-              <li class="ps2-l1 nth-1">
-                <span class="num">01</span>
-                <h3>법인등기 상담</h3>
-                <p>헬프미가 전화상담 후 <br>견적서 발송</p>
-              </li>
-              <li class="ps2-l1 nth-2">
-                <span class="num">02</span>
-                <h3>견적확인 및 결제</h3>
-                <p>헬프미가 이메일로 <br>질문지 링크 전달</p>
-              </li>
-              <li class="ps2-l1 nth-3">
-                <span class="num">03</span>
-                <h3>온라인 질문지에 <br>답변</h3>
-              </li>
-              <li class="ps2-l1 nth-4">
-                <span class="num">04</span>
-                <div class="ps2-txt-box fir">
-                    <h3>전자등기시</h3>
-                    <p>대법원 사이트에 <span class="hidden-lg"></span>공인인증서 비밀번호 넣기<br><span class="hidden-xs hidden-sm">&#42;공인인증서 보낼 필요 없음</span></p>
-                </div>
-                <div class="ps2-txt-box">
-                    <h3 class="mt">일반등기시</h3>
-                    <p>이메일로 받은 서류에<br>도장찍고 헬프미에 <span class="hidden-lg"></span>보내기 (등기, 퀵)</p>
-                </div>
-              </li>
-              <li class="ps2-l1 nth-5">
-                <span class="num">05</span>
-                <h3 class="c-yellow">등기완료</h3>
-              </li>
-            </ul>
-          </div>
-        </section>
-        
-        <section class="service2-sec">
-            <h2 class="c-white">고객이 인정한 <em class="c-yellow">헬프미 서비스</em></h2>
-            <div class="ss2b-area" >
-                <div class="ss2b-box">
-                    <ul class="ss2b-u1 clearfix" id="service-slider">
-                        <li class="ss2b-l1">
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.1</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.2</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                        </li>
-                        <li class="ss2b-l1">
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.3</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.4</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                        </li>
-                        <li class="ss2b-l1">
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.5</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.6</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                        </li>
-                        <li class="ss2b-l1">
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.8</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.9</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                        </li>
-                        <li class="ss2b-l1">
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.10</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                            <div class="post">
-                                <h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.11</h3>
-                                <p class="mtb"></p>
-                                <p class="ss2b-p1 date">2016.10.27</p>
-                                <p class="ss2b-p1">태건에스앤아이(주)</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
 
-                <div class="ss2-slide-btn">
-                    <p><span id="slider-prev"></span><span id="slider-next"></span></p>
-                </div>
-            </div>
-        </section>
-        
-        <!--<section class="service2-sec">
+		<section class="main2-sec">
+			<div class="ms2-box">
+				<div class="ms2b-money">
+					<p class="nth-1 c-white"><span class="c-yellow">법인등기</span> 간편하게 해결하세요</p>
+					<p class="nth-2 c-white">헬프미 변호사에게 맡기면 걱정 끝<span>!</span><br>꼼꼼한 진행 상황 알림은 기본, 과태료 예방까지</p>
+					<p class="nth-3"><a class="align-center c-white bg-yellow" href="registration/apply/apply_01.html">신청하기</a></p>
+				</div>
+			</div>
+			<div class="ms2-total clearfix">
+				<p class="nth-1 c-white">헬프미 방문 고객수 652,466명</p>
+				<p class="nth-2 c-white">헬프미 누적 이용금액 6,976,446원</p>
+			</div>
+		</section>
+
+		<section class="cheap2-sec">
+			<h2>법인등기 헬프미 <em class="c-yellow">얼마나저렴</em>할까요?</h2>
+			<div class="cs2-box">
+				<ul class="cs2b-u1 clearfix">
+					<li class="nth-0"></li>
+					<li class="nth-1">
+						<h3>일반 법무사</h3>
+						<p class="nth-1 clearfix"><span class="pull-left">수수료</span><span class="pull-right">143,000원</span></p>
+						<p class="nth-2 clearfix"><span class="pull-left">&#43; 교통비</span><span class="pull-right">33,000원</span></p>
+						<p class="nth-3 clearfix"><span class="pull-left">&#43; 제증명</span><span class="pull-right">22,000원</span></p>
+						<p class="nth-4 clearfix">부가세포함</p>
+						<p class="nth-5 clearfix">= 198,000원</p>
+					</li>
+					<li class="nth-2 clearfix">
+						<h3>헬프미 법무사</h3>
+						<p class="nth-1 clearfix"><span class="pull-left">수수료</span><span class="pull-right">129,000원</span></p>
+						<p class="nth-2 clearfix"><span class="pull-left">&#43; 교통비</span><span class="pull-right c-yellow f-semibold">없음</span></p>
+						<p class="nth-3 clearfix"><span class="pull-left">&#43; 제증명</span><span class="pull-right c-yellow f-semibold">없음</span></p>
+						<p class="nth-4 clearfix">부가세포함</p>
+						<p class="nth-5 clearfix">= 129,000원</p>
+					</li>
+				</ul>
+				<p class="cs2b-ps">예시 - 주소이전등기</p>
+			</div>
+		</section>
+
+		<section class="cert2-sec">
+			<h2>공인인증서만 있으면 <em class="c-yellow">등기 완료</em></h2>
+			<div class="cts2-box">
+				<p class="cts2b-p1">대법원 사이트에서 공인인증서 비밀번호만 넣으면 됩니다. <br>전자등기를 하기 때문에 절차가 간단합니다.</p>
+				<ul class="cts2b-u1 clearfix">
+					<li class="cts2b-l1 nth-1 br50">인감증명서 <em class="c-yellow">불필요</em></li>
+					<li class="cts2b-l1 nth-2 br50">인감도장 <em class="c-yellow">불필요</em></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="time2-sec">
+			<h2 class="c-white">법인등기에 <em class="c-yellow">시간 빼앗기지</em> 마세요</h2>
+			<p class="tes2-p1">
+				헬프미에게 맡기면 걱정 끝<i>!</i> <span class="show-xs"></span>&nbsp;꼼곰한 진행 상황 알림은 기본, 과태료 예방까지 <br>
+				<span class="f-semibold">헬프미 변호사에서 지금 시작하세요<i>!</i></span>
+			</p>
+			<div class="tes2-box">
+				<ul class="tes2b-u1">
+					<li class="tes2b-l1 nth-1">
+						<h3>법인등기 얼마나 진행됐지?<em class="f-semibold c-yellow">궁금하기 전에 알아서 척척<i>!</i></em></h3>
+						<p class="nth-1">헬프메이서는 각 단계가 진행될 때마다 <br>진행상황을 문자와 이메일로 알려드립니다.</p>
+					</li>
+					<li class="tes2b-l1 nth-2">
+						<h3>법인등기 얼마나 과태료를?<em class="f-semibold c-yellow">등기시기 놓치지 마세요<i>!</i></em></h3>
+						<p class="nth-1">3년마다 임원등기를 다시 하지 않으면 500만원 <br>이상의 과태료가 나올 수 있다는 사실, 알고 계시나요?</p>
+						<p class="nth-1">헬프미 고객님들께는 등기 시기를 놓쳐 과태료를 <br>물어야 하는 일이 없도록 미리미리 챙겨드립니다.</p>
+					</li>
+				</ul>
+			</div>
+			<p class="tes2-p2 align-center"><a href="registration/apply/apply_01.html" class="btn c-white bg-yellow center-block">법인등기 신청하기</a></p>
+		</section>
+
+		<section class="progress2-sec">
+			<h2>헬프미 법인등기는 <em class="c-yellow">어떻게 진행</em>되나요?</h2>
+			<div class="ps2-box">
+				<ul class="ps2-u1 clearfix">
+					<li class="ps2-l1 nth-1">
+						<span class="num">01</span>
+						<h3>법인등기 상담</h3>
+						<p>헬프미가 전화상담 후 <br>견적서 발송</p>
+					</li>
+					<li class="ps2-l1 nth-2">
+						<span class="num">02</span>
+						<h3>견적확인 및 결제</h3>
+						<p>헬프미가 이메일로 <br>질문지 링크 전달</p>
+					</li>
+					<li class="ps2-l1 nth-3">
+						<span class="num">03</span>
+						<h3>온라인 질문지에 <br>답변</h3>
+					</li>
+					<li class="ps2-l1 nth-4">
+						<span class="num">04</span>
+						<div class="ps2-txt-box fir">
+							<h3>전자등기시</h3>
+							<p>대법원 사이트에 <span class="hidden-lg"></span>공인인증서 비밀번호 넣기<br><span class="hidden-xs hidden-sm">&#42;공인인증서 보낼 필요 없음</span></p>
+						</div>
+						<div class="ps2-txt-box">
+							<h3 class="mt">일반등기시</h3>
+							<p>이메일로 받은 서류에<br>도장찍고 헬프미에 <span class="hidden-lg"></span>보내기 (등기, 퀵)</p>
+						</div>
+					</li>
+					<li class="ps2-l1 nth-5">
+						<span class="num">05</span>
+						<h3 class="c-yellow">등기완료</h3>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="service2-sec">
+			<h2 class="c-white">고객이 인정한 <em class="c-yellow">헬프미 서비스</em></h2>
+			<div class="ss2b-area">
+				<div class="ss2b-box">
+					<ul class="ss2b-u1 clearfix" id="service-slider">
+						<li class="ss2b-l1">
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.1</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.2</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+						</li>
+						<li class="ss2b-l1">
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.3</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.4</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+						</li>
+						<li class="ss2b-l1">
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.5</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.6</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+						</li>
+						<li class="ss2b-l1">
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.8</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.9</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+						</li>
+						<li class="ss2b-l1">
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.10</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+							<div class="post">
+								<h3>진행과정도 잘 알려주고<br>빠르게 처리되어서 만족했다.11</h3>
+								<p class="mtb"></p>
+								<p class="ss2b-p1 date">2016.10.27</p>
+								<p class="ss2b-p1">태건에스앤아이(주)</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="ss2-slide-btn">
+					<p><span id="slider-prev"></span><span id="slider-next"></span></p>
+				</div>
+			</div>
+		</section>
+
+		<!--<section class="service2-sec">
           <h2 class="c-white">고객이 인정한 <em class="c-yellow">헬프미 서비스</em></h2>
           <div class="ss2-box">
             <ul class="ss2b-u1 clearfix" id="service-slider">
@@ -360,21 +348,21 @@
           </div>
         </section>-->
 
-        <section class="solution2-sec">
-          <h2>법인등기, 이제 간편하게 해결하세요</h2>
-          <div class="snc2-box">
-            <p class="snc2b-p1">헬프미에게 맡기면 걱정 끝<i>!</i> <br>꼼꼼한 진행 상황 알림은 기본, 과태료 예방까지</p>
-            <p class="snc2b-p2">헬프미 변호사에서 지금 시작하세요<i>!</i></p>
-            <p class="snc2b-p3"><a href="registration/apply/apply_01.html" class="btn bg-white align-center">법인등기 신청하기</a></p>
-          </div>
-        </section>
-		
+		<section class="solution2-sec">
+			<h2>법인등기, 이제 간편하게 해결하세요</h2>
+			<div class="snc2-box">
+				<p class="snc2b-p1">헬프미에게 맡기면 걱정 끝<i>!</i> <br>꼼꼼한 진행 상황 알림은 기본, 과태료 예방까지</p>
+				<p class="snc2b-p2">헬프미 변호사에서 지금 시작하세요<i>!</i></p>
+				<p class="snc2b-p3"><a href="registration/apply/apply_01.html" class="btn bg-white align-center">법인등기 신청하기</a></p>
+			</div>
+		</section>
+
 
 		<!--푸터 영역-->
 		<footer class="footer">
 			<div class="footer-box clearfix contain center-block">
 				<div class="nth-3 show-xs show-sm">
-					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-yellow nth-1">법인등기<br/>고객센터</p>
 					<p class="c-white nth-2">02-6285-5601</p>
 				</div>
 				<ul class="clearfix">
@@ -384,7 +372,7 @@
 					<li class="mlr"></li>
 					<li><a href="#">개인정보취급방침</a></li>
 				</ul>
-				<div class="nth-1"><span class="show-lg">지급명령<br/>헬프미</span><span class="show-xs show-sm">누리헬프</span></div>
+				<div class="nth-1"><span class="show-lg">법인등기<br/>헬프미</span><span class="show-xs show-sm">누리헬프</span></div>
 				<div class="nth-2">
 					<address>
 						<p>서울특별시 강남구 테헤란로82길 15, 15층(대치동, 디아이타워) (주)헬프미</p>
@@ -393,7 +381,7 @@
 					</address>
 				</div>
 				<div class="nth-3 show-lg">
-					<p class="c-yellow nth-1">지급명령<br/>고객센터</p>
+					<p class="c-yellow nth-1">법인등기<br/>고객센터</p>
 					<p class="c-white nth-2">02-6285-5601</p>
 				</div>
 			</div>
