@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+
+
+/* mobile */
+@media (max-width: 767px) {
+    .bg-gray {background-color:#4d4d4d}
+    .disabled {background:#dcdcdc}
+    
+    .admin-sec {position:relative; box-sizing:border-box; width:100%; }
+    .gh2 {font-size:20px; padding-top:35px; padding-bottom:13px; font-weight: 600; text-align: center;}
+
+    /* form */
+    .group {margin:0 auto;}
+    .group .input-form form fieldset div {display:table; width:100%; margin-top:10px; font-size:0;}
+    .group .input-form label {display:table-cell; width:85px; color:#010101; font-size:15px; text-align:left;}
+    .txt-box {display:table-cell; width:100%; padding:5px 10px; font-size:15px;}
+
+    /* 버튼 */
+    .btn-area {position:relative; margin-top:24px; text-align:center;}
+    .btn {display:inline-block; padding:0 20px; color:#fff; text-align:center; vertical-align:middle;}
+    .btn span {position:relative; display:inline-block}
+    .btn-login {display: block; width:100%; height:47px; background: #ffb411;}
+    .btn-login span {font-weight:normal; font-size:17px; line-height:47px; color: #fff; letter-spacing: 0;}
+    .btn-check {height:32px; }
+    .btn-check span {font-size:12px; line-height:32px;}
+    .btn-change {height:42px; background-color:#141414;}
+    .btn-change span {font-size:15px; line-height:42px;}
+    .btn-find {position:relative; width:225px; height:45px; background-color:#ffb412;}
+    .btn-find span {font-weight:bold; font-size:15px; line-height:45px; }
+    .btn-find.ico-find span {padding-right:30px;}
+    .btn-find.ico-find span:before {content:''; display:block; position:absolute; right:0; width:25px; height:100%; background:url('http://img.onbiz.co.kr/help/ico_find.png') no-repeat 0 center; background-size:25px auto;}
+    .btn-agree-view {position: relative; top: 2px;color: #808080;font-size: 12px; padding: 0px 6px 1px;border: 1px solid #bfbfbf;margin-left: 8px;}
+    .btn-agree-view span {font-family: "Nanum Gothic"; font-size: 9px; position: relative;top: -2.5px; margin-left: 3px;}
+    .link-id {position:relative; display:block; width:100%;}
+    .link-id li {display:block; width:100%; margin-top:10px;}
+    /*.link-id li:first-child {margin-top:0}*/
+    .link-id li a {display:block; position:relative; height:47px;}
+    .link-id li a span {display:inline-block; position:relative; padding-left:10px; color:#fff; vertical-align: middle; font-weight:normal; font-size:17px; line-height:47px;}
+    .link-id li a.naver {background-color:#1ec700;}
+    .link-id li a.facebook {background-color:#3b5b9a;}
+    .link-id li a.naver:before {content:''; display:inline-block; position:relative; width:16px; height:100%; top:3px; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat 0 center; background-size:auto 18px}
+    .link-id li a.facebook:before {content:''; display:inline-block; position:relative; width:11px; height:100%; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat -16px center; background-size:auto 18px}
+
+    /* 탭 */
+    .admin-tab {position:relative; width:100%; }
+    .admin-tab:before, .admin-tab:after {content:''; display:block; clear:both}
+    .admin-tab li {float:left; width:50%; height:36px; border:1px solid #d2d2d2; background-color:#ebebeb; text-align:center; }
+    .admin-tab li:first-child {border-right:0;}
+    .admin-tab li a {display:block; font-size:13px; line-height:36px; color:#525252;}
+    .admin-tab .on {border-bottom:1px solid #fff; background-color:#fff; }
+    .admin-tab .on a {color:#e9a105;}
+    
+    /* 테이블 */
+    .admin-table-area {}
+    .admin-table-area th {position:relative; display:inline-block; width:100%; margin-top:20px; padding:5px 5px 5px 0; color:#010101; font-size:15px; text-align:left; vertical-align:middle;}
+    .admin-table-area td {display:table; width:100%; padding:5px; vertical-align:middle;}
+    .admin-table-area td.f-txt {padding-left:15px;}s
+    .admin-table-area th.vt {vertical-align:top;}
+    .admin-table-area th label { display:block; width:100%; font-size:15px;}
+    .admin-table-area td .bg-yellow, .admin-table-area td .overlap {margin-top:10px;}
+    .admin-table-area th .etc, .admin-table-area td .etc {color:#808080; font-size:12px; vertical-align:middle;}
+    .admin-table-area td .etc {}
+    .admin-table-area .phone-area td .txt-box {display:inline-block; width:20%; /*width:60px;*/}
+    .admin-table-area .phone-area td .line {position:relative; display:inline-block; width:8px; height:1px; margin:0 1%; vertical-align:middle; background:#000}
+    .admin-table-area .phone-area td .btn, .admin-table-area .input-area-1 td .btn {min-width:87px; margin-top:0; float:right}
+    .admin-table-area .input-area-1 td { }
+    .admin-table-area .input-area-1 td .txt-box {display:inline-block; width:67%; min-width:204px;}
+    .admin-table-area .input-area-1 td .a-pd {padding:0 32px}
+    .admin-table-area td .overlap {display:inline-block; color:#000; font-size:14px; vertical-align:middle;}
+    .admin-table-area .last th {position:relative; margin-top:34px; padding-top:28px; border-top:1px solid #bfbfbf}
+    .admin-table-area .last th .etc {display:inline-block; position:absolute; top:28px; left:60px;}
+    .admin-table-area td .agree {margin-top:8px;}
+    .admin-table-area td .agree:first-child {margin-top:3px;}
+    .admin-table-area td .agree label {font-size:12px;}
+    .admin-table-area td .agree .chk_box {margin-top: 1px;}
+    .admin-table-area .txt-table th, .admin-table-area .txt-table td {display:inline-block; width:auto; vertical-align:baseline}
+    .admin-table-area .txt-table th {width:90px;}
+    
+    /* 로그인 */
+    .login {position:relative; width:100%; padding:0 20px 200px;}
+    .customer {position:relative; margin-top:10px; font-size:0; text-align:center;}
+    .customer li {display:inline-block; position:relative; margin-left:14px; padding-left:13px;}
+    .customer li:first-child {margin-left:0; padding-left:0;}
+    .customer li:before {content:''; display:block; position:absolute; left:0; top:50%; width:1px; height:10px; margin-top:-5px; background-color:#bfbfbf;}
+    .customer li:first-child:before {display:none;}
+    .customer li a {color:#808080; font-size:12px;}
+    .customer li a.member {color:#000;}
+    .login .link-id {position:absolute; bottom:-200px;}
+    
+    /* 회원가입 팝업 */
+    .layer-pop .pop-area {box-sizing:border-box; width:280px; padding:47px 26px 20px;}
+    .layer-pop .pop-area .pop-txt2 {margin-bottom:20px;}
+    .layer-pop .pop-area .link-id li {margin-top:6px;}
+
+    /* 회원가입 */
+    .join {margin:0 auto; padding:0 10px}
+    .join .group {padding:15px 0;}
+    .join .btn-area {margin:0 auto; padding:35px 0 38px}
+    .join .btn-area .btn {width:225px; margin:0 auto;}
+
+    /* 회원가입 완료 팝업 */
+    /*.pop-join .pop-area {width:486px; padding:56px 42px 26px}
+    .pop-join .btn-login {height:47px; }
+    .pop-join .btn-login span {font-size:17px; line-height:47px;}*/
+    
+    /* 마이페이지 */
+    .mypage {}
+    .mypage .group {width:100%; padding:0 10px;}
+    .mypage .s-tit {margin:40px 0 0; color:#010101; font-size:17px; font-weight: 500;}
+    .mypage .s-tit:first-child {margin-top:0;}
+    .mypage .info {padding:0 0 40px; border-bottom:1px solid #d2d2d2;}
+    .mypage .info .btn-change {width:225px;}
+    .mypage .buy-list {position:relative; margin:0 -10px; margin-top:20px;}
+    .mypage .buy-list .cont {display:none; margin-top:-1px; padding:0 10px 27px; border:1px solid #d2d2d2;}
+    .mypage .buy-list .cont.on {display:block;}
+    .mapage-table-list {position:relative;}
+    .mapage-table-list thead th {display:none;}
+    .mapage-table-list tbody {position:relative;}
+    .mapage-table-list tbody tr {position:relative; display:block; box-sizing:border-box; height:110px; padding:25px 0 28px; border-bottom:1px solid #d2d2d2}
+    .mapage-table-list tbody td {position:relative; display:block; color:#101010;}
+    .mapage-table-list tbody tr td:first-child {display:none}
+    .mapage-table-list tbody td.t-goal {float:left; padding:25px 0 10px; font-size:13px; font-weight:600}
+    .mapage-table-list tbody td.t-day {position:absolute; left:0; font-size:12px; color:#525252}
+    .mapage-table-list tbody td.t-clear {float:right; padding:25px 0 10px; font-size:13px; color:#ffb412}
+    .mapage-table-list tbody td.t-money {clear:both; float:left; padding-right:9px; font-size:12px}
+    .mapage-table-list tbody td.t-pay {float:left; padding-left:9px; font-size:12px}
+    .mapage-table-list tbody td.t-pay:before {content:''; position:absolute; display:inline-block; width:1px; height: 6px; left:0; top:50%; margin-top:-3px; background:#e4e2e2}
+    .buy-list .pagenation {position: relative; text-align: center; width: 100%; margin-top: 20px;}
+    .buy-list .pagenation a {display: inline-block; font-size: 12px; width: 20px; height: 22px; vertical-align: middle; line-height: 20px; border: 1px solid #ccc; color: #919191; font-family: "Nanum Gothic"; font-weight: 600;}
+    .buy-list .pagenation a[class*="prev"], .buy-list .pagenation a[class*="next"] {font-size: 10px; line-height:19px; letter-spacing: -2px;}
+    .buy-list .pagenation a.on {border: 1px solid #000; color: #000;}
+    .buy-list .pagenation a.prev.on, .buy-list .pagenation a.pprev.on, .buy-list .pagenation a.next.on, .buy-list .pagenation a.nnext.on {border:0; color: #919191;} 
+    .buy-list .pagenation a.prev {text-indent: -4px;}
+    .buy-list .pagenation a.pprev {text-indent: -3px;}
+    .buy-list .pagenation a.next {text-indent: 1px;}
+    
+    /* 아이디 비밀번호 찾기 */
+    .find {padding-bottom:65px}
+    .find .group {position:relative; text-align:center;}
+    .find .admin-tab {margin-top:10px;}
+    .find .admin-tab .on a {color:#010101;}
+    .find .cont {display:none; box-sizing:border-box; margin-top:-1px; padding:60px 20px 35px;}
+    .find .cont.on {display:block;}
+    .find .admin-table-area {max-width:320px; margin: 0 auto;}
+    .find .admin-table-area th {display:table-cell; width:80px; padding:5px; color:#010101; font-size:20px; text-align:left; vertical-align:middle;}
+    .find .admin-table-area td {display:table-cell; width:auto; padding:5px; text-align: left; vertical-align:middle;}
+    .find .admin-table-area .txt-box {display: table-cell; width: 100%;}
+    .find .admin-table-area .phone-area td .txt-box {display: inline-block; width:64px;}
+    .find .cont .btn-area {margin-top:55px;}
+    .find .cont .result-txt01 {margin-bottom:13px; color:#010101; font-size:15px;}
+    .find .cont .result-txt02 {margin-bottom:20px; color:#464646; font-size:12px; line-height:1.4;}
+    .find .cont .result-form {width:225px; height:59px; border:1px solid #ebebeb; background-color:#ebebeb; color:#000; font-size:13px; text-align:center;}
+    .find .cont .find-end-box .btn-area {margin-top:38px;}
+}
+
+@media (max-device-width: 320px) {
+    /* 버튼 */
+    .btn-check, .admin-table-area .input-area-1 td .a-pd {padding:0 12px;}
+    
+    /* 마이페이지 */
+    .buy-list .pagenation a {font-size: 11px; width: 18px; height: 20px; line-height: 20px; }
+    .buy-list .pagenation a[class*="prev"], .buy-list .pagenation a[class*="next"] {font-size: 10px; line-height:17px;}
+    
+    /* 아이디/비밀번호 찾기 */
+    .find .admin-table-area {max-width:280px;}
+    .find .admin-table-area .phone-area td .txt-box {width: 27%; min-width: 51px;}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+    .bg-gray {background-color:#4d4d4d}
+    .disabled {background:#dcdcdc}
+    
+    .admin-sec {padding:55px 0 80px;}
+    .gh2 {font-size:36px; padding-bottom:30px; font-weight: 600; text-align: center;}
+
+    /* form */
+    .group {margin:0 auto;}
+    .group .input-form form fieldset div {display:table; width:100%; margin-top:10px; font-size:0;}
+    .group .input-form form fieldset legend + div {margin-top:0;}
+    .group .input-form label {display:table-cell; width:110px; color:#010101; font-size:20px; text-align:left;}
+    .txt-box {display:table-cell; width:100%; padding:5px 12px;}
+
+    /* 버튼 */
+    .btn-area {margin-top:30px; text-align:center;}
+    .btn {display:inline-block; padding:0 20px; color:#fff; text-align:center; vertical-align:middle;}
+    .btn span {position:relative; display:inline-block}
+    .btn-login {display: block; width:100%; height:67px; background: #ffb411;}
+    .btn-login span {font-weight:bold; font-size:30px; line-height:67px; color: #fff; letter-spacing: 0;}
+    .btn-check {height:32px;}
+    .btn-check span {font-size:16px; line-height:32px;}
+    .btn-change {height:43px; background-color:#141414;}
+    .btn-change span {font-size:20px; line-height:43px;}
+    .btn-find {position:relative; width:314px; height:56px; background-color:#ffb412;}
+    .btn-find span {font-weight:bold; font-size:24px; line-height:56px; }
+    .btn-find.ico-find span {padding-right:45px;  }
+    .btn-find.ico-find span:before {content:''; display:block; position:absolute; right:0; width:35px; height:100%; background:url('http://img.onbiz.co.kr/help/ico_find.png') no-repeat 0 center;}
+    .btn-agree-view {position: relative; top: 2px;color: #808080;font-size: 13px; padding: 0px 6px 1px;border: 1px solid #bfbfbf;margin-left: 8px;}
+    .btn-agree-view span {font-family: "Nanum Gothic"; font-size: 10px; position: relative;top: -2.5px; margin-left: 3px;}
+    .link-id {position:relative; display:table; width:100%; margin-top:10px;}
+    .link-id li {display:table-cell; width:175px; padding-left:6px;}
+    .link-id li:first-child {padding-left:0;}
+    .link-id li a {display:block; position:relative; height:52px;}
+    .link-id li a span {display:inline-block; position:relative; padding-left:10px; color:#fff; vertical-align: middle; font-weight:bold; font-size:18px; line-height:52px;}
+    .link-id li a.naver {background-color:#1ec700;}
+    .link-id li a.facebook {background-color:#3b5b9a;}
+    .link-id li a.naver:before {content:''; display:inline-block; position:relative; width:20px; height:100%; top:2px; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat 0 center;}
+    .link-id li a.facebook:before {content:''; display:inline-block; position:relative; width:13px; height:100%; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat -20px center;}
+    
+    /* 탭 */
+    .admin-tab {position:relative; width:307px;}
+    .admin-tab:before, .admin-tab:after {content:''; display:block; clear:both}
+    .admin-tab li {float:left; width:50%; height:55px; border:1px solid #d2d2d2; background-color:#ebebeb; text-align:center; }
+    .admin-tab li:first-child {border-right:0;}
+    .admin-tab li a {display:block; font-size:18px; line-height:55px; color:#525252;}
+    .admin-tab .on {border-bottom:1px solid #fff; background-color:#fff; }
+    .admin-tab .on a {color:#e9a105;}
+
+    /* 테이블 */
+    .admin-table-area {}
+    .admin-table-area th {width:130px; padding:5px 15px 5px 5px; color:#010101; font-size:20px; text-align:left; vertical-align:middle;}
+    .admin-table-area td {padding:5px; vertical-align:middle;}
+    .admin-table-area td.f-txt {padding-left:15px;}
+    .admin-table-area th.vt {vertical-align:top;}
+    .admin-table-area th label {display:block;}
+    .admin-table-area th .etc, .admin-table-area td .etc {color:#808080; font-size:14px; vertical-align:middle;}
+    .admin-table-area td .btn, .admin-table-area td .etc {margin-left:10px;}
+    .admin-table-area .txt-box {display:inline-block; width:246px;}
+    .admin-table-area .phone-area .txt-box {width:70px;}
+    .admin-table-area .phone-area .line {position:relative; display:inline-block; width:8px; height:1px; margin:0 2px; vertical-align:middle; background:#000}
+    .admin-table-area td .overlap {margin-left:10px; color:#000; font-size:14px; vertical-align:middle;}
+    .admin-table-area td .agree {margin-top:8px;}
+    .admin-table-area td .agree:first-child {margin-top:0;}
+    
+    /* 로그인 */
+    .login .group {width:360px; padding:0 0 42px;}
+    .customer {margin-top:45px; padding-top:25px; font-size:0; text-align:center; border-top:1px solid #bfbfbf;}
+    .customer li {display:inline-block; position:relative; margin-left:14px; padding-left:13px;}
+    .customer li:first-child {margin-left:0; padding-left:0;}
+    .customer li:before {content:''; display:block; position:absolute; left:0; top:50%; width:1px; height:10px; margin-top:-5px; background-color:#bfbfbf;}
+    .customer li:first-child:before {display:none;}
+    .customer li a {color:#808080; font-size:14px;}
+    .customer li a.member {color:#000;}
+
+    /* 회원가입 팝업 */
+    .layer-pop .pop-area {padding:55px 64px 48px;}
+    
+    /* 회원가입 */
+    .join {width:625px; margin:0 auto}
+    .join .group {padding:15px 0;}
+    .join .btn-area {margin:0 auto; padding:45px 0 20px}
+    .join .btn-area .btn {width:356px; margin:0 auto;}
+    
+    /* 회원가입 완료 팝업 */
+    .pop-join .pop-area {width:486px; padding:56px 42px 26px}
+    .pop-join .btn-login {height:53px; }
+    .pop-join .btn-login span {font-size:26px; line-height:53px;}
+    
+    /* 마이페이지 */
+    .mypage {}
+    .mypage .group {width:100%; padding:0 18px;}
+    .mypage .s-tit {margin:50px 0 12px; color:#010101; font-size:30px; font-weight: 500;}
+    .mypage .s-tit:first-child {margin-top:0;}
+    .mypage .info {padding:20px 40px; border:1px solid #d2d2d2;}
+    .mypage .info .btn-change {width:238px;}
+    .mypage .buy-list {position:relative;}
+    .mypage .buy-list .cont {display:none; margin-top:-1px; padding:20px 30px 30px; border:1px solid #d2d2d2;}
+    .mypage .buy-list .cont.on {display:block;}
+    .mapage-table-list thead th {padding:10px 5px; border-bottom:2px solid #979797; color:#010101; font-weight:bold;}
+    .mapage-table-list tbody td {padding:15px 5px; border-bottom:1px solid #bfbfbf; color:#010101; text-align:center;}
+    .buy-list .pagenation {position: relative; text-align: center; width: 100%; margin-top: 30px;}
+    .buy-list .pagenation a {display: inline-block; font-size: 13px; width: 32px; height: 32px; vertical-align: middle; line-height: 2.3em; border: 1px solid #ccc; color: #919191; font-family: "Nanum Gothic"; font-weight: 600;}
+    .buy-list .pagenation a[class*="prev"], .buy-list .pagenation a[class*="next"] {font-size: 12px; line-height: 2.5em; letter-spacing: -2px;}
+    .buy-list .pagenation a.on {border: 1px solid #000; color: #000;}
+    .buy-list .pagenation a.prev.on, .buy-list .pagenation a.pprev.on, .buy-list .pagenation a.next.on, .buy-list .pagenation a.nnext.on {border:0; color: #919191;} 
+    .buy-list .pagenation a.prev {text-indent: -4px;}
+    .buy-list .pagenation a.pprev {text-indent: -3px;}
+    .buy-list .pagenation a.next {text-indent: 1px;}
+    
+    /* 아이디 비밀번호 찾기 */
+    .find .group {position:relative; padding:0 20px; text-align:center;}
+    .find .admin-tab {width:100%;}
+    .find .admin-tab .on a {color:#010101;}
+    .find .cont {display:none; margin-top:-1px; padding:55px 0 65px; border:1px solid #bfbfbf;}
+    .find .cont.on {display:block;}
+    .find .cont .btn-area {margin-top:64px;}
+    .find .cont .admin-table-area {width:385px; margin:0 auto; margin-top:30px; }
+    .find .cont .find-end-box .btn-area {margin-top:44px;}
+    .find .cont .result-txt01 {margin-bottom:10px; color:#010101; font-size:22px;}
+    .find .cont .result-txt02 {margin-bottom:15px; color:#464646; line-height:1.4;}
+    .find .cont .result-form {width:410px; height:88px; border:1px solid #d2d2d2; background-color:#f0f0f0; color:#464646; font-size:20px; text-align:center;}
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    .bg-gray {background-color:#4d4d4d}
+    .disabled {background:#dcdcdc}
+    
+    .admin-sec {padding:55px 0 80px;}
+    .gh2 {font-size: 44px; padding-bottom: 60px; font-weight: 600; text-align: center;}
+
+    /* form */
+    .group {margin:0 auto;}
+    .group .input-form form fieldset div {display:table; width:100%; margin-top:10px; font-size:0;}
+    .group .input-form form fieldset legend + div {margin-top:0;}
+    .group .input-form label {display:table-cell; width:110px; color:#010101; font-size:20px; text-align:left;}
+    .txt-box {display:table-cell; width:100%; padding:5px 12px;}
+
+    /* 버튼 */
+    .btn-area {margin-top:30px; text-align:center;}
+    .btn {display:inline-block; padding:0 20px; color:#fff; text-align:center; vertical-align:middle;}
+    .btn span {position:relative; display:inline-block}
+    .btn-login {display: block; width:100%; height:67px; background: #ffb411;}
+    .btn-login span {font-weight:bold; font-size:30px; line-height:67px; color: #fff; letter-spacing: 0;}
+    .btn-check {height:32px; }
+    .btn-check span {font-size:16px; line-height:32px;} 
+    .btn-change {height:43px; background-color:#141414;}
+    .btn-change span {font-size:20px; line-height:43px;}
+    .btn-find {position:relative; width:314px; height:56px; background-color:#ffb412;}
+    .btn-find span {font-weight:bold; font-size:24px; line-height:56px; }
+    .btn-find.ico-find span {padding-right:45px;  }
+    .btn-find.ico-find span:before {content:''; display:block; position:absolute; right:0; width:35px; height:100%; background:url('http://img.onbiz.co.kr/help/ico_find.png') no-repeat 0 center;}
+    .btn-agree-view {position: relative; top: 2px;color: #808080;font-size: 13px; padding: 0px 6px 1px;border: 1px solid #bfbfbf;margin-left: 8px;}
+    .btn-agree-view span {font-family: "Nanum Gothic"; font-size: 10px; position: relative;top: -2.5px; margin-left: 3px;}
+    .link-id {position:relative; display:table; width:100%; margin-top:10px;}
+    .link-id li {display:table-cell; width:175px; padding-left:6px;}
+    .link-id li:first-child {padding-left:0;}
+    .link-id li a {display:block; position:relative; height:52px;}
+    .link-id li a span {display:inline-block; position:relative; padding-left:10px; color:#fff; vertical-align: middle; font-weight:bold; font-size:18px; line-height:52px;}
+    .link-id li a.naver {background-color:#1ec700;}
+    .link-id li a.facebook {background-color:#3b5b9a;}
+    .link-id li a.naver:before {content:''; display:inline-block; position:relative; width:20px; height:100%; top:2px; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat 0 center;}
+    .link-id li a.facebook:before {content:''; display:inline-block; position:relative; width:13px; height:100%; vertical-align: middle; background:url('http://img.onbiz.co.kr/help/my_sprite_ico.png') no-repeat -20px center;}
+    
+    /* 탭 */
+    .admin-tab {position:relative; width:307px;}
+    .admin-tab:before, .admin-tab:after {content:''; display:block; clear:both}
+    .admin-tab li {float:left; width:50%; height:55px; border:1px solid #d2d2d2; background-color:#ebebeb; text-align:center; }
+    .admin-tab li:first-child {border-right:0;}
+    .admin-tab li a {display:block; font-size:18px; line-height:55px; color:#525252;}
+    .admin-tab .on {border-bottom:1px solid #fff; background-color:#fff; }
+    .admin-tab .on a {color:#e9a105;}
+    
+    /* 테이블 */
+    .admin-table-area {}
+    .admin-table-area th {width:135px; padding:5px 5px 5px 0; color:#010101; font-size:20px; text-align:left; vertical-align:middle;}
+    .admin-table-area td {padding:5px; vertical-align:middle;}
+    .admin-table-area th.vt {vertical-align:top;}
+    .admin-table-area th label {display:block;}
+    .admin-table-area th .etc, .admin-table-area td .etc {color:#808080; font-size:14px; vertical-align:middle;}
+    .admin-table-area td .btn, .admin-table-area td .etc {margin-left:10px;}
+    .admin-table-area .txt-box {display:inline-block; width:246px}
+    .admin-table-area .phone-area .txt-box {width:70px;}
+    .admin-table-area .phone-area .line {position:relative; display:inline-block; width:8px; height:1px; margin:0 2px; vertical-align:middle; background:#000}
+    .admin-table-area td .overlap {margin-left:10px; color:#000; font-size:14px; vertical-align:middle;}
+    .admin-table-area td .agree {margin-top:8px;}
+    .admin-table-area td .agree:first-child {margin-top:0;}
+
+    /* 로그인 */
+    .login .group {width:516px; padding:60px 80px; border:1px solid #bfbfbf;}
+    .customer {margin-top:10px; font-size:0; text-align:center;}
+    .customer li {display:inline-block; position:relative; margin-left:14px; padding-left:13px;}
+    .customer li:first-child {margin-left:0; padding-left:0;}
+    .customer li:before {content:''; display:block; position:absolute; left:0; top:50%; width:1px; height:10px; margin-top:-5px; background-color:#bfbfbf;}
+    .customer li:first-child:before {display:none;}
+    .customer li a {color:#808080; font-size:14px;}
+    .customer li a.member {color:#000;}
+
+    /* 회원가입 팝업 */
+    .layer-pop .pop-area {padding:55px 64px 48px;}
+    
+    /* 회원가입 */
+    .join {width:830px; margin:0 auto}
+    .join .group {padding:15px 95px; border-top:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf;}
+    .join .btn-area {margin:0 auto; padding:45px 0 20px}
+    .join .btn-area .btn {width:356px; margin:0 auto;}
+    
+    /* 회원가입 완료 팝업 */
+    .pop-join .pop-area {width:486px; padding:56px 42px 26px}
+    .pop-join .btn-login {height:53px; }
+    .pop-join .btn-login span {font-size:26px; line-height:53px;}
+    
+    /* 마이페이지 */
+    .mypage {}
+    .mypage .group {width:1100px;}
+    .mypage .s-tit {margin:50px 0 12px; color:#010101; font-size:30px; font-weight: 500;}
+    .mypage .s-tit:first-child {margin-top:0;}
+    .mypage .info {padding:20px 40px; border:1px solid #d2d2d2;}
+    .mypage .info .btn-change {width:238px;}
+    .mypage .admin-table-area {position:relative}
+    .mypage .admin-table-area tr {display:block; width:440px;}
+    .mypage .admin-table-area tr.txt-table th {height:42px;}
+    .mypage .admin-table-area tr.flt-r {position:absolute; top:0; right:0; width:570px;}
+    .mypage .admin-table-area tr.flt-r.phone-area {top:42px}
+    .mypage .admin-table-area tr.flt-r.input-area-1 {top:84px}
+    .mypage .buy-list {position:relative;}
+    .mypage .buy-tab {position:relative; width:307px;}
+    .mypage .buy-tab:before, .mypage .buy-tab:after {content:''; display:block; clear:both}
+    .mypage .buy-tab li {float:left; width:50%; height:55px; border:1px solid #d2d2d2; background-color:#ebebeb; text-align:center; }
+    .mypage .buy-tab li:first-child {border-right:0;}
+    .mypage .buy-tab li a {display:block; font-size:18px; line-height:55px; color:#525252;}
+    .mypage .buy-tab .on {border-bottom:1px solid #fff; background-color:#fff; }
+    .mypage .buy-tab .on a {color:#e9a105;}
+    .mypage .buy-list .cont {display:none; margin-top:-1px; padding:20px 30px 30px; border:1px solid #d2d2d2;}
+    .mypage .buy-list .cont.on {display:block;}
+    .mapage-table-list thead th {padding:10px 5px; border-bottom:2px solid #979797; color:#010101; font-weight:bold;}
+    .mapage-table-list tbody td {padding:15px 5px; border-bottom:1px solid #bfbfbf; color:#010101; text-align:center;}
+    .buy-list .pagenation {position: relative; text-align: center; width: 100%; margin-top: 30px;}
+    .buy-list .pagenation a {display: inline-block; font-size: 13px; width: 32px; height: 32px; vertical-align: middle; line-height: 2.3em; border: 1px solid #ccc; color: #919191; font-family: "Nanum Gothic"; font-weight: 600;}
+    .buy-list .pagenation a[class*="prev"], .buy-list .pagenation a[class*="next"] {font-size: 12px; line-height: 2.5em; letter-spacing: -2px;}
+    .buy-list .pagenation a:hover, .buy-list .pagenation a.on {border: 1px solid #000; color: #000;}
+    .buy-list .pagenation a.prev.on, .buy-list .pagenation a.pprev.on, .buy-list .pagenation a.next.on, .buy-list .pagenation a.nnext.on {border:0; color: #919191;} 
+    .buy-list .pagenation a.prev {text-indent: -4px;}
+    .buy-list .pagenation a.pprev {text-indent: -3px;}
+    .buy-list .pagenation a.next {text-indent: 1px;}
+    
+    /* 아이디 비밀번호 찾기 */
+    .find .group {position:relative; width:830px; text-align:center;}
+    .find .admin-tab {width:100%;}
+    .find .admin-tab .on a {color:#010101;}
+    .find .cont {display:none; margin-top:-1px; padding:55px 0 65px; border:1px solid #bfbfbf;}
+    .find .cont.on {display:block;}
+    .find .cont .btn-area {margin-top:64px;}
+    .find .cont .admin-table-area {width:385px; margin:0 auto; margin-top:30px; }
+    .find .cont .find-end-box .btn-area {margin-top:44px;}
+    .find .cont .result-txt01 {margin-bottom:10px; color:#010101; font-size:22px;}
+    .find .cont .result-txt02 {margin-bottom:15px; color:#464646; line-height:1.4;}
+    .find .cont .result-form {width:410px; height:88px; border:1px solid #d2d2d2; background-color:#f0f0f0; color:#464646; font-size:20px; text-align:center;}
+}

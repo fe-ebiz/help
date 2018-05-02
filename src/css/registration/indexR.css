@@ -135,11 +135,11 @@ section[class*="2-sec"] h2 {font-weight: 500; text-align: center; letter-spacing
     
     .service2-sec {padding:0 20px 70px;}
     .service2-sec h2 {margin-bottom:24px;}
-    .ss2b-area {position:relative; width:350px; margin:0 auto;}
-    .ss2b-box {width:270px; box-sizing:border-box; overflow:hidden; margin: 0 auto;}
-    .ss2b-u1 {width:600%; margin: 0 auto;} 
-    .ss2b-l1 {display: block; float:left; width:270px; height:145px; margin-right:10px; text-align: center;}
-    .ss2b-l1 .post {display: block; box-sizing:border-box; height:145px; background: #fff; padding:23px 0 20px; margin-top: 10px; }
+    .ss2b-area {position:relative; width:320px; /*width:100%; max-width:360px;*/ margin:0 auto;}
+    .ss2b-box {width:75%; height:145px; box-sizing:border-box; overflow:hidden; margin: 0 auto;}
+    .ss2b-u1 {width:500%; margin: 0 auto;} 
+    .ss2b-l1 {display: block; float:left; width:240px; /*width:20%;*/ height:100%; margin-right:10px; text-align: center;}
+    .ss2b-l1 .post {display: block; box-sizing:border-box; width:100%; height:100%; background: #fff; padding:23px 0 20px; margin-top: 10px; }
     .ss2b-l1 .post h3 {font-size:13px;}
     .ss2b-l1 .post .mtb {width:70px; margin: 20px auto;}
     .ss2b-l1 .post .ss2b-p1 {font-size:12px; }
@@ -161,7 +161,8 @@ section[class*="2-sec"] h2 {font-weight: 500; text-align: center; letter-spacing
 @media (max-device-width: 320px) {
     .ps2-l1 p {font-size:10px;}
     
-    .ss2b-box, .ss2b-l1 {width:235px;}
+    .ss2b-area {width:280px;}
+    .ss2b-l1 {width:210px;}
     
 }
 
@@ -249,13 +250,13 @@ section[class*="2-sec"] h2 {font-weight: 500; text-align: center; letter-spacing
     .ps2-l1 p span {font-size:14px;}
     .ps2-l1 .hidden-lg {display:block}
     
-    .service2-sec {padding:0 65px 70px;}
-    .service2-sec h2 {margin-bottom: 70px;}
-    .ss2b-area {position:relative; margin:0 auto;}
-    .ss2b-box {width:560px; overflow:hidden; margin: 0 auto;}
-    .ss2b-u1 {width:600%; margin: 0 auto;}
-    .ss2b-l1 {display: block; float:left; width: 550px; height:235px; margin-right: 10px; text-align: center;}
-    .ss2b-l1 .post {display: block; box-sizing:border-box; height:235px; padding:44px 0 51px; margin-top: 10px; }
+    .service2-sec {padding:0 30px 70px;}
+    .service2-sec h2 {margin-bottom:55px;}
+    .ss2b-area {position:relative; width:708px; /*width:100%; max-width:740px;*/  margin:0 auto;}
+    .ss2b-box {width:75%; height:234px; box-sizing:border-box; overflow:hidden; margin: 0 auto;}
+    .ss2b-u1 {width:500%; margin: 0 auto;} 
+    .ss2b-l1 {display: block; float:left; width:530px; /* width:20%;*/ height:100%; margin-right:10px; text-align: center;}
+    .ss2b-l1 .post {display: block; box-sizing:border-box; width:100%; height:100%; background: #fff; padding:44px 0 51px; margin-top: 10px; }
     .ss2b-l1 .post h3 {font-size: 20px; }
     .ss2b-l1 .post .mtb {width: 120px; margin: 20px auto;}
     .ss2b-l1 .post .ss2b-p1 {font-size: 18px;}
@@ -359,11 +360,10 @@ section[class*="2-sec"] h2 {font-weight: 500; text-align: center; letter-spacing
     
     .service2-sec {height: 700px;}
     .service2-sec h2 {margin-bottom: 70px; }
-    .ss2b-area {position:relative; width:1100px; margin:0 auto;}
-    .ss2b-area .bx-viewport, .ss2b-area .bx-wrapper {height:400px;}
-    .ss2b-box {width:935px; overflow:hidden; margin: 0 auto;}
-    .ss2b-u1 {width: 100%; margin: 0 auto;}
-    .ss2b-l1 {display: block; float:left; width: 302px; margin-right: 10px; text-align: center;}
+    .ss2b-area {position:relative; overflow:hidden; width:1100px; height:400px; margin:0 auto;}
+    .ss2b-box .bx-wrapper {width:935px;}
+    .ss2b-u1 {width:945px; margin: 0 auto;}
+    .ss2b-l1 {display: block; float:left; width:302px; margin-right: 10px; text-align: center;}
     .ss2b-l1 .post {height: 190px; text-align: center;}
     .ss2b-l1 .post h3 {font-size: 20px; padding-top: 35px;}
     .ss2b-l1 .post .mtb {width: 120px; margin: 20px auto;}
@@ -373,6 +373,7 @@ section[class*="2-sec"] h2 {font-weight: 500; text-align: center; letter-spacing
     .ss2-slide-btn span {width: 16px; height: 36px;}
     .ss2-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -100px; left: 0; }
     .ss2-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -150px 0px; right: 0;}
+    
 
     .solution2-sec {height: 328px;}
     section[class*="solution2-sec"] h2, .snc2-box {padding-left: 5px;}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+
+
+/* mobile */
+@media (max-width: 767px) {
+    .gh2 {font-size:20px; padding-top:27px; padding-bottom:13px; font-weight: 600; text-align: center;}
+    .gp1 {margin-bottom:15px; padding:0 12px; text-align: center; font-size: 13px; line-height: 1.6em; word-break:keep-all;}
+    .gp2 {width:100%; box-sizing:border-box; margin: 0 auto; margin-bottom:6px; padding:0 12px; font-size:12px; text-align: right;}
+
+    .apply-sec {width:100%; box-sizing:border-box; margin: 0 auto; padding:0 12px; }
+    .apply-sec .apply-area {border-top:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf;}
+    .apply-sec .outer {padding:27px 0px; border-top: 1px solid #ccc;}
+    .apply-sec .outer:first-child {border-top: 0;}
+    .apply-sec .tit-box h3 {margin-bottom:14px; font-size:17px; font-weight: 500;}
+    .apply-sec .tit-box h3 .sm {font-size:12px;}
+    .apply-sec .row {width:100%; margin-top:22px;}
+    .apply-sec .row:first-child {margin-top:0;}
+    .apply-sec .row li {display:block;}
+    .apply-sec .row .th {font-size:15px; line-height: 1.2em;}
+    .apply-sec .row .th.lh {line-height: 1.5em;}
+    .apply-sec .row .td {position:relative; margin-top:11px;}
+    .apply-sec .row .td label {cursor: pointer; font-size:13px;}
+    .apply-sec .row .td div {width:100%; margin-top:12px}
+    .apply-sec .row .td div p {margin-top:12px}
+    .apply-sec .txt-box {display:block; width:100%; padding: 5px 5px 5px 10px; font-size: 13px;}
+    /*.apply-sec .txt-box.type-05 {display:inline-block; min-width:87px; width:29%}*/
+    .apply-sec .row .phone-area {display:table}
+    .apply-sec .phone-area .txt-box, .apply-sec .phone-area span {display:table-cell}
+    .apply-sec .phone-line {position:relative; width:17px; height:32px; vertical-align:top}
+    .apply-sec .phone-line:before {content:''; position:absolute; display:inline-block; width:8px; height:1px; top:50%; left:50%; margin-left:-4px; background:#000}
+    .apply-sec .th .ps, .apply-sec .td .ps {position: relative; display: block; font-size:12px; line-height:1.3em; color: #808080;}
+    .apply-sec .th .ps {margin-top: 8px;}
+    .apply-sec .td .ps {margin-top: 8px; margin-bottom: 5px;}
+    
+    .apply-sec .chk-box {width:17px; height: 17px; top: 0; left:0; margin-right:10px; cursor: pointer;}
+    .apply-sec .chk-box:before {width: 17px; height: 17px;}
+    .apply-sec .other-check .txt-box {margin-top:8px;}
+    
+    .gp3-box {display:block; margin:0 auto; margin-top:17px; padding:0 12px; text-align:left;}
+    .gp3 {margin-top:8px;}
+    .gp3:first-child {margin-top:0;}
+    .gp3 label {font-size:12px;}
+    .gp3 .btn {position: relative; top:1px; color: #808080; font-size:11px; padding: 0px 5px 1px; border: 1px solid #bfbfbf; margin-left: 5px;}
+    .gp3 .btn span {font-family: "Nanum Gothic"; font-size:8px; position: relative; top: -1px; margin-left: 3px;}
+    .gp3 .chk-box {position: relative; top:0; margin-right: 4px;}
+    
+    .gp4 {margin-top:27px; margin-bottom:43px;}
+    .gp4 .btn {display: block; position: relative; width:225px; height:47px; margin: 0 auto; font-size:15px; text-align:center; font-weight: 500; line-height:47px; color:#fff}
+}
+
+@media (max-device-width: 320px) {
+    .layer-pop .pop-area {padding: 40px 23px 30px;}
+    .gp3 label {letter-spacing: -1px;}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+
+    .gh2 {font-size:36px; padding-top:52px; padding-bottom:20px; font-weight: 600; text-align: center;}
+    .gp1 {text-align: center; font-size: 20px; line-height: 1.3em; margin-bottom: 22px;}
+    .gp2 {width:100%; box-sizing:border-box; margin: 0 auto; padding:0 20px; text-align: right; margin-bottom: 8px;}
+    
+    .apply-sec {width:100%; box-sizing:border-box; margin: 0 auto; padding:0 20px; }
+    .apply-sec .apply-area {border-top:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf;}
+    .apply-sec .outer {padding: 30px 0px; border-top: 1px solid #ccc;}
+    .apply-sec .outer:first-child {border-top: 0;}
+    .apply-sec .tit-box h3 {margin-bottom:30px; font-size: 30px; font-weight: 500;}
+    .apply-sec .tit-box h3 .sm {font-size: 18px;}
+    .apply-sec .row {display:table; width:100%; margin-top: 10px;}
+    .apply-sec .row:first-child {margin-top:0;}
+    .apply-sec .row li {display:table-cell;}
+    .apply-sec .row .th {width: 150px; font-size: 20px; line-height: 1.2em;}
+    .apply-sec .row .th.lh {line-height: 1.5em;}
+    .apply-sec .row .td {width:auto;}
+    .apply-sec .row .td label {cursor: pointer;}
+    .apply-sec .row .td div {width:100%; margin-bottom: 15px;}
+    .apply-sec .row .td p {display: inline-block;}
+    .apply-sec .row .td p.nth-1 {width: 50%; min-width:330px;}
+    .apply-sec .txt-box {display:inline-block; width:100%; padding: 5px 5px 5px 10px; font-size: 16px;}
+    .apply-sec .txt-box.type-01 {width: 245px;}
+    .apply-sec .txt-box.type-03 {width:100%; position: relative; top: 2px; margin-left: 6px;}
+    .apply-sec .txt-box.type-04 {width: 160px;}
+    .apply-sec .txt-box.type-05 {width: 75px;}
+    .apply-sec .phone-line {position:relative; display:inline-block; width:20px; height:32px; vertical-align:top}
+    .apply-sec .phone-line:before {content:''; position:absolute; display:inline-block; width:8px; height:1px; top:50%; left:50%; margin-left:-4px; background:#000}
+    .apply-sec .chk-box {width:12px; top: 0; margin-left: -2px; margin-right: 5px; cursor: pointer;}
+    .apply-sec .chk-box:before {width: 10px; height: 10px;}
+    .apply-sec .other-check {display:table; width:100%;}
+    .apply-sec .other-check input, .apply-sec .other-check label {display:table-cell}
+    .apply-sec .other-check .chk-box {width:3px;}
+    .apply-sec .other-check label {width:37px;}
+    .apply-sec .th .ps, .apply-sec .td .ps {position: relative; display: block; font-size: 14px; color: #808080;}
+    .apply-sec .th .ps {top: -2px;}
+    .apply-sec .td .ps {margin-top: 8px; margin-bottom: 5px;}
+    
+    .gp3-box {display:block; margin:0 auto; margin-top:30px; padding:0 20px; text-align:left;}
+    .gp3 {margin-top:15px;}
+    .gp3:first-child {margin-top:0;}
+    .gp3 .btn {position: relative; top: 2px; color: #808080; font-size: 13px; padding: 0px 6px 1px; border: 1px solid #bfbfbf; margin-left: 5px;}
+    .gp3 .btn span {font-family: "Nanum Gothic"; font-size: 10px; position: relative; top: -2.5px; margin-left: 3px;}
+    .gp3 .chk-box {position: relative; top: 1px; margin-right: 4px;}
+    .gp3 .chk-box + label {cursor: pointer;}
+    
+    .gp4 {margin-top:46px; margin-bottom: 74px;}
+    .gp4 .btn {display: block; margin: 0 auto; width: 356px; height: 67px; color: #fff; font-size: 30px; text-align: center; font-weight: 500; line-height: 2.25em;}
+    
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    .gh2 {font-size: 44px; padding-top: 46px; padding-bottom: 20px; font-weight: 600; text-align: center;}
+    .gp1 {text-align: center; font-size: 20px; line-height: 1.3em; margin-bottom: 22px;}
+    .gp2 {width: 1100px; margin: 0 auto; text-align: right; margin-bottom: 8px;}
+
+    .apply-sec {width: 1100px; margin: 0 auto; border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; margin-bottom: 20px;}
+    .apply-sec .outer {padding: 30px 0px; border-top: 1px solid #ccc;}
+    .apply-sec .outer:first-child {border-top: 0;}
+    .apply-sec .tit-box, .apply-sec .con-box, .apply-sec .th, .apply-sec .td {float: left;}
+    .apply-sec .tit-box {width: 210px;}
+    .apply-sec .tit-box h3 {font-size: 30px; font-weight: 500;}
+    .apply-sec .tit-box h3 .sm {font-size: 18px;}
+    .apply-sec .row {margin-top: 10px;}
+    .apply-sec .row:first-child {margin-top: 0;}
+    .apply-sec .th {width: 149px; font-size: 20px; line-height: 1.2em;}
+    .apply-sec .th.lh {line-height: 1.5em;}
+    .apply-sec .td {width: auto;}
+    .apply-sec .td div {margin-bottom: 10px;}
+    .apply-sec .td p {display: inline-block;}
+    .apply-sec .td p.nth-1 {width: 50%;}
+    .apply-sec .td label {cursor: pointer;}
+    .apply-sec .txt-box {padding: 5px 5px 5px 10px; font-size: 16px;}
+    .apply-sec .txt-box.type-01 {width: 245px;}
+    .apply-sec .txt-box.type-02 {width: 614px;}
+    .apply-sec .txt-box.type-03 {width: 556px; position: relative; top: 2px; margin-left: 6px;}
+    .apply-sec .txt-box.type-04 {width: 160px;}
+    .apply-sec .txt-box.type-05 {width: 75px;}
+    .apply-sec .phone-line {position:relative; display:inline-block; width:20px; height:32px; vertical-align:top}
+    .apply-sec .phone-line:before {content:''; position:absolute; display:inline-block; width:8px; height:1px; top:50%; left:50%; margin-left:-4px; background:#000}
+    .apply-sec .chk-box {top: 1px; margin-left: -2px; margin-right: 4px; cursor: pointer;}
+    .apply-sec .chk-box:before {width: 10px; height: 10px;}
+    .apply-sec .th .ps, .apply-sec .td .ps {position: relative; display: block; font-size: 14px; color: #808080;}
+    .apply-sec .th .ps {top: -2px;}
+    .apply-sec .td .ps {margin-top: 8px; margin-bottom: 5px;}
+
+    .gp3-box {display:block; margin:0 auto; text-align:center;}
+    .gp3 {display:inline-block; text-align: center;}
+    .gp3 .btn {position: relative; top: 2px; color: #808080; font-size: 13px; padding: 0px 6px 1px; border: 1px solid #bfbfbf; margin-left: 5px;}
+    .gp3 .btn span {font-family: "Nanum Gothic"; font-size: 10px; position: relative; top: -2.5px; margin-left: 3px;}
+    .gp3 .chk-box {position: relative; top: 1px; margin-right: 4px;}
+    .gp3 .chk-box + label {cursor: pointer;}
+    .gp3 .chk-box.ml {margin-left: 30px;}
+
+    .gp4 {margin-top: 60px; margin-bottom: 85px;}
+    .gp4 .btn {display: block; margin: 0 auto; width: 356px; height: 67px; color: #fff; font-size: 30px; text-align: center; font-weight: 600; line-height: 2.25em;}
+}

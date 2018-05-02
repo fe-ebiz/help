@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.lnb-box, .ihs-outer {float: left;}
+.c-gray4 {color:#868686;}
+
+/* 서브메뉴 */
+.lnb-box {width: 274px;}
+.lnb {display:block}
+.lnb li a {display: block; padding-left: 20px; padding: 16px 0 16px 20px; line-height: 1.3em; width: 100%; background: #ebebeb; font-size: 18px; border: 1px solid #bfbfbf; border-bottom: 0;}
+.lnb li.last a {border-bottom: 1px solid #bfbfbf;}
+.lnb li.on a {background: #fff; color: #e9a105; border-color: #e9a105; border-bottom: 1px solid #e9a105;}
+.lnb li.on + li a {border-top: 0;}
+.yet a {cursor:default; color:#7b7b7b}
+
+/* 공통 */
+.gh2 {font-size: 44px; padding-top: 60px; padding-bottom: 60px; font-weight: 600; text-align: center;}
+.ihs-outer {display:none; width: 790px; min-height:920px; margin-left: 36px; margin-bottom: 100px; border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf;}
+.ihs-outer h3 {font-size: 30px; padding:35px 35px 40px; font-weight: bold;}
+.ihs-outer h3 span {display: block; font-size: 16px; margin-top: 10px; line-height: 1.3em;}
+
+/* 본관이전 - 관내 */
+.in-house-sec {width: 1100px; margin: 0 auto;}
+.in-house-sec .ihs-box {width: 100%; border-top: 1px solid #bfbfbf; padding:35px 0 35px 35px;}
+.in-house-sec .ih-prc-box {width: 100%; /*height: 404px;*/ border: 1px solid #d2d2d2; margin-bottom: 30px;}
+.ihs-box.nth-1 {padding-top:0; border-top:0}
+.in-house-sec .ihs-box.nth-1 .ihpb-u1 {position: relative;}
+.in-house-sec .ihs-box.nth-1 .ihpb-l {float: left; width: 50%;}
+.in-house-sec .ihs-box.nth-1 .ihpb-l h4 {height: 50px; text-align: center; color: #fff; background: #5F5F5F; font-size: 18px; line-height: 2.8em; letter-spacing: 0; margin-bottom: 16px;} 
+.in-house-sec .ihs-box.nth-1 .ihpb-l.nth-1 {border-right: 1px solid #d2d2d2;}
+.in-house-sec .ihs-box.nth-1 .ihpb-l div {min-height:41px; padding: 10px 45px}
+.in-house-sec .ihs-box.nth-1 .ihpb-l div p {font-size: 18px; line-height: 1.2em;}
+.in-house-sec .ihs-box.nth-1 .ihpb-l div.last {padding-bottom: 22px;}
+.in-house-sec .ihs-box.nth-1 .ihpb-p1 {text-align: center; padding: 25px 0;  margin: 0 30px; border-top: 1px solid #d2d2d2; font-size: 26px;}
+.in-house-sec .ihs-box.nth-1 .ihpb-p1 em {margin-left: 30px;}
+.in-house-sec .ihs-box.nth-1 .ih-p1 {font-size: 22px; margin-bottom: 35px;}
+.in-house-sec .ihs-box.nth-1 .ih-pwrap {}
+.in-house-sec .ihs-box.nth-1 .ih-p2 {position: relative; padding-left: 10px; line-height: 1.35em; margin-top: 5px; color: #626262;}
+.in-house-sec .ihs-box.nth-1 .ih-p2:before {position: absolute; left: 0; top: 0; display: inline-block; content: "·";}
+.in-house-sec .ihs-box.nth-1 .btn {display: block; position: relative; /*left: -17.5px;*/ left:0; width: 348px; height: 57px; font-size: 24px; font-weight: 500; line-height: 2.35em; margin: 0 auto; margin-bottom: 40px;}
+
+.in-house-sec .ihs-box.nth-2 h4 {font-size: 22px;}
+.in-house-sec .ihs-box.nth-2 h4 span {display: block; color: #626262; font-size: 16px; margin-top: 6px;}
+.in-house-sec .ihs-box.nth-2 .ih-p1 {margin-top: 30px; font-size: 20px;}
+.in-house-sec .ihs-box.nth-2 .ih-p2 {display: inline-block; height:30px; font-size: 18px; line-height:28px; text-align: center; background: #dcdcdc; margin-top: 10px; padding: 0 15px;}
+
+.in-house-sec .ihs-box.nth-3 h4 {font-size: 22px; margin-bottom: 30px;}
+.in-house-sec .ihs-box.nth-3 h4 span {display: block; color: #626262; font-size: 16px; margin-top: 6px;}
+.in-house-sec .ihs-box.nth-3 .ih-p1 {position: relative; font-size: 18px; margin-top: 5px; line-height: 1.3em; padding-left: 17px;}
+.in-house-sec .ihs-box.nth-3 .ih-p1 span {position: absolute; left: 0;}
+.in-house-sec .ihs-box.nth-3 .ih-p1 .show-lg {position:relative}
+
+/* 설립등기 */
+.est-reg-sec .ihs-box {padding: 35px 0 35px 35px;}
+/*.est-reg-sec .ihs-box.nth-1 > h3 {font-size: 30px; margin-bottom: 40px; font-weight: 500;}
+.est-reg-sec .ihs-box.nth-1 > h3 span {display: block; font-size: 16px; margin-top: 10px; line-height: 1.3em;}*/
+.ers-p1 .f-semibold, .ers-p1 .txt-box {vertical-align: middle;}
+.ers-p1, .ers-p2 {padding-left: 5px;}
+.ers-p1 {margin-bottom: 12px;}
+.ers-p1 .txt-box {width: 266px; font-size: 16px;}
+.ers-p2 {margin-bottom: 20px;}
+.ers-p2 span + .chk-box {margin-left:20px}
+.ers-p2 .f-semibold + .chk-box {margin-left:0}
+.ers-p2 .f-semibold, .ers-p2 .chk-box, .ers-p2 .chk-box + span {vertical-align: middle;}
+.ers-p1 .f-semibold, .ers-p2 .f-semibold {display: inline-block; width:160px; font-size:18px;}
+.ers-p1 .money-text {display: inline-block; margin-left:10px; vertical-align:middle;}
+.ers-p2 .chk-box {position: relative; top: 1px; margin-left: -2px; margin-right: 5px; cursor: pointer; vertical-align: text-bottom;}
+.ers-p3 {padding-left: 165px; margin-bottom:20px;}
+.ers-p4 {padding-top:30px;margin-bottom: 50px;}
+
+/* 설립등기 비용계산하기 */
+#ers-prc-box {padding-top:30px; margin-bottom: 50px;}
+.est-reg-sec .ihs-box.nth-1 h4 {font-size: 22px; margin-top:30px; margin-bottom: 20px;}
+.est-reg-sec .ihs-box.nth-1 .ih-p2 > span.s1 {font-weight: 500;}
+.est-reg-sec .ihs-box.nth-2 .ih-p2.ml {margin-left: 8px;}
+.in-house-sec .est-reg-sec .ihs-box.nth-1 .ihpb-l h4 {margin-top:0}
+.est-reg-sec .blank {min-height:21px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 {margin-bottom:22px; padding:0 35px 25px; border:1px solid #d2d2d2;}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 h4 {margin-top:25px; margin-bottom:15px; padding-bottom:17px; font-size:26px; text-align:center; border-bottom:1px solid #d2d2d2;}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .ihpb-l div {padding:10px 0;}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .ihpb-l.nth-1 div {padding-left:10px; padding-right:45px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .ihpb-l.nth-2 div {padding-left:45px; padding-right:10px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 div p {letter-spacing:-1.3px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 div span {display:inline-block; letter-spacing:-1.3px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .sale {position:relative; font-size:18px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .sale:before {content:''; position:absolute; display:inline-block; width:100%; height:1px; top:50%; padding:0 1px 0 2px; background:#989898;}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .free {margin-left:12px; padding:1px 7px; font-size:16px;}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .free-2 {font-size:18px}
+.est-reg-sec .ihs-box.nth-1 .ih-prc-box-2 .ihpb-p1 {margin:0; margin-top:15px; padding:15px 0 0 12px; font-size:16px; line-height:1.5em; text-align:left;}

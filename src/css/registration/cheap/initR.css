@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+section[class*="-sec"] h2 {position: relative; margin-left: auto; margin-right: auto; text-align: center; letter-spacing: 0.7px;}
+section[class*="-sec"] > div[class*="-box"] {position: relative; margin-left: auto; margin-right: auto;}
+
+
+.main-sec {background: url(http://img.onbiz.co.kr/help/che_main.jpg) no-repeat center; background-size:cover}
+
+.dues-sec h2 {font-weight: 400; background: #fec039;}
+.dues-sec h2:after {content: ""; display: block; position: absolute; width: 1px; left: 50%;}
+.dues-sec h2 em {display: block;}
+.ds-u1 {position: relative; margin: 0 auto;}
+li[class*="ds-l"] {float: left;}
+li[class*="ds-l1"] {position: relative; border: 1px solid #bfbfbf;}
+li[class*="ds-l1"] h3 {text-align: center; color: #fff;}
+li.ds-l1-1 h3 {background: #5f5f5f;}
+li.ds-l1-2 h3 {background: #191919;}
+.hl-box {border: 5px solid #ffb411;}
+p[class*="ds-p1"] {color: #5f5f5f;}
+p.ds-p1-2 {font-weight: 600; color: #000; border-top: 1px solid #000;}
+.dsh-p1 span.nth-1, p[class*="ds-p1"] span.nth-1 {display: inline-block;}
+.dsh-p1 span.nth-2, p[class*="ds-p1"] span.nth-2 {font-family: Verdana, "Noto Sans KR", "Nanum Gothic", sans-serif;}
+li.ds-l1-2 .dsh-p1 span.nth-2 {font-weight: 500;}
+  
+.step-sec {background: url(http://img.onbiz.co.kr/help/registration/cheap/bg_step.jpg) no-repeat center; background-size:cover}
+.step-sec .step-area:before, .step-sec .step-area:after {content:''; clear:both; display:block}
+.step-sec .step-area div[class*="step-box"] {position:relative; float:left; text-align:center; background:#f5f5f5}
+.step-sec .step-list {display:inline-block; margin:0 auto; }
+.step-sec .step-list li:before {content:''; display:inline-block; position:absolute; left:50%; vertical-align:middle; background: url(http://img.onbiz.co.kr/help/registration/cheap/ico_step_arrowb.png) no-repeat; background-size:cover}
+.step-sec .step-list li:first-child:before {content:none;}
+.step-sec .step-list li p:before {content:''; display:inline-block; vertical-align:middle; background: url(http://img.onbiz.co.kr/help/registration/cheap/ico_step_list.png) no-repeat;}
+.step-sec .step-info-box {position:absolute; width:100%; bottom:0; text-align:left; background:rgba(0, 0, 0, 0.9); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);}
+.step-sec .step-info-box p {line-height:1.5em; color:#fff}
+.step-sec .step-info-box p em {color: #ffb411;}
+
+.solution2-sec {background:#fec039;}
+
+/* mobile */
+@media (max-width: 767px) {
+    .main-sec {padding:35px 37px 42px}
+    .main-sec h2 {margin-bottom:22px; font-size:22px; font-weight: 500;}
+    .main-sec p.nth-1 {text-align: center; font-size:12px; word-break:keep-all; font-weight: 300; line-height: 1.5em;}
+    .main-sec p.nth-1 em {display: block; font-size:13x; font-weight: 400; margin-top:25px;}
+
+    .dues-sec h2 {padding:16px 0 15px; font-size:13px;}
+    .dues-sec h2:after {bottom: -34px; margin-left: -18px; border: 17px solid transparent; border-top-color: #fec039;}
+    .dues-sec h2 em {margin-top: 10px; font-size:17px;}
+    .ds-u1 {width:100%; max-width:360px; margin:0 auto; padding:30px 12px;}
+    li[class*="ds-l1"] {box-sizing:border-box; width:49%; max-width:165px; padding-bottom:12px;}
+    li.ds-l1-1 {float:left;}
+    li.ds-l1-2 {float:right; margin-left:5px;}
+    li[class*="ds-l1"] h3 {height:32px; font-size:13px; line-height:32px;}
+    .hl-box {margin-top:11px;}
+    .dsh-p1, p[class*="ds-p1"] {line-height: 1.75em; font-size: 11px;}
+    .dsh-p1 {margin: 0 5px;}
+    li[class*="ds-l1"] p {clear:both;}
+    li[class*="ds-l1"] p:after, li[class*="ds-l1"] p:before {content:''; clear:both; display:block}
+    li p.ds-p1 {box-sizing:border-box; margin: 0 9px;}
+    li p.ds-p1-2 {margin:12px 9px 0; padding-top:10px;}
+    .dsh-p1 span.nth-1, p[class*="ds-p1"] span.nth-1 {display:inline-block; width:80px;}
+    .dsh-p1 span.nth-2, p[class*="ds-p1"] span.nth-2 {display:inline-block;}
+    .dsh-p1 span.nth-1, p.ds-p1 span.nth-1 {}
+    p.ds-p1-2 span.nth-1 {}
+    p.ds-p1-2 span.nth-2 {font-size: 12px;}
+
+    .step-sec {padding:38px 12px 40px;}
+    .step-sec h2 {font-size:13px; line-height: 1.4em; margin-bottom:30px;}
+    .step-sec h2 em {display: block; font-size:19px;}
+    .step-sec .step-area {box-sizing:border-box; width:100%; max-width:340px; margin:0 auto;}
+    .step-sec .step-area div[class*="step-box"] {width:50%; max-width:165px; height:320px; padding-bottom:10px}
+    .step-sec .step-area .step-box-2 {margin-left:6px}
+    .step-sec .step-area h3 {padding:19px 0; font-size:13px; text-align:center; font-weight:bold}
+    .step-sec .step-list li {position:relative; margin-top:20px; text-align:left;}
+    .step-sec .step-list li:first-child {margin-top:0;}
+    .step-sec .step-list li:before {width:12px; height:5px; top:-10px; margin-left:-6px;}
+    .step-sec .step-list li p:before {width:25px; height:25px;}
+    .step-sec .step-list p span {display:inline-block; padding-left:8px; font-size:12px; vertical-align:middle; line-height:1.2em}
+    .step-box-1 .step-list {margin:0 auto}
+    .step-box-1 .step-list .nth-1 p:before {background-position:0px 0px; background-size:25px auto}
+    .step-box-1 .step-list .nth-2 p:before {background-position:0px -39px; background-size:25px auto}
+    .step-box-1 .step-list .nth-3 p:before {background-position:0px -77px; background-size:25px auto}
+    .step-box-1 .step-list .nth-4 p:before {background-position:0px -116px; background-size:25px auto}
+    .step-box-1 .step-list .nth-5 p:before {background-position:0px -158px; background-size:25px auto}
+    .step-box-1 .step-list .nth-6 p:before {background-position:0px -202px; background-size:25px auto}
+    .step-box-2 .step-list .nth-1 p:before {background-position:0px -241px; background-size:25px auto}
+    .step-box-2 .step-list .nth-2 p:before {background-position:0px -280px; background-size:25px auto}
+    .step-box-2 .step-list .nth-3 p:before {background-position:0px -323px; background-size:25px auto}
+    .step-sec .step-info-box {padding:16px 10px 15px;}
+    .step-sec .step-info-box .nth-1 {font-size:12px;}
+    .step-sec .step-info-box .nth-2 {padding-top:10px; font-size:10px; font-weight:200}  
+    .step-sec .step-list p .hidden-lg, .step-sec .step-info-box .hidden-lg {display:block}
+
+    .solution2-sec {padding-bottom:30px; text-align:center}
+    section[class*="solution2-sec"] h2, .snc2-box {padding-left: 5px;}
+    section[class*="solution2-sec"] h2 {margin: 0px auto; text-align: center; padding-top:39px; font-size:20px; font-weight: 700;}
+    .snc2-box {padding-top:33px;}
+    .snc2b-p1 {font-size:13px; line-height: 1.3em;}
+    .snc2b-p2 {font-size:17px; padding:9px 0 27px; font-weight: 600;}
+    .snc2-box .btn {display:inline-block; width: 225px; height: 45px; font-size:15px; font-weight: 600; line-height:45px;} 
+}
+
+@media (max-device-width: 320px) {
+    section[class*="-sec"] h2 {letter-spacing: -0.3px;}
+    
+    li p.ds-p1 {margin: 0 7px;}
+    li p.ds-p1-2 {margin:10px 7px 0;}
+    .dsh-p1, p[class*="ds-p1"] {font-size: 10px;}
+    p.ds-p1-2 span.nth-2 {font-size: 11px;}
+    .dsh-p1 span.nth-1, p[class*="ds-p1"] span.nth-1 {width:70px;}
+    
+    .step-sec .step-area div[class*="step-box"] {max-width:145px; height:315px;}
+    .step-sec .step-area .step-box-2 {margin-left:5px}
+    .step-sec .step-list p span {font-size:11px; letter-spacing: -1px;}
+    .step-sec .step-info-box {padding:16px 7px 15px;}
+    .step-sec .step-info-box .nth-1 {font-size:11px;} 
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+    .main-sec {padding:88px 0 57px}
+    .main-sec h2 {margin-bottom:35px; font-size:36px; font-weight: 500;}
+    .main-sec p.nth-1 {text-align: center; font-size:18px; font-weight: 300; line-height: 1.5em;}
+    .main-sec p.nth-1 em {display: block; font-size:22x; font-weight: 400; margin-top:15px;}
+
+    .dues-sec h2 {padding:30px 0 26px; font-size:24px;}
+    .dues-sec h2:after {bottom: -54px; margin-left: -26.5px; border: 27px solid transparent; border-top-color: #fec039;}
+    .dues-sec h2 em {margin-top: 10px; font-size:36px;}
+    .ds-u1 {width:100%; max-width:730px; margin:0 auto; padding:50px 20px;}
+    li[class*="ds-l1"] {box-sizing:border-box; width:49%; max-width:358px; padding-bottom:18px;}
+    li.ds-l1-1 {float:left;}
+    li.ds-l1-2 {float:right; margin-left: 11px;}
+    li[class*="ds-l1"] h3 {height:56px; font-size:24px; line-height:56px;}
+    .hl-box {margin-top:26px;}
+    .dsh-p1, p[class*="ds-p1"] {line-height: 1.75em; font-size: 20px;}
+    .dsh-p1 {margin: 0 15px;}
+    li[class*="ds-l1"] p {clear:both;}
+    li[class*="ds-l1"] p:after, li[class*="ds-l1"] p:before {content:''; clear:both; display:block}
+    p[class*="ds-p1"] {box-sizing:border-box;}
+    li p.ds-p1 {box-sizing:border-box; margin: 0 20px;}
+    li p.ds-p1-2 {margin:18px 13px 0; padding-top:18px;}
+    .dsh-p1 span.nth-1, p[class*="ds-p1"] span.nth-1 {display:inline-block; width:175px;}
+    .dsh-p1 span.nth-2, p[class*="ds-p1"] span.nth-2 {display:inline-block; }
+    .dsh-p1 span.nth-2 {font-size: 22px;}
+    li p.ds-p1-2 span.nth-1 {width:182px; padding-left:7px;}
+
+    .step-sec {padding:67px 20px;}
+    .step-sec h2 {font-size: 24px; line-height: 1.4em; margin-bottom: 50px;}
+    .step-sec h2 em {display: block; font-size: 36px;}
+    .step-sec .step-area {box-sizing:border-box; width:100%; max-width:730px; margin:0 auto;}
+    .step-sec .step-area div[class*="step-box"] {width:357px; min-height:564px; padding-bottom:30px}
+    .step-sec .step-area .step-box-2 {margin-left:10px}
+    .step-sec .step-area h3 {padding:30px 0; font-size:24px; text-align:center; font-weight:bold}
+    .step-sec .step-list li {position:relative; margin-top:30px; height:50px; text-align:left;}
+    .step-sec .step-list li:first-child {margin-top:0;}
+    .step-sec .step-list li:before { width:16px; height:7px; top:-15px; margin-left:-8px;}
+    .step-sec .step-list li p:before {width:47px; height:47px;}
+    .step-sec .step-list p span {display:inline-block; padding-left:20px; font-size:20px; vertical-align:middle; line-height:1.2em}
+    .step-box-1 .step-list {margin:0 auto}
+    .step-box-1 .step-list .nth-1 p:before {background-position:0px 0px; background-size:47px auto}
+    .step-box-1 .step-list .nth-2 p:before {background-position:0px -73px; background-size:47px auto}
+    .step-box-1 .step-list .nth-3 p:before {background-position:0px -146px; background-size:47px auto}
+    .step-box-1 .step-list .nth-4 p:before {background-position:0px -218px; background-size:47px auto}
+    .step-box-1 .step-list .nth-5 p:before {background-position:0px -298px; background-size:47px auto}
+    .step-box-1 .step-list .nth-6 p:before {background-position:0px -379px; background-size:47px auto}
+    .step-box-2 .step-list .nth-1 p:before {background-position:0px -453px; background-size:47px auto}
+    .step-box-2 .step-list .nth-2 p:before {background-position:0px -526px; background-size:47px auto}
+    .step-box-2 .step-list .nth-3 p:before {background-position:0px -608px; background-size:47px auto}
+    .step-sec .step-info-box {padding:40px 6px 37px 13px;}
+    .step-sec .step-info-box .nth-1 {font-size:20px;}
+    .step-sec .step-info-box .nth-2 {padding-top:15px; font-size:18px; font-weight:200}
+    
+    .solution2-sec {padding-bottom:55px; text-align:center}
+    section[class*="solution2-sec"] h2, .snc2-box {padding-left: 5px;}
+    section[class*="solution2-sec"] h2 {margin: 0px auto; font-size:36px; text-align: center; padding-top: 72px; font-weight: 700;}
+    .snc2-box {padding-top: 32px;}
+    .snc2b-p1 {font-size:22px; line-height: 1.2em;}
+    .snc2b-p2 {font-size:26px; padding: 18px 0 60px; font-weight: 600;}
+    .snc2b-p3 .btn {display:inline-block; width: 400px; height: 80px; font-size:26px; font-weight: 600; line-height:80px;}
+    
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    section[class*="-sec"] h2, section[class*="-sec"] > div[class*="-box"] {width:1100px;}
+
+    .main-sec {height: 379px;}
+    .main-sec h2 {padding: 65px 0 40px; font-size:42px; font-weight: 500;}
+    .main-sec p.nth-1 {text-align: center; font-size: 20px; font-weight: 300; line-height: 1.5em;}
+    .main-sec p.nth-1 em {display: block; font-weight: 400; margin-top: 20px;}
+
+    .dues-sec {height: 689px;}
+    .dues-sec h2 {height: 127px; margin-bottom: 75px; margin-top: -63.5px; padding-top: 20px; font-size: 32px;}
+    .dues-sec h2:after {bottom: -54px; margin-left: -26.5px; border: 27px solid transparent; border-top-color: #fec039;}
+    .dues-sec h2 em {margin-top: 10px; font-size: 40px;}
+    .ds-u1 {width: 845px;}
+    li[class*="ds-l0"] {position: absolute; border: 3px dashed #5f5f5f;}
+    li.ds-l0-1 {width: 53px; height: 299px; border-right: 0; top: 90px; left: -53px;}
+    li.ds-l0-2 {width: 59px; height: 209px; border-left: 0; top: 180px; right: -59px;}
+    li[class*="ds-l0"] p {position: absolute; text-align: center; font-size: 24px; line-height: 1.3em; background: #fff; width: 100px; font-weight: 500; height: 62px; top: 50%; margin-top: -31px;}
+    li.ds-l0-1 p {left: -50px;}
+    li.ds-l0-2 p {right: -50px;}
+    li[class*="ds-l1"] {width: 414px; height: 403px;}
+    li.ds-l1-2 {margin-left: 17px;}
+    li[class*="ds-l1"] h3 {height: 60px; font-size: 32px; line-height: 1.8em;}
+    .hl-box {margin-top: 20px;}
+    .dsh-p1, p[class*="ds-p1"] {line-height: 1.75em; font-size: 24px;}
+    .dsh-p1 {line-height: 1.7em; margin: 0 30px;}
+    p[class*="ds-p1"] {margin: 0 35px;}
+    p.ds-p1-2 {margin-top: 15px; padding-top: 15px;}
+    .dsh-p1 span.nth-1, p[class*="ds-p1"] span.nth-1 {width: 200px;}
+    .dsh-p1 span.nth-2, p[class*="ds-p1"] span.nth-2 {font-size: 24px;}
+    .ds-ps {width: 845px; margin: 0 auto; margin-top: 8px; text-align: right;}
+
+    .step-sec {height: 870px;}
+    .step-sec h2 {padding-top: 80px; font-size: 36px; line-height: 1.4em; margin-bottom: 50px;}
+    .step-sec h2 em {display: block; font-size: 44px;}
+    .step-sec .step-area {width:850px; margin:0 auto;}
+    .step-sec .step-area div[class*="step-box"] {width:420px; height:585px;}
+    .step-sec .step-area .step-box-2 {margin-left:10px}
+    .step-sec .step-area h3 {padding:38px 0; font-size:32px; text-align:center; font-weight:bold}
+    .step-sec .step-list li {position:relative; margin-top:30px; height:50px; text-align:left;}
+    .step-sec .step-list li:first-child {margin-top:0;}
+    .step-sec .step-list li:before { width:18px; height:7px; top:-15px; margin-left:-9px;}
+    .step-sec .step-list li p:before {width:50px; height:50px;}
+    .step-sec .step-list p span {display:inline-block; padding-left:25px; font-size:20px; vertical-align:middle; line-height:1.2em}
+    .step-box-1 .step-list {margin:0 auto}
+    .step-box-1 .step-list .nth-1 p:before {background-position:0px 0px;}
+    .step-box-1 .step-list .nth-2 p:before {background-position:0px -77px;}
+    .step-box-1 .step-list .nth-3 p:before {background-position:0px -156px;}
+    .step-box-1 .step-list .nth-4 p:before {background-position:0px -231px;}
+    .step-box-1 .step-list .nth-5 p:before {background-position:0px -318px;}
+    .step-box-1 .step-list .nth-6 p:before {background-position:0px -403px;}
+    .step-box-2 .step-list .nth-1 p:before {background-position:0px -482px;}
+    .step-box-2 .step-list .nth-2 p:before {background-position:0px -560px;}
+    .step-box-2 .step-list .nth-3 p:before {background-position:0px -647px;}
+    .step-sec .step-info-box {padding:40px 9px 37px 17px;}
+    .step-sec .step-info-box .nth-1 {font-size:20px;}
+    .step-sec .step-info-box .nth-2 {padding-top:18px; font-size:18px; font-weight:200}
+
+    .solution2-sec {height: 328px;}
+    section[class*="solution2-sec"] h2, .snc2-box {padding-left: 5px;}
+    section[class*="solution2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: left; padding-top: 72px; font-size: 42px; font-weight: 500; letter-spacing: 0.7px;}
+    .snc2-box {padding-top: 40px;}
+    .snc2b-p1 {font-size: 26px; line-height: 1.2em;}
+    .snc2b-p2 {font-size: 30px; margin-top: 12px; font-weight: 500;}
+    .snc2b-p3 {position: absolute; right: 0; top: 10px;}
+    .snc2b-p3 .btn {display: block; width: 354px; height: 88px; font-size: 30px; font-weight: 600; line-height: 2.9em;}
+}
+

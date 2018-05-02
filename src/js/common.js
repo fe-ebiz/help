@@ -38,7 +38,8 @@ $(function () {
 	$(this).addClass('on').next().addClass('on');
   });
 	
-	$(window).resize(function(){
+	//20180501 디자인 변경으로 ul function 숨김
+	/*$(window).resize(function(){
 		var windowWid = $(window).width();
 		var ul = $('.top-wrap .tb-nav');
 		
@@ -56,6 +57,7 @@ $(function () {
 });
 
 /* 해더 기능 */
+/*
 function headerFn() {
 	var hd = $(".header"),
 		hnb = $(".tab-hnb");
@@ -64,9 +66,24 @@ function headerFn() {
 		$(".header").toggleClass("active");
 	});
 }
+*/
+//20180501 헤더 수정
+function headerFn() {
+	var hd = $(".header"),
+		hnb = $(".tab-hnb"),
+        tophd = $(".top-wrap");
+	
+    console.log('1');
+    
+	hnb.click(function() {
+        hd.toggleClass('active');
+        tophd.fadeToggle();
+	});
+}
 
+//20180501 디자인 변경으로 ul function 숨김
 //ul width
-function widthOuto(itm){
+/*function widthOuto(itm){
 	var liLen = itm.find('li').length-1;
 	var liPlus = 0;
 
@@ -75,7 +92,7 @@ function widthOuto(itm){
 	}
    itm.css({width : (liPlus+(liLen*3))+'px'});
 	// console.log(itm.width(), liPlus, (liPlus+(liLen*3)))
-}
+}*/
 
 function login_naver() {
 	window.name = 'help_nuri_w';

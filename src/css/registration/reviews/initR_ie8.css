@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-.gh2 {font-size: 44px; padding-top: 55px; padding-bottom: 55px; font-weight: 600; text-align: center;}
+.gh2 {font-size: 44px; padding-top: 60px; padding-bottom: 60px; font-weight: 600; text-align: center;}
 
 .reviews-sec {width: 1100px; margin: 0 auto; margin-bottom: 100px;}
 .rs-u1 {border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; margin-bottom: 70px;}
 .rs-l1 {padding: 25px 0; border-top: 1px solid #e4e2e2;}
 .rs-l1:first-child {border-top: 0;}
 .rs-l1 > div {float: left; line-height: 1.3em; letter-spacing: 0;}
-.rs-l1 > div.nth-1 {width: 100px;}
+.rs-l1 > div.nth-1 {width: 100px; color: #ffb411;}
 .rs-l1 > div.nth-2 {width: 865px; padding-right: 10px; padding-left: 40px;}
 .rs-l1 > div.nth-3 {width: 135px; text-align: right;}
 .reviews-sec .pagenation {text-align: center; font-size: 0;}
@@ -17,4 +17,3 @@
 .reviews-sec .pagenation a.prev {text-indent: -4px;}
 .reviews-sec .pagenation a.pprev {text-indent: -3px;}
 .reviews-sec .pagenation a.next {text-indent: 1px;}
-

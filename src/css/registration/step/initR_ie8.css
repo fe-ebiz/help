@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.gh2 {font-size: 44px; padding-top: 60px; padding-bottom: 60px; font-weight: 600; text-align: center;}
+    
+/* 탭메뉴 영역 */
+.electro-tab-area {position:relative; width:1100px; height:55px; margin:0 auto;}
+.electro-tab-area .electro-tab {z-index:10; position:absolute}
+.electro-tab-area .electro-tab:before, .electro-tab-area .electro-tab:after {content:''; clear:both; display:block}
+.electro-tab li {display:inline-block; float:left; box-sizing:border-box; width:155px; height:55px; text-align:center; border:1px solid #d2d2d2; background:#ebebeb}
+.electro-tab li:first-child {border-right:0}
+.electro-tab li a {display:block; font-size:18px; font-weight:bold; line-height:55px; color:#525252}
+.electro-tab .on {border-bottom:1px solid #fff; background:#fff}
+.electro-tab .on a {color:#eaa105;}
+
+/* 법인등기 절차안내 */
+.electro-area {clear:both; position:relative; width:1100px; margin:0 auto; margin-top:-2px; margin-bottom:100px; border:1px solid #d2d2d2;}
+.electro-box {margin:63px 0 53px}
+.electro-box .elctro-tit-box {margin:0 auto; padding-bottom:35px; text-align:center}
+.electro-box .elctro-tit-box p {display:inline-block; width:150px; height:50px; font-size:24px; line-height:50px; font-weight:bold; color:#fff}
+.electro-box .elctro-tit-box .cust {margin-right:40px; background:#191919}
+.electro-box .elctro-tit-box .help {margin-left:40px; background:#ffb412}
+.electro-box .elctro-list {position:relative; margin:0 auto}
+.electro-box .elctro-list:before {content:''; display:block; position:absolute; width:2px; height:100%; left:50%; background:#535353}
+.electro-box .elctro-list li {position:relative; width:50%;}
+.electro-box .elctro-list li:after {content:''; clear:both; display:block}
+.electro-box .elctro-list .cust:before, .electro-box .elctro-list .help:before {content:''; display:block; position:absolute; width:18px; height:18px; top:50%; margin-top:-9px; background:url(http://img.onbiz.co.kr/help/registration/step/img_list.png) no-repeat; }
+.electro-box .elctro-list li:first-child:before {top:0; margin-top:0;}
+.electro-box .elctro-list li p {font-size:18px; font-weight:500; }
+.electro-box .elctro-list .cust:before {right:-10px; background-position:0 0;}
+.electro-box .elctro-list .cust p {padding-right:28px; text-align:right; line-height:1.2em; color:#000}
+.electro-box .elctro-list .help { margin-left:50%;}
+.electro-box .elctro-list .help:before {left:-8px; background-position:-32px 0;}
+.electro-box .elctro-list .help div {position:relative; width:222px; margin-left:38px; padding:18px 5px 18px 15px; text-align: left; border:3px solid #f5b24a}
+.electro-box .elctro-list .help div:before {content:''; display:block; position:absolute; width:18px; height:28px; top:50%; left:-18px; margin-top:-14px; background:url(http://img.onbiz.co.kr/help/registration/step/bg_help_arrowl.png) no-repeat center;}
+.electro-box .elctro-list .help p {line-height:1.4em; color:#000; letter-spacing:-1.5px;}
+.electro-box .elctro-list .help span {display:block; padding-top:3px; font-size:16px; font-weight:500; color:#898989}
+.electro-box .elctro-list .end-day {width:100%; margin-bottom:10px; text-align:center; background:#fff url(http://img.onbiz.co.kr/help/registration/step/img_endingday.png) no-repeat center 0;}
+.electro-box .elctro-list .end-day p {padding:72px 0 10px; color:#535353}
+.electro-box .elctro-list .end {width:100%; margin-top:18px; text-align:center; background:#fff url(http://img.onbiz.co.kr/help/registration/step/img_end.png) no-repeat center 18px;}
+.electro-box .elctro-list .end p {padding-top:60px; color:#535353}
+
+.electro-info-box {padding:13px 40px 46px; background:#ebebeb}
+.electro-info-box .electro-info-tit {padding:37px 0 17px; font-size:20px; font-weight:500; color:#000}
+.electro-info-box .electro-info-list li {position:relative; margin-top:11px; padding-left:14px; font-size:16px; line-height:1.3em; word-break:keep-all; color:#555}
+.electro-info-box .electro-info-list li:before {content:''; display:block; position:absolute; width:6px; height:6px; top:8px; left:0; border-radius:100%; background:#555;}
+.electro-info-box .electro-info-list li:first-child {margin-top:0;}
+
+/* 법인등기 이제 간편하게 해결하세요 */
+.solution2-sec {background: #FEC039; height: 328px;}
+section[class*="solution2-sec"] h2, .snc2-box {position: relative; width: 1100px; margin: 0 auto; padding-left: 5px;}
+section[class*="solution2-sec"] h2 {width: 1100px; margin: 0px auto; text-align: left; padding-top: 72px; font-size: 42px; font-weight: 500; letter-spacing: 0.7px;}
+.snc2-box {padding-top: 40px;}
+.snc2b-p1 {font-size: 26px; line-height: 1.2em;}
+.snc2b-p2 {font-size: 30px; margin-top: 12px; font-weight: 500;}
+.snc2b-p3 {position: absolute; right: 0; top: 10px;}
+.snc2b-p3 .btn {display: block; width: 354px; height: 88px; font-size: 30px; font-weight: 600; line-height: 2.9em;}
