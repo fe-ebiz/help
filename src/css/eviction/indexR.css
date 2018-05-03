@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+/* mobile */
+@media (max-width: 767px) {
+   
+}
+
+@media (max-device-width: 320px) {
+    
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+    
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:80px 0 56px; font-size:42px; font-weight: 500; text-align: center; letter-spacing: 0.7px;}
+
+    /* visual */
+    .main-sec {width: 100%; height:440px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual.jpg) no-repeat center; background-size:cover}
+    .main-sec .ms-box {height:100%; padding-left:19px;}
+    .main-sec .ms-box p {}
+    .main-sec .ms-box .nth-1 {padding:67px 0 0; font-size:50px; line-height:67px;}
+    .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
+    .main-sec .ms-box .nth-2 {padding:32px 0 60px; font-size:24px;}
+    .main-sec .ms-box .nth-2 span {font-style: italic;}
+    .main-sec .ms-box .nth-3 {}
+    .main-sec .ms-box .nth-3 .btn-apply {height:58px; padding:0 66px; font-size:30px; line-height:58px; border:1px solid #ffb411}
+    .main-sec .ms-what {display:block; position: absolute; box-sizing:border-box; width:427px; height:283px; right:0; bottom:0; padding:27px 40px 30px; background:rgba(255, 180, 17, 0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80ffb411,endColorstr=#80ffb411); }
+    .main-sec .ms-what p {}
+    .main-sec .ms-what .nth-1 {padding-bottom:20px; font-size:30px;}
+    .main-sec .ms-what .nth-2 {font-size:20px; line-height:26px; word-break:keep-all}
+    
+    /* 분류 */
+    .classify-sec {padding-bottom:80px; background:#e6e6e6}
+    .classify-sec .clfy-box {}
+    .classify-sec .clfy-box li {float:left; position:relative; box-sizing:border-box; width:520px; height:400px; padding:40px 42px 60px; /*border:1px solid #dbdbdb;*/}
+    .classify-sec .clfy-box li:before, .classify-sec .clfy-box li:after {content:''; display:block; position:absolute; background:#dbdbdb}
+    .classify-sec .clfy-box li:before {width:100%; height:2px; bottom:-2px; left:2px;}
+    .classify-sec .clfy-box li:after {width:2px; height:100%;; top:2px; right:-2px;}
+    .classify-sec .clfy-box .nth-1 {margin-right:30px; background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_01.jpg) no-repeat right bottom;}
+    .classify-sec .clfy-box .nth-2 {margin-left:30px; background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_02.jpg) no-repeat right bottom;}
+    .classify-sec .clfy-box li .num {position:absolute; display:block; width:55px; height:52px; top:-2px; right:40px;}
+    .classify-sec .clfy-box .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat 0 0;}
+    .classify-sec .clfy-box .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat -72px 0;}
+    .classify-sec .clfy-box li h3 {padding-bottom:25px; font-size:30px; color:#202020}
+    .classify-sec .clfy-box li p {padding-bottom:20px; font-size:20px; line-height:25px; letter-spacing:-1px; word-break:keep-all; color:#4c4c4c}
+    
+    /* 유형 */
+    .type-sec {padding-bottom:80px; background:#fff}
+    .type-sec .type-list-box {margin-bottom:30px;}
+    .type-sec .type-list-box li {float:left; display:table; position:relative; box-sizing:border-box; width:540px; height:120px; margin-left:20px; margin-bottom:20px; padding:0 29px 0; border:1px solid #ffb411; border-radius:5px;}
+    .type-sec .type-list-box li.ml0 {margin-left:0;}
+    .type-sec .type-list-box .num {display:table-cell; width:82px; font-size:60px; font-weight:500; vertical-align:middle; color:#ffb411}
+    .type-sec .type-list-box p {display:table-cell; position:relative; padding-left:21px; font-size:24px; line-height:35px; vertical-align:middle; color:#202020}
+    .type-sec .type-list-box p:before {content:''; display:block; position:absolute; left:0; width:1px; height:50px; top:50%; margin-top:-25px; background:#9d9d9d}
+    .type-sec .type-box {padding:64px 0; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_type.jpg) no-repeat center; background-size:cover}
+    .type-sec .type-box p {font-size:20px; text-align:center; line-height:32px;}
+    .type-sec .type-box p span.bg-yellow {display:inline-block; padding:0 3px; line-height:28px; color:#202020}
+    
+    /* 절차 */
+    .step-sec {padding-bottom:60px; background:#f2f2f2}
+    .step-sec h2 {margin-bottom:90px}
+    .step-sec .step-box {height:271px; background:url(http://img.onbiz.co.kr/help/eviciton/bg_main_list.png) no-repeat center;}
+    .step-sec .step-list {position: relative; width:100%; margin:0 auto; }
+    .step-sec .step-list > li {float:left; position:relative; box-sizing:border-box; /*margin-bottom:100px;*/ width:33.3%; min-height:150px; margin-left:-14px;  text-align:center}
+    .step-sec .step-list > li:before {content:''; display:inline-block; width:25px; height:25px; margin-top:-13px; background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_cir.png) no-repeat center;}
+    .step-sec .step-list .nth-1, .step-sec .step-list .nth-2, .step-sec .step-list .nth-3 {margin-bottom:109px;}
+    .step-sec .step-list .nth-4 {clear:both; float:right; margin-right:40px;}
+    .step-sec .step-list .nth-5 {float:right;}
+    .step-sec .step-list .num {display:inline-block; position:absolute; width:58px; height:44px; top:-65px; left:50%; margin-left:-29px; font-size:0; text-indent:-9999px;}
+    .step-sec .step-list .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat 0 0;}
+    .step-sec .step-list .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -56px 0;}
+    .step-sec .step-list .nth-3 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -119px 0;}
+    .step-sec .step-list .nth-4 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -186px 0;}
+    .step-sec .step-list .nth-5 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -254px 0;}
+    .step-sec .step-list .nth-6 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -321px 0;}
+    .step-sec .step-list h4 {padding-top:17px; font-size:24px; font-weight:600; color:#ffb412}
+    .step-sec .step-list p {padding:15px 0; font-size:18px; line-height:24px; color:#202020}
+    .step-sec .step-list .step-list-2 {width:264px; margin:0 auto; padding-left:22px}
+    .step-sec .step-list .step-list-2 li {font-size:16px; line-height:23px; font-weight:500; text-align:left; color:#4c4c4c}
+    
+    /* 비용 */
+    .cost-sec {height:665px; /*padding-bottom:105px;*/ background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_cost.jpg) no-repeat center; background-size:cover}
+    .cost-sec h2 span {display:block; font-size:18px; font-weight:normal; line-height:24px; padding-top:17px;}
+    .cost-sec .cost-list-box {}
+    .cost-sec .cost-list-box li {float:left; position:relative; box-sizing:border-box; width:50%; height:150px; margin-bottom:40px; padding-left:20px;}
+    .cost-sec .cost-list-box li div {display:block; height:100%; padding:25px 0 0 262px}
+    .cost-sec .cost-list-box .nth-1 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_01.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list-box .nth-2 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_02.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list-box .nth-3 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_03.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list-box .nth-4 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_04.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list-box li div p {padding-bottom:10px; font-size:30px; color:#fff}
+    .cost-sec .cost-list-box li div p .money {font-size:60px; color:#ffb412}
+    .cost-sec .cost-list-box li div p span {}
+    
+    /* 후기 */
+    .review-sec {padding-bottom:75px}
+    .review-sec .review-box { text-align:center}
+    .review-sec .review-list {display:inline-block; margin:0 auto;}
+    .review-sec .review-list > li {float:left; width:280px; margin-left:30px;}
+    .review-sec .review-list > li.nth-1 {margin-left:0}
+    .review-sec .review-list .suit-case-list {margin-top:28px}
+    .review-sec .review-list .suit-case-list li {position:relative; font-size:18px; line-height:24px; text-align:left}
+    .review-sec .review-list .suit-case-list li:before {content:''; display:block; position:absolute; width:4px; height:4px; top:9px; left:0; background:#ffb412}
+    .review-sec .review-list .i-d {}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

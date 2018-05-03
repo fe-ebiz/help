@@ -81,6 +81,24 @@ function headerFn() {
 	});
 }
 
+/* 클릭 기능 */
+var clickFn = {
+	
+	sib : function(itm) {
+		$(itm).click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+	},
+	contentTab : function(area, tab, contents) {
+		$(tab).children("a").click(function() {
+			var idx = $(this).index();			$(this).closest(area).find(contents).children("div").eq(idx).addClass("active").siblings().removeClass("active");
+		});
+	}
+	
+		
+}
+
+
 //20180501 디자인 변경으로 ul function 숨김
 //ul width
 /*function widthOuto(itm){

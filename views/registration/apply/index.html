@@ -12,14 +12,19 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/override.css">
+<!--
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR.css">
 	<link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/registration/apply/initR.css">
-	<!--<link rel="stylesheet" href="../../../static/css/commonR.css">-->
-	<!--<link rel="stylesheet" href="../../../static/css/registration/apply/initR.css">-->
+-->
+	<link rel="stylesheet" href="../../../src/css/commonR.css">
+	<link rel="stylesheet" href="../../../src/css/registration/apply/initR.css">
 
 	<script src="http://static.onbiz.co.kr/js/help/jquery-1.10.2.min.js"></script>
 	<script src="http://static.onbiz.co.kr/js/help/jquery.bxslider.min.js"></script>
-	<script src="http://static.onbiz.co.kr/js/help/common.js"></script>
+<!--	<script src="http://static.onbiz.co.kr/js/help/common.js"></script>-->
+<!--	<script src="http://static.onbiz.co.kr/js/help/registration/apply/init.js"></script>-->
+	<script src="../../../src/js/common.js"></script>
+	<script src="../../../src/js/registration/apply/init.js"></script>
 	
 	<!--[if lt IE 9]>
         <link rel="stylesheet" href="http://static.onbiz.co.kr/css/help/commonR_ie8.css">
@@ -103,124 +108,194 @@
 		</div>
 		
             
-        <h2 class="gh2">법인등기 신청하기</h2>
-        <p class="gp1">아래 신청서를 작성해 주시면 <span class="show-xs"></span>저희가 2시간 이내에 연락드리도록 하겠습니다. <br>회사가 2개 이상이라면 신청서를 각각 나누어 작성해 주세요.</p>
-        <p class="gp2"><span class="c-red2">&#42;</span> <em>필수입력사항</em></p>
+        <h2 class="gh2">법인등기 견적신청하기</h2>
+        <!-- 180503 변경 -->
+        <p class="gp1">이메일 견적서 제공을 위하여 간단한 정보 입력을 부탁드립니다. <br>혹시 급한 상황이라면 바로 통화도 가능합니다.<br><span class="f-bold">상담센터 02-1234-5678 (평일 10~12시 / 13시~18시)</span></p>
+        <p class="gp2"><span class="c-red2">&#42;</span> 필수입력사항</p>
         <section class="apply-sec">
             <div class="apply-area">
-                <div class="outer clearfix">
-                    <div class="tit-box"><h3>회사 정보<span class="c-red2">&#42;</span></h3></div>
-                    <div class="con-box">
-                        <ul class="row">
-                            <li class="th lh">법인 이름</li>
-                            <li class="td"><input type="text" class="txt-box type-01"></li>
-                        </ul>
-                        <ul class="row">
-                            <li class="th lh">법인 주소</li>
-                            <li class="td">
-                                <input type="text" class="txt-box type-02">
-                                <span class="ps">&#42; 주소변경등기를 하시는 경우, 변경 전 주소를 입력해 주세요.<span class="show-xs"></span>(설립등기시 예정주소)</span>
-                            </li>
-                        </ul>
-                        <ul class="row">
-                            <li class="th">등기 종류<span class="ps">&#42; 복수선택가능</span> </li>
-                            <li class="td">
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk01"><label for="chk01">설립등기</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk02"><label for="chk02">본점주소이전등기(같은 도시 내 변경)</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk03"><label for="chk03">대표이사 주소변경등기</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk04"><label for="chk04">새로운 임원 취임등기</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk05"><label for="chk05">우선주, 전환상환우선주 등 규정 신설동기</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk06"><label for="chk06">지점 설치, 이전 폐지등기</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk07"><label for="chk07">목적 변경, 추가 ,삭제등기</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk08"><label for="chk08">공고하는 방법 변경등기</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk09"><label for="chk09">본점주소이전등기(다른 도시로 변경)</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk10"><label for="chk10">유상증자등</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk11"><label for="chk11">기존 임원 중임등기(3년마다 다시 등기)</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk12"><label for="chk12">공고하는 방법 변경 등기</label></p>
-                                </div>
-                                <div>
-                                    <input type="checkbox" class="chk-box" id="chk13"><label for="chk13">스톡옵션 규정 신설등기</label>
-                                </div>
-                                <div class="other-check">
-                                    <input type="checkbox" class="chk-box" id="chk14"><label for="chk14">기타 : </label><input type="text" class="txt-box type-03 etc">
-                                </div>
-                            </li>
-                        </ul>
+				<div class="outer clearfix">
+                    <div class="tit-box"><h3>01. 받고싶은 견적 선택<span class="c-red2">&#42;</span></h3></div>
+                    <div class="con-box area-01-chk cf">
+                        <a href="javascript:;" class="a-1 active">
+                        	<span class="s-radio"></span>
+							<span class="s-lbl">신규 법인 설립</span>
+                        </a>
+                        <a href="javascript:;" class="a-2">
+                        	<span class="s-radio"></span>
+							<span class="s-lbl">기존 법인의 변경등기</span>
+                        </a>
                     </div>
                 </div>
-                <div class="outer clearfix">
-                    <div class="tit-box"><h3>담당자 정보<span class="c-red2">&#42;</span></h3></div>
-                    <div class="con-box">
-                        <ul class="row">
-                            <li class="th lh">담당자 성함</li>
-                            <li class="td"><input type="text" class="txt-box type-04"></li>
-                        </ul>
-                        <ul class="row">
-                            <li class="th lh">담당자 연락처</li>
-                            <li class="td phone-area"><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"></li>
-                        </ul>
-                        <ul class="row">
-                            <li class="th lh">담당자 이메일</li>
-                            <li class="td"><input type="text" class="txt-box type-01"></li>
-                        </ul>
-                    </div>
+                <div class="contents-area">
+					<div class="contents-itm contents-itm-01 active">
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>02. 고객님의 정보 입력</h3></div>
+							<div class="con-box">
+								<ul class="row">
+									<li class="th lh">성함 <span class="c-red2">&#42;</span></li>
+									<li class="td"><input type="text" class="txt-box type-04"></li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">휴대폰 번호 <span class="c-red2">&#42;</span></li>
+									<li class="td phone-area"><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"></li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">이메일 주소 <span class="c-red2">&#42;</span></li>
+									<li class="td"><input type="text" class="txt-box type-01"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>03. 법인 정보 입력</h3></div>
+							<div class="con-box">
+								<ul class="row">
+									<li class="th lh">법인명 <span class="c-red2">&#42;</span></li>
+									<li class="td">
+										<input type="text" class="txt-box type-04">
+										<p class="ps">
+											신규 법인 설립시에는 가칭을 적어주세요.<br>
+											("미정"이라고 기재해주셔도 됩니다)
+										</p>
+									</li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">법인 주소 <span class="c-red2">&#42;</span></li>
+									<li class="td">
+										<input type="text" class="txt-box type-02">
+										<p class="ps">
+											신규 법인 설립 시에는 예비 주소를 적어주세요.
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>04. 개인정보 수집동의</h3></div>
+							<div class="con-box">
+								<p class="p-1">견적제공을 위해 개인정보 수집동의를 부탁드립니다.</p>
+								<p class="p-ps">고객님의 정보는 오직 견적 제공을 위해 이용됩니다.</p>
+								<p class="p-1 mt-1">
+									<input type="checkbox" class="chk-box big-1" id=""><label for="">개인정보 취급방침에 동의합니다.</label>
+									<span class="c-red2">&#42;</span>
+									<a class="a-terms" href="javascript:;">약관보기</a>
+								</p>
+							</div>
+						</div>
+                	</div>
+
+                	<div class="contents-itm contents-itm-02">
+                		<div class="outer clearfix">
+							<div class="tit-box"><h3>02. 등기 종류</h3></div>
+							<div class="con-box area-regCate">
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk01"><label for="chk01">본점주소이전등기(같은 도시 내 변경)</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk02"><label for="chk02">본점주소이전등기(다른 도시로 변경)</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk03"><label for="chk03">대표이사 주소변경등기</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk04"><label for="chk04">새로운 임원 취임등기</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk11"><label for="chk11">기존 임원 중임등기(3년마다 다시 등기)</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk12"><label for="chk12">임원 사임등기(스스로 그만둠)</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk09"><label for="chk09">임원 퇴임등기(임기만료)</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk10"><label for="chk10">유상증자등기</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk05"><label for="chk05">우선주, 전환상환우선주 등 규정 신설등기</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk06"><label for="chk06">지점 설치, 이전,  폐지등기</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1"><input type="checkbox" class="chk-box" id="chk07"><label for="chk07">상호변경등기</label></p>
+									<p><input type="checkbox" class="chk-box" id="chk08"><label for="chk08">목적 변경, 추가, 삭제등기</label></p>
+								</div>
+								<div class="cf">
+									<p class="nth-1">
+										<input type="checkbox" class="chk-box" id="chk14"><label for="chk14">공고하는 방법 변경등기</label>
+									</p>
+									<p>
+										<input type="checkbox" class="chk-box" id="chk13"><label for="chk13">스톡옵션 규정 신설등기</label>
+									</p>
+								</div>
+								<div class="other-check cf">
+									<p>
+										<input type="checkbox" class="chk-box" id="chk14"><label for="chk14">기타 : </label><input type="text" class="txt-box type-03 etc">
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>03. 고객님의 정보 입력</h3></div>
+							<div class="con-box">
+								<ul class="row">
+									<li class="th lh">성함 <span class="c-red2">&#42;</span></li>
+									<li class="td"><input type="text" class="txt-box type-04"></li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">휴대폰 번호 <span class="c-red2">&#42;</span></li>
+									<li class="td phone-area"><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"><span class="phone-line"></span><input type="text" class="txt-box type-05"></li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">이메일 주소 <span class="c-red2">&#42;</span></li>
+									<li class="td"><input type="text" class="txt-box type-01"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>04. 법인 정보 입력</h3></div>
+							<div class="con-box">
+								<ul class="row">
+									<li class="th lh">법인명 <span class="c-red2">&#42;</span></li>
+									<li class="td">
+										<input type="text" class="txt-box type-04">
+										<p class="ps">
+											신규 법인 설립시에는 가칭을 적어주세요.<br>
+											("미정"이라고 기재해주셔도 됩니다)
+										</p>
+									</li>
+								</ul>
+								<ul class="row">
+									<li class="th lh">법인 주소 <span class="c-red2">&#42;</span></li>
+									<li class="td">
+										<input type="text" class="txt-box type-02">
+										<p class="ps">
+											신규 법인 설립 시에는 예비 주소를 적어주세요.
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="outer clearfix">
+							<div class="tit-box"><h3>05. 개인정보 수집동의</h3></div>
+							<div class="con-box">
+								<p class="p-1">견적제공을 위해 개인정보 수집동의를 부탁드립니다.</p>
+								<p class="p-ps">고객님의 정보는 오직 견적 제공을 위해 이용됩니다.</p>
+								<p class="p-1 mt-1">
+									<input type="checkbox" class="chk-box big-1" id=""><label for="">개인정보 취급방침에 동의합니다.</label>
+									<span class="c-red2">&#42;</span>
+									<a class="a-terms" href="javascript:;">약관보기</a>
+								</p>
+							</div>
+						</div>
+                	</div>
                 </div>
-                <div class="outer clearfix">
-                    <div class="tit-box"><h3>부가 정보<span class="sm">(선택)</span></h3></div>
-                    <div class="con-box">
-                        <ul class="row">
-                            <li class="th">헬프미를 <span class="show-sm show-lg"></span>선택한 이유<span class="ps">&#42; 복수선택가능</span></li>
-                            <li class="td">
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk21"><label for="chk21">변호사가 진행한다는 점에 믿음이 가서</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk22"><label for="chk22">가격이 합리적이어서</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk23"><label for="chk23">진행절차를 자세히 알려줘서</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk24"><label for="chk24">과태료 예방 프로그램이 마음에 들어서</label></p>
-                                </div>
-                                <div>
-                                    <p class="nth-1"><input type="checkbox" class="chk-box" id="chk25"><label for="chk25">공인인증서로 처리할 수 있어서</label></p>
-                                    <p><input type="checkbox" class="chk-box" id="chk26"><label for="chk26">인터넷으로만 진행할 수 있어서</label></p>
-                                </div>
-                                <div class="other-check">
-                                    <input type="checkbox" class="chk-box" id="chk27"><label for="chk27">기타 : </label><input type="text" class="txt-box type-03 etc">
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="row">
-                            <li class="th lh">추천인</li>
-                            <li class="td"><input type="text" class="txt-box type-01"></li>
-                        </ul>
-                    </div>
-                </div>
+                
+                
             </div>
         </section>
         <div class="gp3-box">
-            <p class="gp3">
-                <input type="checkbox" class="chk-box" id="personal"><label for="personal">개인정보 취급방침에 대하여 동의합니다. <span class="c-red2">&#42;</span></label>
-                <a href="" class="btn">약관보기<span>&gt;</span></a>
-            </p>
-            <p class="gp3">
-                <input type="checkbox" class="chk-box ml" id="event"><label for="event">할인쿠폰, 이벤트 관련 안내를 받겠습니다.(선택)</label>
-                <a href="" class="btn">약관보기<span>&gt;</span></a>
+            <p class="p-1">
+            	간단한 통화 후 비용, 필요서류, 절차가 기재된 이메일 견적서를 보내드리겠습니다!<br>
+            					아래 버튼을 눌러 견적서 요청을 해주세요. 곧 전화드리겠습니다.
             </p>
         </div>
-        <p class="gp4"><a href="" class="btn bg-yellow">신청하기</a></p>
+        <p class="gp4"><a href="" class="btn">견적서 요청하기</a></p>
 
         <!-- 접수완료 레이어 팝업 -->
-        <div class="layer-pop" style="display:block">
+        <div class="layer-pop" style="display:none">
             <div class="pop-area">
                 <strong class="pop-tit">성공적으로 접수되었습니다.</strong>
                 <p class="pop-txt line">
