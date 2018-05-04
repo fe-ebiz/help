@@ -77,7 +77,7 @@
 	.service-sec h2 em {margin-top: 5px; display: block;}
 	.sb-inner {}
 	.sb-inner .con {position: relative; display: block; margin: 0 auto; max-width: 350px; padding-bottom: 20px; background: #fff; margin-top: 70px;}
-	.sb-inner .con.nth-1 {margin-top: 80px;}
+/*	.sb-inner .con.nth-1 {margin-top: 80px;}*/
 	.sb-inner .con .tit {position: relative; width: 220px; height: 138px; text-align: center; background: #fff; border: 3px solid #ffb411; top: -44px; margin-bottom: -30px;}
 	.sb-inner .con .tit h3 {font-size: 17px; line-height: 1.3em; margin-top: 14px;}
 	.sb-inner .con .tit h3 em {display: block;}
@@ -101,8 +101,8 @@
 	.sb-inner .con .sic-u1 li.nth-0 .s2, .sb-inner .con .sic-u1 li.nth-1 .s2 {font-weight: 600; font-size: 15px;}
 	.sb-inner .con .sic-u1 li.nth-2 .s2 {font-weight: 700;}
 
-	.sb-box .btn-wrap {margin-top: 30px;}
-	.sb-box .btn-wrap .btn {width: 250px; font-size: 17px; line-height: 50px; font-weight: 500;}
+	.sb-box .btn-wrap {margin-top: 30px; text-align: center;}
+	.sb-box .btn-wrap .btn {width: 250px; font-size: 17px; line-height: 46px; font-weight: 500;}
 
 	.cheap-sec { background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center; background-size: cover;}
 	.cheap-sec h2 {color: #fff; margin-bottom: 12px; padding-top: 35px !important; letter-spacing: 0 !important;}

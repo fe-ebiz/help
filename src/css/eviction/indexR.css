@@ -4,14 +4,196 @@
 /* mobile */
 @media (max-width: 767px) {
    
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:30px 0 15px; font-size:22px; font-weight: 500; text-align: center; letter-spacing: 0.7px;}
+
+    /* visual */
+    .main-sec {width:100%; text-align:center; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual_m.jpg) no-repeat center center; background-size:cover}
+    .main-sec .ms-box {padding:32px 0;}
+    .main-sec .ms-box .nth-1 {font-size:23px; line-height:31px;}
+    .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
+    .main-sec .ms-box .nth-2 {padding:18px 0 28px; font-size:12px;}
+    .main-sec .ms-box .nth-3 .btn-apply {display:inline-block; box-sizing:border-box; width:114px; height:28px; font-size:14px; line-height:28px; border:1px solid #ffb411}
+    .main-sec .ms-what {display:block; box-sizing:border-box; padding:27px 25px; background:rgba(255, 180, 17, 0.5); }
+    .main-sec .ms-what .nth-1 {padding-bottom:10px; font-size:14px;}
+    .main-sec .ms-what .nth-2 {max-width:360px; margin: 0 auto; font-size:12px; line-height:18px; word-break:keep-all}
+    
+    /* 분류 */
+    .classify-sec {padding:0 0 30px; background:#e6e6e6}
+    .classify-sec .clfy-box li {position:relative; box-sizing:border-box; width:245px; height:253px; margin:0 auto; margin-top:15px; padding:20px 18px 30px;}
+    .classify-sec .clfy-box li:before, .classify-sec .clfy-box li:after {content:''; display:block; position:absolute; background:#dbdbdb}
+    .classify-sec .clfy-box li:before {width:100%; height:2px; bottom:-2px; left:2px;}
+    .classify-sec .clfy-box li:after {width:2px; height:100%;; top:2px; right:-2px;}
+    .classify-sec .clfy-box .nth-1 {margin-top:0; background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_01.jpg) no-repeat right bottom; background-size:77px auto}
+    .classify-sec .clfy-box .nth-2 {background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_02.jpg) no-repeat right bottom; background-size:90px auto}
+    .classify-sec .clfy-box li .num {position:absolute; display:block; width:27px; height:27px; top:-2px; right:18px;}
+    .classify-sec .clfy-box .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat 0 0; background-size:auto 27px}
+    .classify-sec .clfy-box .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat -38px 0; background-size:auto 27px}
+    .classify-sec .clfy-box li h3 {padding-bottom:13px; font-size:14px; font-weight:500; color:#202020}
+    .classify-sec .clfy-box li p {padding-bottom:7px; font-size:12px; line-height:18px; letter-spacing:-1px; word-break:keep-all; color:#4c4c4c}
+    
+    /* 유형 */
+    .type-sec {background:#f0f0f0}
+    .type-sec .type-list-box {margin:0 auto; padding-bottom:12px;}
+    .type-sec .type-list-box li {display:table; position:relative; box-sizing:border-box; width:255px; height:57px; margin:0 auto; margin-top:5px; padding:14px 12px 14px; border:1px solid #ffb411; border-radius:5px;}
+    .type-sec .type-list-box li:first-child {margin-top:0}
+    .type-sec .type-list-box .num {display:table-cell; width:40px; font-size:28px; font-weight:500; vertical-align:middle; color:#ffb411}
+    .type-sec .type-list-box p {display:table-cell; position:relative; padding-left:10px; font-size:12px; line-height:16px; vertical-align:middle; color:#202020}
+    .type-sec .type-list-box p:before {content:''; display:inline-block; position:absolute; width:1px; height:25px; top:50%; left:0; margin-top:-12px; vertical-align:middle; background:#9d9d9d}
+    .type-sec .type-box {padding:13px 30px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_type.jpg) no-repeat center; background-size:cover}
+    .type-sec .type-box p {max-width:360px; margin:0 auto; font-size:12px; text-align:center; line-height:18px; word-break:keep-all;}
+    .type-sec .type-box p span.bg-yellow {display:inline-block; padding:0 3px; line-height:22px; color:#202020}
+    
+    /* 절차 */
+    .step-sec {padding:0 24px 15px; border:1px solid #acacac; border-left:0; border-right:0; background:#f2f2f2}
+    .step-sec .step-box {position:relative;}
+    .step-sec .step-list {position:relative; width:94%; max-width:360px; margin:0 auto; padding:15px 0 13px; border-left:2px solid #ffb412}
+    .step-sec .step-list > li {position:relative; box-sizing:border-box; margin-top:14px; padding:0 0 0 46px;}
+    .step-sec .step-list .nth-1 {margin-top:0}
+    .step-sec .step-list > li:before {content:''; display:inline-block; position:absolute; width:13px; height:13px; top:4px; left:0; margin-left:-6px; background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_cir.png) no-repeat center; background-size:cover}
+    .step-sec .step-list .num {display:inline-block; position:absolute; width:28px; height:22px; left:13px; font-size:0; text-indent:-9999px;}
+    .step-sec .step-list .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat 0 0; background-size:auto 22px;}
+    .step-sec .step-list .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -29px 0; background-size:auto 22px;}
+    .step-sec .step-list .nth-3 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -61px 0; background-size:auto 22px;}
+    .step-sec .step-list .nth-4 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -94px 0; background-size:auto 22px;}
+    .step-sec .step-list .nth-5 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -128px 0; background-size:auto 22px;}
+    .step-sec .step-list .nth-6 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -160px 0; background-size:auto 22px;}
+    .step-sec .step-list h4 {padding-top:4px; font-size:13px; font-weight:600; color:#ffb412}
+    .step-sec .step-list p {padding:10px 0 0; font-size:12px; line-height:18px; word-break:keep-all; color:#202020}
+    .step-sec .step-list .step-list-2 li {font-size:11px; line-height:15px; font-weight:500; color:#4c4c4c}
+    
+    /* 비용 */
+    .cost-sec {padding:0 0 26px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_cost.jpg) no-repeat center; background-size:cover}
+    .cost-sec h2 span {display:block; font-size:9px; font-weight:normal; line-height:12px; padding-top:7px;}
+    .cost-sec .cost-list {width:220px; margin:0 auto; }
+    .cost-sec .cost-list li {position:relative; box-sizing:border-box; width:100%; margin-top:8px;}
+    .cost-sec .cost-list .nth-1 {margin-top:0}
+    .cost-sec .cost-list li div {display:block; height:100%; padding:8px 0 1px 124px}
+    .cost-sec .cost-list .nth-1 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_01.jpg) no-repeat 0 0; background-size:111px auto;}
+    .cost-sec .cost-list .nth-2 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_02.jpg) no-repeat 0 0; background-size:111px auto;}
+    .cost-sec .cost-list .nth-3 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_03.jpg) no-repeat 0 0; background-size:111px auto;}
+    .cost-sec .cost-list .nth-4 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_04.jpg) no-repeat 0 0; background-size:111px auto;}
+    .cost-sec .cost-list li div p {padding-bottom:10px; font-size:14px; color:#fff}
+    .cost-sec .cost-list li div p .money {font-size:28px; color:#ffb412}
+    
+    /* 후기 */
+    .review-sec {padding:0 14px 5px; background:#f0f0f0}
+    .review-sec .review-wrap {position: relative; width:94%; max-width:360px; margin: 0 auto;}
+    .review-sec .review-area {position:relative; width:280px; overflow:hidden; margin: 0 auto; text-align:center}
+    .review-sec .review-list > li {float:left; width:130px;}
+    .review-sec .review-list .suit-case-list li {position:relative; margin-top:5px; padding-left:7px; font-size:12px; font-weight:500; line-height:16px; text-align:left}
+    .review-sec .review-list .suit-case-list li:before {content:''; display:block; position:absolute; width:3px; height:3px; top:7px; left:0; background:#ffb412}
+    .review-sec .review-list .i-d {position:relative; padding-left:7px; font-size:10px; font-weight:500; line-height:16px; color:#4c4c4c}
+    .review-sec .review-list .i-d:before {content:''; display:block; position:absolute; width:3px; height:1px; top:8px; left:0; background:#4c4c4c}
+    .ss2-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
+    .ss2-slide-btn span {position: absolute; display: block; width:10px; height:17px;}
+    #slider-prev .bx-prev, #slider-next .bx-next {height:17px;}
+    .ss2-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -95px 0px; left: 0; background-size:auto 17px; }
+    .ss2-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -116px 0px; right: 0; background-size:auto 17px;}
+    .bx-viewport {background:none !important;}
+    
 }
 
 @media (max-device-width: 320px) {
+    /* 유형 */
+    .type-sec .type-box {padding:13px 10px;}
+    
+    /* 후기 */
+    .review-sec {padding:0 10px 25px;}
+    .review-sec .review-area { width:260px;}
+    .review-sec .review-list > li {width:125px;}
     
 }
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1099px) {
+
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width:100%; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:60px 0 30px; font-size:42px; font-weight: 500; text-align: center; letter-spacing: 0.7px;}
+
+    /* visual */
+    .main-sec {width:100%; text-align:center; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual_m.jpg) no-repeat center center; background-size:cover}
+    .main-sec .ms-box {padding:70px 0 70px;}
+    .main-sec .ms-box .nth-1 {font-size:50px; line-height:67px;}
+    .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
+    .main-sec .ms-box .nth-2 {padding:30px 0 55px; font-size:24px;}
+    .main-sec .ms-box .nth-3 .btn-apply {display:inline-block; box-sizing:border-box; width:240px; height:60px; font-size:30px; line-height:60px; border:1px solid #ffb411}
+    .main-sec .ms-what {display:block; box-sizing:border-box; padding:60px 145px; background:rgba(255, 180, 17, 0.5); }
+    .main-sec .ms-what .nth-1 {padding-bottom:25px; font-size:30px;}
+    .main-sec .ms-what .nth-2 {font-size:20px; line-height:26px; word-break:keep-all}
+    
+    /* 분류 */
+    .classify-sec {padding:0 0 60px; background:#e6e6e6}
+    .classify-sec .clfy-box li {position:relative; box-sizing:border-box; width:522px; height:402px; margin:0 auto; margin-top:15px; padding:40px 40px 55px;}
+    .classify-sec .clfy-box li:before, .classify-sec .clfy-box li:after {content:''; display:block; position:absolute; background:#dbdbdb}
+    .classify-sec .clfy-box li:before {width:100%; height:2px; bottom:-2px; left:2px;}
+    .classify-sec .clfy-box li:after {width:2px; height:100%;; top:2px; right:-2px;}
+    .classify-sec .clfy-box .nth-1 {margin-top:0; background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_01.jpg) no-repeat right bottom; background-size:140px auto}
+    .classify-sec .clfy-box .nth-2 {background:#fff url(http://img.onbiz.co.kr/help/eviciton/bg_main_classify_02.jpg) no-repeat right bottom; background-size:180px auto}
+    .classify-sec .clfy-box li .num {position:absolute; display:block; width:55px; height:52px; top:-2px; right:40px;}
+    .classify-sec .clfy-box .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat 0 0;}
+    .classify-sec .clfy-box .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_classify.png) no-repeat -72px 0;}
+    .classify-sec .clfy-box li h3 {padding-bottom:25px; font-size:30px; font-weight:500; color:#202020}
+    .classify-sec .clfy-box li p {padding-bottom:15px; font-size:20px; line-height:26px; letter-spacing:-1px; word-break:keep-all; color:#4c4c4c}
+    
+    /* 유형 */
+    .type-sec {background:#f0f0f0}
+    .type-sec .type-list-box {width:768px; margin:0 auto; padding-bottom:30px;}
+    .type-sec .type-list-box li {display:table; position:relative; box-sizing:border-box; width:540px; height:120px; margin:0 auto; margin-top:10px; padding:33px 30px 33px; border:1px solid #ffb411; border-radius:5px;}
+    .type-sec .type-list-box li:first-child {margin-top:0}
+    .type-sec .type-list-box .num {display:table-cell; width:82px; font-size:60px; font-weight:500; vertical-align:middle; color:#ffb411}
+    .type-sec .type-list-box p {display:table-cell; position:relative; padding-left:20px; font-size:24px; line-height:35px; vertical-align:middle; color:#202020}
+    .type-sec .type-list-box p:before {content:''; display:inline-block; position:absolute; width:1px; height:50px; top:50%; left:0; margin-top:-23px; vertical-align:middle; background:#9d9d9d}
+    .type-sec .type-box {padding:25px 110px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_type.jpg) no-repeat center; background-size:cover}
+    .type-sec .type-box p {margin:0 auto; font-size:20px; text-align:center; line-height:32px; word-break:keep-all;}
+    .type-sec .type-box p span.bg-yellow {display:inline-block; padding:0 3px; line-height:34px; color:#202020}
+    
+    /* 절차 */
+    .step-sec {margin:0 auto; padding:0 0 32px; border:1px solid #acacac; border-left:0; border-right:0; background:#f2f2f2}
+    .step-sec .step-box {position:relative;}
+    .step-sec .step-list {position:relative; width:768px; margin:0 auto; padding:29px 0 30px; border-left:4px solid #ffb412}
+    .step-sec .step-list > li {position:relative; box-sizing:border-box; margin-top:28px; padding:0 0 0 98px;}
+    .step-sec .step-list .nth-1 {margin-top:0}
+    .step-sec .step-list > li:before {content:''; display:inline-block; position:absolute; width:25px; height:25px; top:8px; left:0; margin-left:-14px; background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_cir.png) no-repeat center; background-size:cover}
+    .step-sec .step-list .num {display:inline-block; position:absolute; width:58px; height:44px; left:30px; font-size:0; text-indent:-9999px;}
+    .step-sec .step-list .nth-1 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat 0 0;}
+    .step-sec .step-list .nth-2 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -56px 0;}
+    .step-sec .step-list .nth-3 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -119px 0;}
+    .step-sec .step-list .nth-4 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -186px 0;}
+    .step-sec .step-list .nth-5 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -254px 0;}
+    .step-sec .step-list .nth-6 .num {background:url(http://img.onbiz.co.kr/help/eviciton/ico_main_step_num.png) no-repeat -321px 0;}
+    .step-sec .step-list h4 {padding-top:10px; font-size:24px; font-weight:600; color:#ffb412}
+    .step-sec .step-list p {padding:20px 0 0; font-size:18px; line-height:24px; word-break:keep-all; color:#202020}
+    .step-sec .step-list .step-list-2 li {font-size:16px; line-height:23px; font-weight:500; color:#4c4c4c}
+    
+    /* 비용 */
+    .cost-sec {padding:0 0 60px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_cost.jpg) no-repeat center; background-size:cover}
+    .cost-sec h2 span {display:block; font-size:18px; font-weight:normal; line-height:24px; padding-top:12px;}
+    .cost-sec .cost-list {width:480px; margin:0 auto; }
+    .cost-sec .cost-list li {position:relative; box-sizing:border-box; width:100%; margin-top:15px;}
+    .cost-sec .cost-list .nth-1 {margin-top:0}
+    .cost-sec .cost-list li div {display:block; height:100%; padding:27px 0 13px 260px}
+    .cost-sec .cost-list .nth-1 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_01.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-2 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_02.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-3 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_03.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-4 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_04.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list li div p {padding-bottom:10px; font-size:30px; color:#fff}
+    .cost-sec .cost-list li div p .money {font-size:60px; color:#ffb412}
+    
+    /* 후기 */
+    .review-sec {padding:0 0 60px; background:#f0f0f0}
+    .review-sec .review-wrap {position: relative; width:768px; margin: 0 auto;}
+    .review-sec .review-area {position:relative; width:590px; overflow:hidden; margin: 0 auto; text-align:center}
+    .review-sec .review-list > li {float:left; width:280px;}
+    .review-sec .review-list .suit-case-list li {position:relative; margin-top:20px; padding-left:13px; font-size:18px; font-weight:500; line-height:24px; text-align:left}
+    .review-sec .review-list .suit-case-list li:before {content:''; display:block; position:absolute; width:4px; height:4px; top:10px; left:0; background:#ffb412}
+    .review-sec .review-list .i-d {position:relative; padding-left:8px; font-size:16px; font-weight:500; line-height:24px; color:#4c4c4c}
+    .review-sec .review-list .i-d:before {content:''; display:block; position:absolute; width:5px; height:1px; top:12px; left:0; background:#4c4c4c}
+    .ss2-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
+    .ss2-slide-btn span {position: absolute; display: block; width: 16px; height: 36px;}
+    .ss2-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -200px 0px; left: 0; }
+    .ss2-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -252px 0px; right: 0;}
+    .bx-viewport {background:none !important;}
     
 }
 
@@ -24,21 +206,17 @@
     /* visual */
     .main-sec {width: 100%; height:440px; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual.jpg) no-repeat center; background-size:cover}
     .main-sec .ms-box {height:100%; padding-left:19px;}
-    .main-sec .ms-box p {}
     .main-sec .ms-box .nth-1 {padding:67px 0 0; font-size:50px; line-height:67px;}
     .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
     .main-sec .ms-box .nth-2 {padding:32px 0 60px; font-size:24px;}
     .main-sec .ms-box .nth-2 span {font-style: italic;}
-    .main-sec .ms-box .nth-3 {}
     .main-sec .ms-box .nth-3 .btn-apply {height:58px; padding:0 66px; font-size:30px; line-height:58px; border:1px solid #ffb411}
     .main-sec .ms-what {display:block; position: absolute; box-sizing:border-box; width:427px; height:283px; right:0; bottom:0; padding:27px 40px 30px; background:rgba(255, 180, 17, 0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80ffb411,endColorstr=#80ffb411); }
-    .main-sec .ms-what p {}
     .main-sec .ms-what .nth-1 {padding-bottom:20px; font-size:30px;}
     .main-sec .ms-what .nth-2 {font-size:20px; line-height:26px; word-break:keep-all}
     
     /* 분류 */
     .classify-sec {padding-bottom:80px; background:#e6e6e6}
-    .classify-sec .clfy-box {}
     .classify-sec .clfy-box li {float:left; position:relative; box-sizing:border-box; width:520px; height:400px; padding:40px 42px 60px; /*border:1px solid #dbdbdb;*/}
     .classify-sec .clfy-box li:before, .classify-sec .clfy-box li:after {content:''; display:block; position:absolute; background:#dbdbdb}
     .classify-sec .clfy-box li:before {width:100%; height:2px; bottom:-2px; left:2px;}
@@ -54,11 +232,11 @@
     /* 유형 */
     .type-sec {padding-bottom:80px; background:#fff}
     .type-sec .type-list-box {margin-bottom:30px;}
-    .type-sec .type-list-box li {float:left; display:table; position:relative; box-sizing:border-box; width:540px; height:120px; margin-left:20px; margin-bottom:20px; padding:0 29px 0; border:1px solid #ffb411; border-radius:5px;}
-    .type-sec .type-list-box li.ml0 {margin-left:0;}
-    .type-sec .type-list-box .num {display:table-cell; width:82px; font-size:60px; font-weight:500; vertical-align:middle; color:#ffb411}
-    .type-sec .type-list-box p {display:table-cell; position:relative; padding-left:21px; font-size:24px; line-height:35px; vertical-align:middle; color:#202020}
-    .type-sec .type-list-box p:before {content:''; display:block; position:absolute; left:0; width:1px; height:50px; top:50%; margin-top:-25px; background:#9d9d9d}
+    .type-sec .type-list-box li {float:left; display:block; position:relative; box-sizing:border-box; width:540px; height:120px; margin-left:20px; margin-bottom:20px; padding:22px 29px 0; border:1px solid #ffb411; border-radius:5px;}
+    .type-sec .type-list-box li.ml0 {margin-left:0; padding-top:27px;}
+    .type-sec .type-list-box .num {display:inline-block; width:82px; font-size:60px; font-weight:500; vertical-align:middle; color:#ffb411}
+    .type-sec .type-list-box p {display:inline-block; position:relative; padding-left:21px; font-size:24px; line-height:35px; vertical-align:middle; color:#202020}
+    .type-sec .type-list-box p:before {content:''; display:inline-block; position:absolute; width:1px; height:50px; top:50%; left:0; margin-top:-25px; vertical-align:middle;  background:#9d9d9d}
     .type-sec .type-box {padding:64px 0; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_type.jpg) no-repeat center; background-size:cover}
     .type-sec .type-box p {font-size:20px; text-align:center; line-height:32px;}
     .type-sec .type-box p span.bg-yellow {display:inline-block; padding:0 3px; line-height:28px; color:#202020}
@@ -88,45 +266,31 @@
     /* 비용 */
     .cost-sec {height:665px; /*padding-bottom:105px;*/ background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_cost.jpg) no-repeat center; background-size:cover}
     .cost-sec h2 span {display:block; font-size:18px; font-weight:normal; line-height:24px; padding-top:17px;}
-    .cost-sec .cost-list-box {}
-    .cost-sec .cost-list-box li {float:left; position:relative; box-sizing:border-box; width:50%; height:150px; margin-bottom:40px; padding-left:20px;}
-    .cost-sec .cost-list-box li div {display:block; height:100%; padding:25px 0 0 262px}
-    .cost-sec .cost-list-box .nth-1 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_01.jpg) no-repeat 0 0;}
-    .cost-sec .cost-list-box .nth-2 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_02.jpg) no-repeat 0 0;}
-    .cost-sec .cost-list-box .nth-3 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_03.jpg) no-repeat 0 0;}
-    .cost-sec .cost-list-box .nth-4 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_04.jpg) no-repeat 0 0;}
-    .cost-sec .cost-list-box li div p {padding-bottom:10px; font-size:30px; color:#fff}
-    .cost-sec .cost-list-box li div p .money {font-size:60px; color:#ffb412}
-    .cost-sec .cost-list-box li div p span {}
+    .cost-sec .cost-list {position: relative; width: 1100px; margin: 0 auto;}
+    .cost-sec .cost-list li {float:left; position:relative; box-sizing:border-box; width:50%; height:150px; margin-bottom:40px; padding-left:20px;}
+    .cost-sec .cost-list li div {display:block; height:100%; padding:25px 0 0 262px}
+    .cost-sec .cost-list .nth-1 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_01.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-2 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_02.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-3 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_03.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list .nth-4 div {background: url(http://img.onbiz.co.kr/help/eviciton/img_main_cost_04.jpg) no-repeat 0 0;}
+    .cost-sec .cost-list li div p {padding-bottom:10px; font-size:30px; color:#fff}
+    .cost-sec .cost-list li div p .money {font-size:60px; color:#ffb412}
     
     /* 후기 */
-    .review-sec {padding-bottom:75px}
-    .review-sec .review-box { text-align:center}
-    .review-sec .review-list {display:inline-block; margin:0 auto;}
-    .review-sec .review-list > li {float:left; width:280px; margin-left:30px;}
-    .review-sec .review-list > li.nth-1 {margin-left:0}
-    .review-sec .review-list .suit-case-list {margin-top:28px}
-    .review-sec .review-list .suit-case-list li {position:relative; font-size:18px; line-height:24px; text-align:left}
-    .review-sec .review-list .suit-case-list li:before {content:''; display:block; position:absolute; width:4px; height:4px; top:9px; left:0; background:#ffb412}
-    .review-sec .review-list .i-d {}
+    .review-sec {padding-bottom:75px; background:#fff}
+    .review-sec .review-wrap {position: relative; width:1100px; margin: 0 auto;}
+    .review-sec .review-area {position:relative; width:900px; overflow:hidden; margin: 0 auto; text-align:center}
+    .review-sec .review-list {position:relative; display:inline-block; margin:0 auto;}
+    .review-sec .review-list > li {float:left; width:280px;/* margin-left:30px;*/}
+    /*.review-sec .review-list > li.nth-1 {margin-left:0}*/
+    .review-sec .review-list .suit-case-list {margin:28px 0 0 10px}
+    .review-sec .review-list .suit-case-list li {position:relative; margin-top:16px; padding-left:14px; font-size:18px; font-weight:500; line-height:24px; text-align:left}
+    .review-sec .review-list .suit-case-list li:before {content:''; display:block; position:absolute; width:4px; height:4px; top:10px; left:0; background:#ffb412}
+    .review-sec .review-list .i-d {position:relative; padding-left:10px; font-size:16px; font-weight:500; line-height:24px; color:#4c4c4c}
+    .review-sec .review-list .i-d:before {content:''; display:block; position:absolute; width:5px; height:1px; top:13px; left:0; background:#4c4c4c}
+    .ss2-slide-btn {position: absolute; width: 100%; top: 50%; margin-top: -18px;}
+    .ss2-slide-btn span {position: absolute; display: block; width: 16px; height: 36px;}
+    .ss2-slide-btn #slider-prev {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -200px 0px; left: 0; }
+    .ss2-slide-btn #slider-next {background: url(http://img.onbiz.co.kr/help/slide_btn.png) no-repeat -252px 0px; right: 0;}
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
