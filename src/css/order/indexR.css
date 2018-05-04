@@ -14,10 +14,11 @@
 
 @media (max-width: 767px) {
 	/********************************** 지급명령 ********************************/
+	section[class*="-sec"] {padding-bottom: 30px;}
 	section[class*="-sec"] h2 {font-size: 18px; font-weight: 500; text-align: center; padding-top: 30px; letter-spacing: 0.7px;}
 	section[class*="-sec"] div[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
 
-	.main-sec {width: 100%; height: 250px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center; background-size: cover;}
+	.main-sec {width: 100%; height: 250px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center; background-size: cover; padding-bottom: 0 !important;}
 	.ms-box {height: 100%;}
 	.msb-money {position: relative; padding-top: 40px; text-align: center;}
 	.msb-money p {font-size: 20px; font-weight: 300; letter-spacing: -0.5px;}
@@ -35,7 +36,7 @@
 
 	.service-sec, .why-sec {background: #e6e6e6;}
 
-	.why-sec {width: 100%; padding-bottom: 30px;}
+	.why-sec {width: 100%;}
 	.ws-box {text-align: center; max-width: 360px;}
 	.ws-box div {position: relative; float: left; width: 32%; vertical-align: text-top; margin-top: 30px; margin-left: 2%;}
 	.ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 17px; height: 34px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px 0px; background-size: 150px}
@@ -48,7 +49,7 @@
 	.ws-box div h3 {font-size: 12px; font-weight: 500; margin-bottom: 10px;}
 	.ws-box div p {font-size: 12px; line-height: 1.3em; word-break: keep-all;}
 
-	.progress-sec {padding-bottom: 30px;}
+	.progress-sec {}
 	.pb-inner {max-width: 340px; margin: 0 auto;} 
 	.pb-inner ul.nth-2:before {content: ""; display: block; width: 100%; height: 1px;}
 	.pb-inner ul.nth-2 {height: 280px; background: url(http://img.onbiz.co.kr/help/order/bg_progress.jpg) no-repeat 5px top; background-size: 34px; margin-top: 30px;}
@@ -71,7 +72,7 @@
 	.pb-inner ul.nth-2 li.nth-4 {margin-top: 10px;}
 
 
-	.service-sec {padding-bottom: 30px;}
+	.service-sec {}
 	section[class*="service-sec"] div[class*="sb-box"] {width: 96% !important;}
 	.service-sec h2 em {margin-top: 5px; display: block;}
 	.sb-inner {}
@@ -103,7 +104,7 @@
 	.sb-box .btn-wrap {margin-top: 30px;}
 	.sb-box .btn-wrap .btn {width: 250px; font-size: 17px; line-height: 50px; font-weight: 500;}
 
-	.cheap-sec {height: 310px; background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center; background-size: cover;}
+	.cheap-sec { background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center; background-size: cover;}
 	.cheap-sec h2 {color: #fff; margin-bottom: 12px; padding-top: 35px !important; letter-spacing: 0 !important;}
 	.cs-p1 {font-size: 15px; font-weight: 300; margin-bottom: 35px;}
 	.cs-box {width: 96% !important; max-width: 340px; overflow: hidden;}
@@ -145,10 +146,11 @@
 /*	.contain {padding-left: 20px; padding-right: 20px;}*/
 	
 	/********************************** 지급명령 ********************************/
+	section[class*="-sec"] {padding-bottom: 65px;}
 	section[class*="-sec"] h2 {font-size: 36px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px;}
 	section[class*="-sec"] div[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
 
-	.main-sec {width: 100%; height: 400px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center; background-size: cover;}
+	.main-sec {width: 100%; height: 400px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center; background-size: cover; padding-bottom: 0 !important;}
 	.ms-box {height: 100%;}
 	.msb-money {position: relative; padding-top: 80px; text-align: center;}
 	.msb-money p {font-size: 40px; font-weight: 300; letter-spacing: 0.7px;}
@@ -166,7 +168,7 @@
 
 	.service-sec, .why-sec {background: #e6e6e6;}
 
-	.why-sec {width: 100%; height: 524px;}
+	.why-sec {width: 100%; /*height: 524px;*/}
 	.ws-box {text-align: center;}
 	.ws-box div {position: relative; float: left; width: 33.33%; vertical-align: text-top; margin-top: 73px;}
 	.ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 37px; height: 66.66px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px 0px; background-size: 300px}
@@ -177,7 +179,7 @@
 	.ws-box div h3 {font-size: 24px; font-weight: 500; margin-bottom: 20px;}
 	.ws-box div p {font-size: 20px; line-height: 1.3em;}
 
-	.progress-sec {height: 660px;}
+	.progress-sec {/*height: 660px;*/}
 	.pb-inner {} 
 	.pb-inner ul.nth-2:before {content: ""; display: block; width: 100%; height: 1px;}
 	.pb-inner ul.nth-2 {height: 405px; background: url(http://img.onbiz.co.kr/help/order/bg_progress.jpg) no-repeat 100px top; margin-top: 50px;}
@@ -200,8 +202,8 @@
 	.pb-inner ul.nth-2 li.nth-4 {margin-top: 10px;}
 
 
-	.service-sec {height: 850px;}
-	section[class*="service-sec"] div[class*="sb-box"] {width: 720px; height: 466px; margin-top: 65px; margin-bottom: 60px;}
+	.service-sec {/*height: 850px;*/}
+	section[class*="service-sec"] div[class*="sb-box"] {width: 720px; /*height: 466px;*/ margin-top: 65px;}
 	.sb-inner {}
 	.sb-inner .con {position: relative; display: inline-block; vertical-align: text-top; width: 350px; height: 383px; background: #fff; margin-top: 83px;}
 	.sb-inner .con .tit {position: relative; width: 301px; height: 218px; text-align: center; background: #fff; border: 5px solid #ffb411; top: -82px;}
@@ -232,7 +234,7 @@
 	.sb-box .btn-wrap {margin-top: 60px;}
 	.sb-box .btn-wrap .btn {width: 407px; height: 65px; font-size: 28px; line-height: 2.25em; font-weight: 500;}
 
-	.cheap-sec {height: 633px; background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center;}
+	.cheap-sec {/*height: 633px;*/ background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center;}
 	.cheap-sec h2 {color: #fff; margin-bottom: 18px; padding-top: 77px !important;}
 	.cs-p1 {font-size: 30px; font-weight: 300; margin-bottom: 75px;}
 	.cs-box {width: 654px !important;}
@@ -254,7 +256,7 @@
 	.cs-box > .cb-u2 .cb-l3 {margin-top: 98px;}
 	.cs-box .cb-l4 {position: absolute; left: 50%; margin-left: -61px; top: 50%; margin-top: -50px;  width: 132px; height: 92px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -300px -110px;}
 
-	.review-sec {height: 674px;}
+	.review-sec {/*height: 674px;*/}
 	.review-sec h2 {margin-bottom: 60px;}
 	.rs-box {height: 395px;}
 	.rs-box .rb-u1 {}
@@ -271,7 +273,8 @@
 }
 @media (min-width:1100px) {
 /********************************** 지급명령 ********************************/
-section[class*="-sec"] h2 {font-size: 42px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px;}
+section[class*="-sec"] {padding-bottom: 65px;}
+section[class*="-sec"] h2 {font-size: 42px; font-weight: 500; text-align: center; padding-top: 67px; letter-spacing: 0.7px; }
 section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
 	
 .main-sec {width: 100%; height: 439px; background: url(http://img.onbiz.co.kr/help/pay_main.jpg) no-repeat center; background-size: cover;}
@@ -291,7 +294,7 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 
 .service-sec, .why-sec {background: #e6e6e6;}
 
-.why-sec {width: 100%; height: 524px;}
+.why-sec {width: 100%; /*height: 524px;*/}
 .ws-box {text-align: center;}
 .ws-box div {position: relative; display: inline-block; vertical-align: text-top; margin-top: 73px; margin-left: 120px; left: -20px}
 .ws-box div.nth-1:before, .ws-box div.nth-2:before, .ws-box div.nth-3:before {position: relative; content: ""; display: block; margin: 0 auto; margin-bottom: 37px; height: 100px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat 0px 0px;}
@@ -302,7 +305,7 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 .ws-box div h3 {font-size: 30px; font-weight: 500; margin-bottom: 20px;}
 .ws-box div p {font-size: 20px; line-height: 1.3em;}
 
-.progress-sec {height: 660px;}
+.progress-sec {/*height: 660px;*/}
 .pb-inner {} 
 .pb-inner ul.nth-2:before {content: ""; display: block; width: 100%; height: 1px;}
 .pb-inner ul.nth-2 {height: 405px; background: url(http://img.onbiz.co.kr/help/order/bg_progress.jpg) no-repeat 116px top; margin-top: 80px;}
@@ -324,8 +327,8 @@ section[class*="-sec"] div[class*="-box"] {position: relative; width: 1100px; ma
 .pb-inner ul.nth-2 li.nth-4 {margin-top: 30px;}
 
 
-.service-sec {height: 850px;}
-section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px; margin-top: 65px; margin-bottom: 60px;}
+.service-sec {/*height: 850px;*/}
+section[class*="service-sec"] div[class*="sb-box"] {width: 814px; /*height: 466px;*/ margin-top: 65px;}
 .sb-inner {}
 .sb-inner .con {position: relative; display: inline-block; vertical-align: text-top; width: 374px; height: 383px; background: #fff; margin-top: 83px;}
 .sb-inner .con .tit {position: relative; width: 301px; height: 218px; text-align: center; background: #fff; border: 5px solid #ffb411; top: -82px;}
@@ -356,7 +359,7 @@ section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px;
 .sb-box .btn-wrap {margin-top: 60px;}
 .sb-box .btn-wrap .btn {width: 407px; height: 65px; font-size: 28px; line-height: 2.25em; font-weight: 500;}
 
-.cheap-sec {height: 633px; background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center;}
+.cheap-sec {/*height: 633px;*/ background: url(http://img.onbiz.co.kr/help/order/bg_cheap.jpg) no-repeat center;}
 .cheap-sec h2 {color: #fff; margin-bottom: 18px; padding-top: 77px !important;}
 .cs-p1 {font-size: 30px; font-weight: 300; margin-bottom: 75px;}
 .cs-box {width: 654px !important;}
@@ -378,7 +381,7 @@ section[class*="service-sec"] div[class*="sb-box"] {width: 814px; height: 466px;
 .cs-box > .cb-u2 .cb-l3 {margin-top: 98px;}
 .cs-box .cb-l4 {position: absolute; left: 50%; margin-left: -61px; top: 50%; margin-top: -50px;  width: 132px; height: 92px; background: url(http://img.onbiz.co.kr/help/po_main_icon.png) no-repeat -300px -110px;}
 
-.review-sec {height: 674px;}
+.review-sec {/*height: 674px;*/}
 .review-sec h2 {margin-bottom: 60px;}
 .rs-box {height: 395px;}
 .rs-box .rb-u1 {}
