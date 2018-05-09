@@ -14,7 +14,7 @@ section[class*="-sec"] h2 {padding:80px 0 56px; font-size:42px; font-weight: 500
 .main-sec .ms-box .nth-2 {padding:32px 0 60px; font-size:24px;}
 .main-sec .ms-box .nth-2 span {font-style: italic;}
 .main-sec .ms-box .nth-3 .btn-apply {height:58px; padding:0 66px; font-size:30px; line-height:58px; border:1px solid #ffb411}
-.main-sec .ms-what {display:block; position: absolute; box-sizing:border-box; width:427px; height:283px; right:0; bottom:0; padding:27px 40px 30px; background:rgba(255, 180, 17, 0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80ffb411,endColorstr=#80ffb411); }
+.main-sec .ms-what {display:block; position: absolute; box-sizing:border-box; width:427px; height:283px; right:0; bottom:0; padding:27px 40px 30px; background: url(http://img.onbiz.co.kr/help/yellow_rgba50.png) repeat;}
 .main-sec .ms-what .nth-1 {padding-bottom:20px; font-size:30px;}
 .main-sec .ms-what .nth-2 {font-size:20px; line-height:26px; word-break:keep-all}
 

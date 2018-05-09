@@ -32,6 +32,8 @@
 	.tb-nav li.btn-wrap {margin-left: 50px;}
 	.tb-nav li.btn-wrap a {display: block; width: 200px; height: 53px; line-height: 2.5em; font-size: 20px; font-weight: 500; color: #ffb411; border: 1px solid #ffb411;}
 	.tb-nav li.btn-wrap a:hover {color: #fff; background: #ffb411;}
+	/*메인페이지 인트로 네비게이션*/
+	.mi-nav {top: 33px;}
 
 	/*푸터영역*/
 	.footer {width: 100%; background: #141414; padding: 30px 0;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
+section[class*="-sec"] h2 {padding-top:80px; font-size:42px; font-weight: 600; text-align: center; letter-spacing: 0.7px;}
+
+/* visual */
+.main-sec {display:none}
+
+/* QnA */
+.qna-sec {padding-bottom:170px;}
+.qna-sec h2 {padding-bottom:9px;}
+.qna-sec .qna-list {position: relative; box-sizing:border-box; width: 1100px; margin: 0 auto;}
+.qna-sec .qna-list li {position: relative; padding:46px 3px 19px 72px; border-top:1px solid #ffb411;}
+.qna-sec .qna-list li:before {content:''; display:block; position:absolute; width:35px; height:100%; top:44px; left:19px; background: url(http://img.onbiz.co.kr/help/eviciton/qna/img_qna_q.png) no-repeat 0 0;}
+.qna-sec .qna-list li.fir {border-top:0;}
+.qna-sec .qna-list .qna-tit {font-size:30px; font-weight:500;}
+.qna-sec .qna-list .qna-txt {padding-top:6px; font-size:18px; line-height:24px; letter-spacing:-1px;}

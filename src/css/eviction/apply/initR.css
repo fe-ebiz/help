@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* mobile */
+@media (max-width: 767px) {
+    
+    section[class*="-sec"] div[class*="-area"] {position: relative; width: 100%; margin: 0 auto;}
+    .gh2 {font-size:20px; padding-top:27px; padding-bottom:13px; font-weight: 600; text-align: center;}
+    .gp1 {margin-bottom:15px; padding:0 12px; text-align: center; font-size: 13px; line-height: 1.6em; word-break:keep-all;}
+    .gp2 {display:none}
+    
+    .apply-sec {width:94%; max-width:360px; margin:0 auto; padding:0 0 30px;}
+    .apply-area {padding:22px 0 0; border-top:1px solid #bfbfbf;}
+    .apply-area .outer .tit-box h3 {font-size:15px; font-weight:600}
+    .apply-area .outer .con-box .row {position:relative; margin-top:10px;}
+    .apply-area .outer .con-box .th {padding-bottom:5px; font-size:12px; font-weight:500; line-height:18px; letter-spacing:-0.5px;}
+    .apply-area .outer .con-box .phone-box {position:relative; display:table}
+    .apply-area .outer .con-box .phone-box .txt-box, .apply-area .outer .con-box .phone-box .phone-line {display:table-cell}
+    .apply-area .outer .con-box .phone-box .txt-box {max-width:106px;}
+    .apply-area .outer .con-box .phone-line {position:relative; width:15px; height:25px; vertical-align:top}
+    .apply-area .outer .con-box .phone-line:before {content:''; position:absolute; display:inline-block; width:4px; height:1px; top:50%; left:50%; margin-left:-2px; background:#000}
+    .apply-area .outer .con-box .txt-box {width:auto; height:25px; padding:5px; font-size:12px}
+    .apply-area .outer .con-box .type-01 {width:100%;}
+    .apply-area .outer .con-box .txt-area {resize:none; width:100%; height:153px; padding:5px; font-size:12px; border: 1px solid #bfbfbf;}
+    .agree-box {margin:9px auto 23px}
+    .agree-box .agree-txt {display:block; position:relative; margin-bottom:5px}
+    .agree-box .agree-txt .chk-box {position:absolute; top:50%; margin-top:-6px; left:0}
+    .agree-box .agree-txt label {padding-left:18px; font-size:12px; line-height:20px; vertical-align:middle}
+    .agree-box .agree-txt .btn {height:15px; margin-left:6px; padding:0 3px 0 6px; font-size:10px; line-height:15px; vertical-align: middle; color:#686868; border:1px solid #bfbfbf}
+    .agree-box .agree-txt .btn span {padding-left:4px}
+    .btn-area {text-align:center;}
+    .btn-area .btn-apply {display:inline-block; width:190px; height:35px; font-size:15px; font-weight:500; line-height:35px; border:2px solid #ffb411}
+   
+}
+
+@media (max-device-width: 320px) {
+    .apply-area .outer .con-box .phone-box .txt-box {max-width:90px;}
+    
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+    section[class*="-sec"] div[class*="-area"] {position: relative; width: 100%; margin: 0 auto;}
+    .gh2 {padding:55px 0 25px; font-size:44px; font-weight:600; text-align: center; letter-spacing: 0.7px;}
+    .gp1 {text-align: center; font-size: 20px; line-height: 1.3em; margin-bottom:25px;}
+    .gp2 {display:none}
+    
+    .apply-sec {width:100%; max-width:768px; margin:0 auto; padding:0 20px 60px;}
+    .apply-area {padding:50px 0 0; border-top:1px solid #bfbfbf;}
+    .apply-area .outer .tit-box h3 {font-size:30px; font-weight:600}
+    .apply-area .outer .con-box .row {position:relative; margin-top:20px;}
+    .apply-area .outer .con-box .th {padding-bottom:10px; font-size:20px; font-weight:500; line-height:25px; letter-spacing:-0.5px;}
+    .apply-area .outer .con-box .phone-box {position:relative; display:table}
+    .apply-area .outer .con-box .phone-box .txt-box, .apply-area .outer .con-box .phone-box .phone-line {display:table-cell}
+    .apply-area .outer .con-box .phone-box .txt-box {max-width:222px;}
+    .apply-area .outer .con-box .phone-line {position:relative; width:31px; height:50px; vertical-align:top}
+    .apply-area .outer .con-box .phone-line:before {content:''; position:absolute; display:inline-block; width:8px; height:1px; top:50%; left:50%; margin-left:-4px; background:#000}
+    .apply-area .outer .con-box .txt-box {width:auto; height:50px; padding:10px;}
+    .apply-area .outer .con-box .type-01 {width:100%;}
+    .apply-area .outer .con-box .txt-area {resize:none; width:100%; height:325px; padding:10px; font-size: 20px; border: 1px solid #bfbfbf;}
+    .agree-box {margin:22px auto 50px}
+    .agree-box .agree-txt {display:block; position:relative; margin-bottom:10px}
+    .agree-box .agree-txt .chk-box {position:absolute; top:50%; margin-top:-14px; left:0}
+    .agree-box .agree-txt .chk-box:before {width:29px; height:29px;}
+    .agree-box .agree-txt label {padding-left:45px; font-size:22px; line-height:30px; vertical-align:middle}
+    .agree-box .agree-txt .btn {height:29px; margin-left:8px; padding:0 6px 0 8px; font-size:20px; line-height:29px; vertical-align: middle; color:#686868; border:1px solid #bfbfbf}
+    .agree-box .agree-txt .btn span {padding-left:4px}
+    .btn-area {text-align:center;}
+    .btn-area .btn-apply {display:inline-block; width:400px; height:70px; font-size:30px; font-weight:500; line-height:70px; border:2px solid #ffb411}
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    
+    section[class*="-sec"] div[class*="-area"] {position: relative; width: 1100px; margin: 0 auto;}
+    .gh2 {padding:80px 0 20px; font-size:42px; font-weight:600; text-align: center; letter-spacing: 0.7px;}
+    .gp1 {text-align: center; font-size: 20px; line-height: 1.3em; margin-bottom: 22px;}
+    .gp2 {width: 1100px; margin: 0 auto; text-align: right; margin-bottom: 8px;}
+    
+    .apply-sec {padding-bottom:200px;}
+    .apply-area {padding:25px 0 95px; border-top:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf}
+    .apply-area .outer {}
+    .apply-area .outer > div {float:left; position:relative}
+    .apply-area .outer .tit-box {}
+    .apply-area .outer .tit-box h3 {font-size:30px; font-weight:600}
+    .apply-area .outer .con-box {position:relative; padding-left:90px; /*width:750px*/}
+    .apply-area .outer .con-box .row {display:table; position:relative; margin-bottom:10px;}
+    .apply-area .outer .con-box li {display:table-cell; vertical-align: top;}
+    .apply-area .outer .con-box .th {width:135px; font-size:20px; font-weight:500; line-height:25px; letter-spacing:-0.5px;}
+    .apply-area .outer .con-box .td {}
+    .apply-area .outer .con-box .type-01 {width:245px;}
+    .apply-area .outer .con-box .type-02 {float:left; width:68px;}
+    .apply-area .outer .con-box .phone-line {float:left; position:relative; display:inline-block; width:20px; height:32px; vertical-align:top}
+    .apply-area .outer .con-box .phone-line:before {content:''; position:absolute; display:inline-block; width:8px; height:1px; top:50%; left:50%; margin-left:-4px; background:#000}
+    .apply-area .outer .con-box .txt-area {resize:none; width:617px; height:400px; padding:10px; font-size: 20px; border: 1px solid #bfbfbf;}
+    .agree-box {width:800px; margin:25px auto 55px}
+    .agree-box .agree-txt {float:right; display:inline-block; position:relative; /*margin-left:30px;*/}
+    .agree-box .agree-txt:first-child {float:left; /*margin-left:0;*/}
+    .agree-box .agree-txt .chk-box {position:absolute; top:50%; margin-top:-5px; left:0}
+    .agree-box .agree-txt label {padding-left:18px; font-size:16px; vertical-align:middle}
+    .agree-box .agree-txt .btn {height:20px; margin-left:8px; padding:0 6px 0 8px; font-size:14px; line-height:20px; vertical-align: middle; color:#686868; border:1px solid #bfbfbf}
+    .agree-box .agree-txt .btn span {padding-left:4px}
+    .btn-area {text-align:center}
+    .btn-area .btn-apply {display:inline-block; width:400px; height:70px; font-size:30px; font-weight:500; line-height:70px; border:2px solid #ffb411}
+}

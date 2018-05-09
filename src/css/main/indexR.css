@@ -27,17 +27,18 @@
 	section[class*="-sec"] .d-link a span {position: relative; top: -2px; font-size: 10px; margin-left: 2px; font-family: "Nanum Gothic", sans-serif;}
 	section[class*="-sec"] .d-link a:before,
 	section[class*="-sec"] .d-link a:after {position: absolute; right: -6px; content: ""; display: inline-block;}
-	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 6px; height: 17px;}
+	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 6px; height: 18px;}
 	section[class*="-sec"] .d-link a:after {bottom: 0; content: ""; display: inline-block; border: 3px solid transparent; border-top-color: #ffb411; border-left-color: #ffb411; width: 1px; height: 1px;}
 	
 	/* 페이지 내 인클루드 */
 	section[class*="-sec"] h2 {padding-bottom: 0 !important;}
 	section.step-sec h2 {padding-bottom: 20px !important;}
-	section.cheap2-sec {}
+	section.step-sec,
+	section.cheap2-sec {padding-left: 0; padding-right: 0;}
 	section.step-sec {border: 0; box-sizing: border-box;}
 /*	section.step-sec .step-box {width: 94%; max-width: 360px; margin: 0 auto;}*/
 	
-	.ss2b-area {width: 210px;}
+	.ss2b-area {width: 240px;}
 	.ss2-slide-btn #slider-prev {left: -25px;}
 	.ss2-slide-btn #slider-next {right: -25px;}
 }
@@ -65,7 +66,7 @@
 	section[class*="-sec"] .d-link a span {position: relative; top: -3px; font-size: 11px; margin-left: 2px;}
 	section[class*="-sec"] .d-link a:before,
 	section[class*="-sec"] .d-link a:after {position: absolute; right: -10px; content: ""; display: inline-block;}
-	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 10px; height: 27px;}
+	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 10px; height: 28px;}
 	section[class*="-sec"] .d-link a:after {bottom: 0; content: ""; display: inline-block; border: 5px solid transparent; border-top-color: #ffb411; border-left-color: #ffb411; width: 1px; height: 1px;}
 	
 	
@@ -106,7 +107,7 @@
 	section[class*="-sec"] .d-link a span {position: relative; top: -3px; font-size: 11px; margin-left: 2px;}
 	section[class*="-sec"] .d-link a:before,
 	section[class*="-sec"] .d-link a:after {position: absolute; right: -10px; content: ""; display: inline-block;}
-	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 10px; height: 27px;}
+	section[class*="-sec"] .d-link a:before {top: 0px; background: #ffb411; width: 10px; height: 28px;}
 	section[class*="-sec"] .d-link a:after {bottom: 0; content: ""; display: inline-block; border: 5px solid transparent; border-top-color: #ffb411; border-left-color: #ffb411; width: 1px; height: 1px;}
 	
 	

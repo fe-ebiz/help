@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* mobile */
+@media (max-width: 767px) {
+   
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:30px 0 25px; font-size:22px; font-weight: 600; text-align: center; letter-spacing: 0.7px;}
+
+    /* visual */
+    .main-sec {width:100%; text-align:center; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual_m.jpg) no-repeat center center; background-size:cover}
+    .main-sec .ms-box {padding:32px 0;}
+    .main-sec .ms-box .nth-1 {font-size:23px; line-height:31px;}
+    .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
+    .main-sec .ms-box .nth-2 {padding:18px 0 28px; font-size:12px;}
+    .main-sec .ms-box .nth-3 .btn-apply {display:inline-block; box-sizing:border-box; width:114px; height:28px; font-size:14px; line-height:28px; border:1px solid #ffb411}
+    .main-sec .ms-what {display:block; box-sizing:border-box; padding:27px 25px; background:rgba(255, 180, 17, 0.5); }
+    .main-sec .ms-what .nth-1 {padding-bottom:10px; font-size:14px;}
+    .main-sec .ms-what .nth-2 {font-size:12px; line-height:18px; word-break:keep-all}
+    
+    /* 주요사례 */
+    .case-sec {width:94%; max-width:360px; margin:0 auto; padding:0 0 30px}
+    .case-sec .case-list > li {float:left; position:relative; width:48.2%; margin:0 10px 25px 0} 
+    .case-sec .case-list > li:nth-of-type(2n) {float:right; margin-right:0} 
+    .case-sec .case-list .pic {position:relative;} 
+    .case-sec .case-list .pic:before, .case-sec .case-list .pic:after {content:''; display:block; position:absolute; top:0; left:0; background:#ffab00} 
+    .case-sec .case-list .pic:before {width:18px; height:4px;} 
+    .case-sec .case-list .pic:after {width:4px; height:18px;} 
+    .case-sec .case-list .suit-case-list {padding:7px 0 0 6px} 
+    .case-sec .case-list .suit-case-list li {position:relative; margin-top:10px; padding-left:8px; font-size:13px; line-height:18px;} 
+    .case-sec .case-list .suit-case-list li:first-child {margin-top:0}
+    .case-sec .case-list .suit-case-list li:before {content:''; display:inline-block; position:absolute; width:5px; height:5px; top:6px; left:0; background:#ffb416} 
+    .case-sec .case-list .suit-case-list .i-d {position:relative; padding-left:6px; font-size:12px; line-height:16px; letter-spacing:-1px; word-break:keep-all; color:#535353} 
+    .case-sec .case-list .suit-case-list .i-d:before {content:''; display:inline-block; position:absolute; width:3px; height:1px; top:7px; left:0; background:#535353} 
+    .case-sec .btn-area {display:block; margin:0 auto;  text-align:center} 
+    .case-sec .btn-area .btn-more {display:inline-block; position:relative; width:188px; height:34px; border:2px solid #ffb411} 
+    .case-sec .btn-area .btn-more span {position:relative; display:inline-block; padding:8px 5px 8px 0; font-size:15px; color:#ffb411; }
+    .case-sec .btn-area .btn-more .more {position:absolute; width:8px; height:100%; padding:0;}
+    .case-sec .btn-area .btn-more .more:before, .case-sec .btn-area .btn-more .more:after {content:''; display:inline-block; position:absolute; top:50%; margin-top:-4px; background:#ffab00} 
+    .case-sec .btn-area .btn-more .more:before {width:2px; height:8px; margin-left:3px;} 
+    .case-sec .btn-area .btn-more .more:after {width:8px; height:2px; margin-top:-1px;}
+    
+}
+
+@media (max-device-width: 320px) {
+    
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+    
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 100%; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:60px 0 30px; font-size:44px; font-weight: 600; text-align: center; letter-spacing: 0.7px;}
+
+    /* visual */
+    .main-sec {width:100%; text-align:center; background: url(http://img.onbiz.co.kr/help/eviciton/bg_main_visual_m.jpg) no-repeat center center; background-size:cover}
+    .main-sec .ms-box {padding:70px 0 70px;}
+    .main-sec .ms-box .nth-1 {font-size:50px; line-height:67px;}
+    .main-sec .ms-box .nth-1 span {display:block; font-weight:bold}
+    .main-sec .ms-box .nth-2 {padding:30px 0 55px; font-size:24px;}
+    .main-sec .ms-box .nth-3 .btn-apply {display:inline-block; box-sizing:border-box; width:240px; height:60px; font-size:30px; line-height:60px; border:1px solid #ffb411}
+    .main-sec .ms-what {display:block; box-sizing:border-box; padding:60px 145px; background:rgba(255, 180, 17, 0.5); }
+    .main-sec .ms-what .nth-1 {padding-bottom:25px; font-size:30px;}
+    .main-sec .ms-what .nth-2 {font-size:20px; line-height:26px; word-break:keep-all}
+    
+    /* 주요사례 */
+    .case-sec {width:100%; max-width:768px; margin:0 auto; padding:0 20px 60px}
+    /*.case-sec .case-list {width:700px; margin:0 auto}*/
+    .case-sec .case-list > li {float:left; position:relative; width:48.2%; min-width:340px; margin:0 20px 55px 0} 
+    .case-sec .case-list > li:nth-of-type(2n) {float:right; margin-right:0} 
+    .case-sec .case-list .pic {position:relative;} 
+    .case-sec .case-list .pic img {width:100%;}
+    .case-sec .case-list .pic:before, .case-sec .case-list .pic:after {content:''; display:block; position:absolute; top:0; left:0; background:#ffab00} 
+    .case-sec .case-list .pic:before {width:35px; height:5px;} 
+    .case-sec .case-list .pic:after {width:5px; height:35px;} 
+    .case-sec .case-list .suit-case-list {padding:15px 0 0 10px} 
+    .case-sec .case-list .suit-case-list li {position:relative; margin-top:20px; padding-left:18px; font-size:20px; line-height:25px;} 
+    .case-sec .case-list .suit-case-list li:first-child {margin-top:0}
+    .case-sec .case-list .suit-case-list li:before {content:''; display:inline-block; position:absolute; width:9px; height:9px; top:9px; left:0; background:#ffb416} 
+    .case-sec .case-list .suit-case-list .i-d {position:relative; padding-left:9px; font-size:18px; line-height:25px; letter-spacing:-1px; word-break:keep-all; color:#535353} 
+    .case-sec .case-list .suit-case-list .i-d:before {content:''; display:inline-block; position:absolute; width:5px; height:1px; top:12px; left:0; background:#535353} 
+    .case-sec .btn-area {display:block; margin:0 auto;  text-align:center} 
+    .case-sec .btn-area .btn-more {display:inline-block; position:relative; width:400px; height:70px; border:2px solid #ffb411} 
+    .case-sec .btn-area .btn-more span {position:relative; display:inline-block; padding:19px 12px 19px 0; font-size:30px; color:#ffb411; }
+    .case-sec .btn-area .btn-more .more {position:absolute; width:15px; height:100%; padding:0;}
+    .case-sec .btn-area .btn-more .more:before, .case-sec .btn-area .btn-more .more:after {content:''; display:inline-block; position:absolute; top:50%; margin-top:-7px; background:#ffab00} 
+    .case-sec .btn-area .btn-more .more:before {width:2px; height:15px; margin-left:6px;} 
+    .case-sec .btn-area .btn-more .more:after {width:15px; height:2px; margin-top:-1px;}
+    
+}
+
+/* pc */
+@media (min-width: 1100px) {
+    
+    section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
+    section[class*="-sec"] h2 {padding:80px 0 56px; font-size:42px; font-weight: 600; text-align: center; letter-spacing: 0.7px;}
+    
+    /* visual */
+    .main-sec {display:none}
+    
+    /* 주요사례 */
+    .case-sec {padding-bottom:200px}
+    .case-sec .case-box {}
+    .case-sec .case-list {padding:0 20px}
+    .case-sec .case-list > li {float:left; position:relative; width:340px; margin:0 0 55px 20px} 
+    .case-sec .case-list .p-ml0 {margin-left:0} 
+    .case-sec .case-list .pic {position:relative;} 
+    .case-sec .case-list .pic:before, .case-sec .case-list .pic:after {content:''; display:block; position:absolute; top:0; left:0; background:#ffab00} 
+    .case-sec .case-list .pic:before {width:35px; height:5px;} 
+    .case-sec .case-list .pic:after {width:5px; height:35px;} 
+    .case-sec .case-list .pic img {} 
+    .case-sec .case-list .suit-case-list {padding:15px 0 0 10px} 
+    .case-sec .case-list .suit-case-list li {position:relative; margin-top:20px; padding-left:18px; font-size:20px; line-height:25px;} 
+    .case-sec .case-list .suit-case-list li:first-child {margin-top:0}
+    .case-sec .case-list .suit-case-list li:before {content:''; display:inline-block; position:absolute; width:9px; height:9px; top:9px; left:0; background:#ffb416} 
+    .case-sec .case-list .suit-case-list .i-d {position:relative; padding-left:9px; font-size:18px; line-height:25px; color:#535353} 
+    .case-sec .case-list .suit-case-list .i-d:before {content:''; display:inline-block; position:absolute; width:5px; height:1px; top:12px; left:0; background:#535353} 
+    .case-sec .btn-area {display:block; margin:0 auto; padding-top:10px; text-align:center} 
+    .case-sec .btn-area .btn-more {display:inline-block; position:relative; width:400px; height:70px; border:2px solid #ffb411} 
+    .case-sec .btn-area .btn-more span {position:relative; display:inline-block; padding:19px 12px 19px 0; font-size:30px; color:#ffb411; }
+    .case-sec .btn-area .btn-more .more {position:absolute; width:15px; height:100%; padding:0;}
+    .case-sec .btn-area .btn-more .more:before, .case-sec .btn-area .btn-more .more:after {content:''; display:inline-block; position:absolute; top:50%; margin-top:-7px; background:#ffab00} 
+    .case-sec .btn-area .btn-more .more:before {width:2px; height:15px; margin-left:6px;} 
+    .case-sec .btn-area .btn-more .more:after {width:15px; height:2px; margin-top:-1px;} 

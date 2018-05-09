@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+section[class*="-sec"] div[class*="-box"], ul[class*="-box"] {position: relative; width: 1100px; margin: 0 auto;}
+section[class*="-sec"] h2 {padding:80px 0 56px; font-size:42px; font-weight: 600; text-align: center; letter-spacing: 0.7px;}
+
+/* visual */
+.main-sec {display:none}
+
+/* 소송현황 */
+.state-sec {}
+.state-sec .state-box {}
+.state-sec .state-box .state-list {border-collapse:collapse; border-top:2px solid #ffb411;}
+.state-sec .state-box .state-list th {font-size:18px; vertical-align:middle}
+.state-sec .state-box .state-list td {padding:10px 0; font-size:16px; line-height:24px; vertical-align:middle; text-align:center; color:#4c4c4c;}
+.state-sec .state-box .state-list thead tr {height:50px; border-bottom:1px solid #bfbfbf}
+.state-sec .state-box .state-list tbody tr {border-bottom:1px solid #bfbfbf}
+.state-sec .state-box .state-list .num {width:100px}
+.state-sec .state-box .state-list .pic {width:150px}
+.state-sec .state-box .state-list .crm {width:153px}
+.state-sec .state-box .state-list .writer {width:153px}
+.state-sec .state-box .state-list tbody .adr {padding-left:20px; text-align:left}
+.state-sec .pagenation {margin:60px auto 80px; text-align: center; font-size: 0;}
+.state-sec .pagenation a {display: inline-block; font-size: 13px; width: 32px; height: 32px; vertical-align: middle; line-height: 2.3em; border: 1px solid #ccc; color: #919191; font-family: "Nanum Gothic"; font-weight: 600; margin-left: 2px; margin-right: 2px;}
+.state-sec .pagenation a[class*="prev"], .state-sec .pagenation a[class*="next"] {font-size: 12px; line-height: 2.5em; letter-spacing: -2px;}
+.state-sec .pagenation a:hover, .state-sec .pagenation a.on {border:1px solid #000; color: #000;}
+.state-sec .pagenation a.prev {text-indent: -4px;}
+.state-sec .pagenation a.pprev {text-indent: -3px;}
+.state-sec .pagenation a.next {text-indent: 1px;}
